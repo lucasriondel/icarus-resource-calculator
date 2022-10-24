@@ -55,15 +55,27 @@ const Home: NextPage = () => {
           />
         </div>
 
-        <div>
-          <div>
+        <div className={styles.row}>
+          <div className={styles["row-item"]}>
+            <h1>Benchs</h1>
+
+            <ul>
+              {decomposition.benchs.map((bench) => (
+                <li key={bench.id}>{bench.name}</li>
+              ))}
+            </ul>
+          </div>
+
+          <div className={styles["row-item"]}>
             <h1>Resources</h1>
 
-            {decomposition.resources.map((resource) => (
-              <div key={resource.id}>
-                {resource.name} : {resource.amount}
-              </div>
-            ))}
+            <ul>
+              {decomposition.resources.map((resource) => (
+                <li key={resource.id}>
+                  {resource.name} : {resource.amount}
+                </li>
+              ))}
+            </ul>
           </div>
         </div>
       </div>

@@ -1,5 +1,14 @@
-export const benchs = {
-  stoneFurnace: {
+export interface Bench {
+  id: string;
+  name: string;
+  createdFrom: Array<{
+    resourceId: string;
+    amount: number;
+  }>;
+}
+
+export const benchs: Bench[] = [
+  {
     id: "bench-stone-furnace",
     name: "Stone Furnace",
     createdFrom: [
@@ -21,7 +30,7 @@ export const benchs = {
       },
     ],
   },
-  craftingBench: {
+  {
     id: "bench-crafting-bench",
     name: "Crafting Bench",
     createdFrom: [
@@ -43,4 +52,4 @@ export const benchs = {
       },
     ],
   },
-};
+];

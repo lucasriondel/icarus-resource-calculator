@@ -1,4 +1,16 @@
-export const resources = [
+export interface Resource {
+  id: string;
+  name: string;
+  createdWith?: Array<{
+    benchId: string;
+  }>;
+  createdFrom?: Array<{
+    resourceId: string;
+    amount: number;
+  }>;
+}
+
+export const resources: Resource[] = [
   {
     id: "resource-iron-ore",
     name: "Iron Ore",

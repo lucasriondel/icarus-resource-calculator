@@ -1,4 +1,6 @@
 import { useMemo } from "react";
+import { Decomposer } from "../data/Decomposer";
+import { getBenchFromBenchId, getResourceFromResourceId } from "../data/helper";
 import { resources } from "../data/resources";
 
 interface DecomposerResult {
@@ -8,35 +10,30 @@ interface DecomposerResult {
 }
 
 export function useDecomposer(craftId: string | undefined, amount: number) {
-  return useMemo<DecomposerResult>(() => {
+  return useMemo<ReturnType<Decomposer["result"]>>(() => {
+    const decomposer = new Decomposer();
+
     const resource = resources.find((r) => r.id === craftId);
 
     if (!resource) {
-      return {
-        resources: [],
-        tools: [],
-        benchs: [],
-      };
+      return decomposer.result();
     }
 
-    const total: DecomposerResult = {
-      resources: [],
-      tools: [],
-      benchs: [],
-    };
-
-    total.resources = (resource.createdFrom ?? []).map(
-      ({ resourceId, amount: resourceAmount }) => {
-        const resource = resources.find((r) => r.id === resourceId);
-
-        return {
-          id: resource?.id,
-          name: resource?.name,
-          amount: resourceAmount * amount,
-        };
+    if (resource.createdWith) {
+      for (const bench of resource.createdWith) {
+        decomposer.addBench(getBenchFromBenchId(bench.benchId));
       }
-    );
+    }
 
-    return total;
+    if (resource.createdFrom) {
+      for (const resourceChild of resource.createdFrom) {
+        decomposer.addResource(
+          getResourceFromResourceId(resourceChild.resourceId),
+          resourceChild.amount * amount
+        );
+      }
+    }
+
+    return decomposer.result();
   }, [craftId, amount]);
 }
