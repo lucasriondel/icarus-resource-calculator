@@ -1,9 +1,9 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import { useState } from "react";
+import { resources } from "../data/resources";
+import { useDecomposer } from "../hooks/useDecomposer";
 import styles from "../styles/Home.module.css";
-import { resources } from "./data/resources";
-import { useDecomposer } from "./hooks/useDecomposer";
 
 const Home: NextPage = () => {
   const [craftId, setCraftId] = useState<string>();
