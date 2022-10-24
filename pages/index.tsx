@@ -12,6 +12,11 @@ const Home: NextPage = () => {
   const decomposition = useDecomposer(craftId, amount);
   console.log({ craftId, amount, decomposition });
 
+  const onChangeAmount = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const newAmount = parseInt(e.currentTarget.value);
+    setAmount(newAmount < 1 ? 1 : newAmount);
+  };
+
   return (
     <div className={styles.container}>
       <Head>
@@ -46,7 +51,7 @@ const Home: NextPage = () => {
             type="number"
             id="amount-craft"
             value={amount}
-            onChange={(event) => setAmount(parseInt(event.currentTarget.value))}
+            onChange={onChangeAmount}
           />
         </div>
 
