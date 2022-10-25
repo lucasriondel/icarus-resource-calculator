@@ -1,9 +1,8 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import { useState } from "react";
-import { benchs } from "../data/benchs";
-import { resources } from "../data/resources";
-import { tools } from "../data/tools";
+import { SearchBar } from "../components/SearchBar";
+import { DecomposerOptions } from "../data/Decomposer";
 import { useDecomposer } from "../hooks/useDecomposer";
 import styles from "../styles/Home.module.css";
 
@@ -11,14 +10,11 @@ const Home: NextPage = () => {
   const [craftId, setCraftId] = useState<string>();
   const [amount, setAmount] = useState(1);
 
-  const [filters, setFilters] = useState({ hideBenchs: false });
+  const [filters, setFilters] = useState<DecomposerOptions>({
+    hideBenchs: false,
+  });
 
   const decomposition = useDecomposer(craftId, amount, filters);
-
-  const onChangeAmount = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const newAmount = parseInt(e.currentTarget.value);
-    setAmount(newAmount < 1 ? 1 : newAmount);
-  };
 
   return (
     <div className={styles.container}>
@@ -32,57 +28,14 @@ const Home: NextPage = () => {
       </Head>
 
       <div>
-        <div>
-          Craft:{" "}
-          <select
-            name="craft"
-            id="craft-select"
-            value={craftId}
-            onChange={(event) => setCraftId(event.currentTarget.value)}
-          >
-            <option value="">--Please choose a craft--</option>
-            {resources
-              .filter((resource) => !!resource.createdFrom)
-              .map((resource) => (
-                <option key={resource.id} value={resource.id}>
-                  {resource.name}
-                </option>
-              ))}
-
-            {tools.map((tool) => (
-              <option key={tool.id} value={tool.id}>
-                {tool.name}
-              </option>
-            ))}
-
-            {benchs.map((bench) => (
-              <option key={bench.id} value={bench.id}>
-                {bench.name}
-              </option>
-            ))}
-          </select>
-          *
-          <input
-            type="number"
-            id="amount-craft"
-            value={amount}
-            onChange={onChangeAmount}
-          />
-        </div>
-
-        <div>
-          <label>
-            <input
-              type="checkbox"
-              id="hide-benchs"
-              checked={filters.hideBenchs}
-              onChange={(event) =>
-                setFilters((v) => ({ ...v, hideBenchs: !v.hideBenchs }))
-              }
-            />
-            Ignore benchs
-          </label>
-        </div>
+        <SearchBar
+          value={{ craftId, amount, filters }}
+          onChange={(craftId, amount, filters) => {
+            setCraftId(craftId);
+            setAmount(amount);
+            setFilters(filters);
+          }}
+        />
 
         <div className={styles.row}>
           {!filters.hideBenchs && (
