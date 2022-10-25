@@ -7,13 +7,21 @@ interface ResourceWithAmount extends Resource {
   amount: number;
 }
 
+export interface DecomposerOptions {
+  hideBenchs?: boolean;
+}
+
+export type Decomposition = ReturnType<Decomposer["result"]>;
+
 export class Decomposer {
   private resources: ResourceWithAmount[];
   private benchs: Bench[];
+  private options: DecomposerOptions;
 
-  constructor() {
+  constructor(options: DecomposerOptions = {}) {
     this.resources = [];
     this.benchs = [];
+    this.options = options;
   }
 
   decomposeTool(tool: Tool | undefined, amount: number) {
@@ -26,15 +34,17 @@ export class Decomposer {
       );
     }
 
-    for (const bench of tool.createdWith) {
-      this.addBench(getBenchFromBenchId(bench.benchId));
+    if (!this.options.hideBenchs) {
+      for (const bench of tool.createdWith) {
+        this.addBench(getBenchFromBenchId(bench.benchId));
+      }
     }
   }
 
   decomposeResource(resource: Resource | undefined, amount: number) {
     if (!resource) return;
 
-    if (resource.createdWith) {
+    if (resource.createdWith && !this.options.hideBenchs) {
       for (const bench of resource.createdWith) {
         this.addBench(getBenchFromBenchId(bench.benchId));
       }
@@ -60,7 +70,7 @@ export class Decomposer {
       );
     }
 
-    if (bench.createdWith) {
+    if (bench.createdWith && !this.options.hideBenchs) {
       for (const benchChild of bench.createdWith) {
         this.addBench(getBenchFromBenchId(benchChild.benchId));
       }
@@ -68,6 +78,8 @@ export class Decomposer {
   }
 
   addBench(bench: Bench) {
+    if (this.options.hideBenchs) return;
+
     this.benchs.push(bench);
 
     for (const resource of bench.createdFrom) {

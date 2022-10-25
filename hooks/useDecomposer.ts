@@ -1,18 +1,20 @@
 import { useMemo } from "react";
 import { benchs } from "../data/benchs";
-import { Decomposer } from "../data/Decomposer";
+import {
+  Decomposer,
+  DecomposerOptions,
+  Decomposition,
+} from "../data/Decomposer";
 import { resources } from "../data/resources";
 import { tools } from "../data/tools";
 
-interface DecomposerResult {
-  resources: any[];
-  tools: any[];
-  benchs: any[];
-}
-
-export function useDecomposer(craftId: string | undefined, amount: number) {
-  return useMemo<ReturnType<Decomposer["result"]>>(() => {
-    const decomposer = new Decomposer();
+export function useDecomposer(
+  craftId: string | undefined,
+  amount: number,
+  options: DecomposerOptions = {}
+) {
+  return useMemo<Decomposition>(() => {
+    const decomposer = new Decomposer(options);
 
     decomposer.decomposeTool(
       tools.find((t) => t.id === craftId),
@@ -28,5 +30,5 @@ export function useDecomposer(craftId: string | undefined, amount: number) {
     );
 
     return decomposer.result();
-  }, [craftId, amount]);
+  }, [craftId, amount, options]);
 }

@@ -11,8 +11,9 @@ const Home: NextPage = () => {
   const [craftId, setCraftId] = useState<string>();
   const [amount, setAmount] = useState(1);
 
-  const decomposition = useDecomposer(craftId, amount);
-  console.log({ craftId, amount, decomposition });
+  const [filters, setFilters] = useState({ hideBenchs: false });
+
+  const decomposition = useDecomposer(craftId, amount, filters);
 
   const onChangeAmount = (e: React.ChangeEvent<HTMLInputElement>) => {
     const newAmount = parseInt(e.currentTarget.value);
@@ -69,16 +70,32 @@ const Home: NextPage = () => {
           />
         </div>
 
-        <div className={styles.row}>
-          <div className={styles["row-item"]}>
-            <h1>Benchs</h1>
+        <div>
+          <label>
+            <input
+              type="checkbox"
+              id="hide-benchs"
+              checked={filters.hideBenchs}
+              onChange={(event) =>
+                setFilters((v) => ({ ...v, hideBenchs: !v.hideBenchs }))
+              }
+            />
+            Ignore benchs
+          </label>
+        </div>
 
-            <ul>
-              {decomposition.benchs.map((bench) => (
-                <li key={bench.id}>{bench.name}</li>
-              ))}
-            </ul>
-          </div>
+        <div className={styles.row}>
+          {!filters.hideBenchs && (
+            <div className={styles["row-item"]}>
+              <h1>Benchs</h1>
+
+              <ul>
+                {decomposition.benchs.map((bench) => (
+                  <li key={bench.id}>{bench.name}</li>
+                ))}
+              </ul>
+            </div>
+          )}
 
           <div className={styles["row-item"]}>
             <h1>Resources</h1>
