@@ -1,6 +1,7 @@
 import { Bench } from "./benchs";
-import { getResourceFromResourceId } from "./helper";
+import { getBenchFromBenchId, getResourceFromResourceId } from "./helper";
 import { Resource } from "./resources";
+import { Tool } from "./tools";
 
 interface ResourceWithAmount extends Resource {
   amount: number;
@@ -15,6 +16,40 @@ export class Decomposer {
     this.benchs = [];
   }
 
+  decomposeTool(tool: Tool | undefined, amount: number) {
+    if (!tool) return;
+
+    for (const resourceChild of tool.createdFrom) {
+      this.addResource(
+        getResourceFromResourceId(resourceChild.resourceId),
+        resourceChild.amount * amount
+      );
+    }
+
+    for (const bench of tool.createdWith) {
+      this.addBench(getBenchFromBenchId(bench.benchId));
+    }
+  }
+
+  decomposeResource(resource: Resource | undefined, amount: number) {
+    if (!resource) return;
+
+    if (resource.createdWith) {
+      for (const bench of resource.createdWith) {
+        this.addBench(getBenchFromBenchId(bench.benchId));
+      }
+    }
+
+    if (resource.createdFrom) {
+      for (const resourceChild of resource.createdFrom) {
+        this.addResource(
+          getResourceFromResourceId(resourceChild.resourceId),
+          resourceChild.amount * amount
+        );
+      }
+    }
+  }
+
   addBench(bench: Bench) {
     this.benchs.push(bench);
 
@@ -24,9 +59,16 @@ export class Decomposer {
         resource.amount
       );
     }
+
+    if (bench.createdWith) {
+      for (const benchChild of bench.createdWith) {
+        this.addBench(getBenchFromBenchId(benchChild.benchId));
+      }
+    }
   }
 
   addResource(resource: Resource, amount: number) {
+    console.log(this.resources, resource);
     const existingResourceIndex = this.resources.findIndex(
       (r) => r.id === resource.id
     );

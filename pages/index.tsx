@@ -2,6 +2,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import { useState } from "react";
 import { resources } from "../data/resources";
+import { tools } from "../data/tools";
 import { useDecomposer } from "../hooks/useDecomposer";
 import styles from "../styles/Home.module.css";
 
@@ -39,12 +40,18 @@ const Home: NextPage = () => {
           >
             <option value="">--Please choose a craft--</option>
             {resources
-              .filter((resource) => !!resource.hasOwnProperty("createdFrom"))
+              .filter((resource) => !!resource.createdFrom)
               .map((resource) => (
                 <option key={resource.id} value={resource.id}>
                   {resource.name}
                 </option>
               ))}
+
+            {tools.map((tool) => (
+              <option key={tool.id} value={tool.id}>
+                {tool.name}
+              </option>
+            ))}
           </select>
           *
           <input

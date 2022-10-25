@@ -1,7 +1,7 @@
 import { useMemo } from "react";
 import { Decomposer } from "../data/Decomposer";
-import { getBenchFromBenchId, getResourceFromResourceId } from "../data/helper";
 import { resources } from "../data/resources";
+import { tools } from "../data/tools";
 
 interface DecomposerResult {
   resources: any[];
@@ -14,25 +14,14 @@ export function useDecomposer(craftId: string | undefined, amount: number) {
     const decomposer = new Decomposer();
 
     const resource = resources.find((r) => r.id === craftId);
+    const tool = tools.find((t) => t.id === craftId);
 
-    if (!resource) {
+    if (!resource && !tool) {
       return decomposer.result();
     }
 
-    if (resource.createdWith) {
-      for (const bench of resource.createdWith) {
-        decomposer.addBench(getBenchFromBenchId(bench.benchId));
-      }
-    }
-
-    if (resource.createdFrom) {
-      for (const resourceChild of resource.createdFrom) {
-        decomposer.addResource(
-          getResourceFromResourceId(resourceChild.resourceId),
-          resourceChild.amount * amount
-        );
-      }
-    }
+    decomposer.decomposeTool(tool, amount);
+    decomposer.decomposeResource(resource, amount);
 
     return decomposer.result();
   }, [craftId, amount]);

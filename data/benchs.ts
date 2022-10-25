@@ -5,6 +5,9 @@ export interface Bench {
     resourceId: string;
     amount: number;
   }>;
+  createdWith?: Array<{
+    benchId: string;
+  }>;
 }
 
 export const benchs: Bench[] = [
@@ -49,6 +52,26 @@ export const benchs: Bench[] = [
       {
         resourceId: "resource-leather",
         amount: 20,
+      },
+    ],
+  },
+  {
+    id: "bench-anvil",
+    name: "Anvil",
+    createdFrom: [
+      {
+        resourceId: "resource-iron-ingot",
+        amount: 40,
+      },
+      {
+        resourceId: "resource-wood",
+        amount: 20,
+      },
+      { resourceId: "resource-stone", amount: 10 },
+    ],
+    createdWith: [
+      {
+        benchId: "bench-crafting-bench",
       },
     ],
   },

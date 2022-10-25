@@ -1,10 +1,20 @@
-import { benchs } from "./benchs";
-import { resources } from "./resources";
+import { Bench, benchs } from "./benchs";
+import { Resource, resources } from "./resources";
 
 export function getResourceFromResourceId(resourceId: string): Resource {
-  return resources.find((r) => r.id === resourceId);
+  const resource = resources.find((r) => r.id === resourceId);
+  if (!resource) {
+    throw new Error(`Resource with id ${resourceId} not found`);
+  }
+
+  console.log({ resourceId, resource });
+  return resource;
 }
 
 export function getBenchFromBenchId(benchId: string): Bench {
-  return benchs.find((b) => b.id === benchId);
+  const bench = benchs.find((b) => b.id === benchId);
+  if (!bench) {
+    throw new Error(`Bench with id ${benchId} not found`);
+  }
+  return bench;
 }
