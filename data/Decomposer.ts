@@ -50,6 +50,23 @@ export class Decomposer {
     }
   }
 
+  decomposeBench(bench: Bench | undefined, amount: number) {
+    if (!bench) return;
+
+    for (const resourceChild of bench.createdFrom) {
+      this.addResource(
+        getResourceFromResourceId(resourceChild.resourceId),
+        resourceChild.amount * amount
+      );
+    }
+
+    if (bench.createdWith) {
+      for (const benchChild of bench.createdWith) {
+        this.addBench(getBenchFromBenchId(benchChild.benchId));
+      }
+    }
+  }
+
   addBench(bench: Bench) {
     this.benchs.push(bench);
 

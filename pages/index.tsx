@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import { useState } from "react";
+import { benchs } from "../data/benchs";
 import { resources } from "../data/resources";
 import { tools } from "../data/tools";
 import { useDecomposer } from "../hooks/useDecomposer";
@@ -50,6 +51,12 @@ const Home: NextPage = () => {
             {tools.map((tool) => (
               <option key={tool.id} value={tool.id}>
                 {tool.name}
+              </option>
+            ))}
+
+            {benchs.map((bench) => (
+              <option key={bench.id} value={bench.id}>
+                {bench.name}
               </option>
             ))}
           </select>
