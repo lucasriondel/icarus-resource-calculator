@@ -1,4 +1,3 @@
-import { Bench, benchs } from "./benchs";
 import { Craftable, craftables } from "./craftables";
 
 export function getResourceFromResourceId(resourceId: string): Craftable {
@@ -9,14 +8,6 @@ export function getResourceFromResourceId(resourceId: string): Craftable {
 
   console.log({ resourceId, resource });
   return resource;
-}
-
-export function getBenchFromBenchId(benchId: string): Bench {
-  const bench = benchs.find((b) => b.id === benchId);
-  if (!bench) {
-    throw new Error(`Bench with id ${benchId} not found`);
-  }
-  return bench;
 }
 
 export const kebabCasify = (string: string) =>

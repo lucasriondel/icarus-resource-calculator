@@ -152,9 +152,9 @@ export const scrapItemPage = async (url: string) => {
       }
     }
 
-    console.log(
-      `${chalk.bgGreen("SUCCESS")} scrapped ${itemData.name} (${itemData.url})`
-    );
+    // console.log(
+    //   `${chalk.bgGreen("SUCCESS")} scrapped ${itemData.name} (${itemData.url})`
+    // );
 
     return itemData;
   } catch (e) {

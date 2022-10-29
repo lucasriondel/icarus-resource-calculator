@@ -123,4 +123,9 @@ export const bannedUrls = [
   "/wiki/Advanced_Deep_Mining_Ore_Scanner",
   "/wiki/Archer%27s_Backpack",
   "/wiki/Poisoned_Animal_Bait",
+  "/wiki/Ultrameal",
+  "/wiki/Workshop_Repair_Kit_Bundle",
+  "/wiki/Tool_Attachment_Pack",
+  "/wiki/Resources",
+  "/wiki/Ranged_Attachment_Pack",
 ];

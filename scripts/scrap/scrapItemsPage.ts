@@ -59,12 +59,23 @@ export const scrapItemsPage = async () => {
   console.log(`Scrapped ${items.length} items and ${benchs.length} benches`);
 
   writeFileSync(
-    "items.json",
+    "../scripts/scrappedItems.json",
     JSON.stringify(
-      items.filter((i) => !!i),
+      items
+        .filter((i) => !!i)
+        .sort(function (a, b) {
+          var idA = a!.id.toLowerCase(),
+            idB = b!.id.toLowerCase();
+          if (idA < idB) return -1;
+          if (idA > idB) return 1;
+          return 0;
+        }),
       null,
       2
     )
   );
-  writeFileSync("benchs.json", JSON.stringify(benchs, null, 2));
+  writeFileSync(
+    "../scripts/scrappedBenchs.json",
+    JSON.stringify(benchs, null, 2)
+  );
 };

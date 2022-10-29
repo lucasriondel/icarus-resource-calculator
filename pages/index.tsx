@@ -2,7 +2,6 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import { useState } from "react";
 import { SearchBar } from "../components/SearchBar";
-import { DecomposerOptions } from "../data/Decomposer";
 import { useDecomposer } from "../hooks/useDecomposer";
 import styles from "../styles/Home.module.css";
 
@@ -10,11 +9,7 @@ const Home: NextPage = () => {
   const [craftId, setCraftId] = useState<string>();
   const [amount, setAmount] = useState(1);
 
-  const [filters, setFilters] = useState<DecomposerOptions>({
-    hideBenchs: false,
-  });
-
-  const decomposition = useDecomposer(craftId, amount, filters);
+  const decomposition = useDecomposer(craftId, amount);
 
   return (
     <div className={styles.container}>
@@ -29,27 +24,14 @@ const Home: NextPage = () => {
 
       <div>
         <SearchBar
-          value={{ craftId, amount, filters }}
-          onChange={(craftId, amount, filters) => {
+          value={{ craftId, amount }}
+          onChange={(craftId, amount) => {
             setCraftId(craftId);
             setAmount(amount);
-            setFilters(filters);
           }}
         />
 
         <div className={styles.row}>
-          {!filters.hideBenchs && (
-            <div className={styles["row-item"]}>
-              <h1>Benchs</h1>
-
-              <ul>
-                {decomposition.benchs.map((bench) => (
-                  <li key={bench.id}>{bench.name}</li>
-                ))}
-              </ul>
-            </div>
-          )}
-
           <div className={styles["row-item"]}>
             <h1>Resources</h1>
 
