@@ -8,9 +8,10 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "scrap": "ts-node-esm scripts/scrapper.ts"
+    "scrap": "node --experimental-specifier-resolution=node --loader ts-node/esm scripts/scrapper.ts"
   },
   "dependencies": {
+    "chalk": "^5.1.2",
     "next": "12.3.1",
     "react": "18.2.0",
     "react-dom": "18.2.0"

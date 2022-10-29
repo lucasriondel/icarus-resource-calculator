@@ -1,92 +1,8 @@
 [
   {
-    "name": "Mortar and Pestle",
-    "imageUrl": "",
-    "url": "https://icarus.fandom.com/wiki/Mortar_and_Pestle",
-    "craft": []
-  },
-  {
-    "name": "Fabricator",
-    "imageUrl": "",
-    "url": "https://icarus.fandom.com/wiki/Fabricator",
-    "craft": []
-  },
-  {
-    "name": "Machining Bench",
-    "imageUrl": "",
-    "url": "https://icarus.fandom.com/wiki/Machining_Bench",
-    "craft": []
-  },
-  {
-    "name": "Alteration Bench",
-    "imageUrl": "",
-    "url": "https://icarus.fandom.com/wiki/Alteration_Bench",
-    "craft": []
-  },
-  {
-    "name": "Herbalism Bench",
-    "imageUrl": "",
-    "url": "https://icarus.fandom.com/wiki/Herbalism_Bench",
-    "craft": []
-  },
-  {
-    "name": "Carpentry Bench",
-    "imageUrl": "",
-    "url": "https://icarus.fandom.com/wiki/Carpentry_Bench",
-    "craft": []
-  },
-  {
-    "name": "Cooking Station",
-    "imageUrl": "",
-    "url": "https://icarus.fandom.com/wiki/Cooking_Station",
-    "craft": []
-  },
-  {
-    "name": "Crafting Bench",
-    "imageUrl": "",
-    "url": "https://icarus.fandom.com/wiki/Crafting_Bench",
-    "craft": []
-  },
-  {
     "name": "Character Crafting",
     "imageUrl": "",
     "url": "https://icarus.fandom.com/wiki/Character_Crafting",
-    "craft": []
-  },
-  {
-    "name": "Material Processor",
-    "imageUrl": "",
-    "url": "https://icarus.fandom.com/wiki/Material_Processor",
-    "craft": []
-  },
-  {
-    "name": "Textiles Bench",
-    "imageUrl": "",
-    "url": "https://icarus.fandom.com/wiki/Textiles_Bench",
-    "craft": []
-  },
-  {
-    "name": "Trophy Bench",
-    "imageUrl": "",
-    "url": "https://icarus.fandom.com/wiki/Trophy_Bench",
-    "craft": []
-  },
-  {
-    "name": "Wood Composter",
-    "imageUrl": "",
-    "url": "https://icarus.fandom.com/wiki/Wood_Composter",
-    "craft": []
-  },
-  {
-    "name": "Campfire",
-    "imageUrl": "",
-    "url": "https://icarus.fandom.com/wiki/Campfire",
-    "craft": []
-  },
-  {
-    "name": "Kitchen Bench",
-    "imageUrl": "",
-    "url": "https://icarus.fandom.com/wiki/Kitchen_Bench",
     "craft": []
   },
   {
@@ -96,21 +12,39 @@
     "craft": []
   },
   {
+    "name": "Machining Bench",
+    "imageUrl": "",
+    "url": "https://icarus.fandom.com/wiki/Machining_Bench",
+    "craft": []
+  },
+  {
+    "name": "Fabricator",
+    "imageUrl": "",
+    "url": "https://icarus.fandom.com/wiki/Fabricator",
+    "craft": []
+  },
+  {
+    "name": "Herbalism Bench",
+    "imageUrl": "",
+    "url": "https://icarus.fandom.com/wiki/Herbalism_Bench",
+    "craft": []
+  },
+  {
+    "name": "Kitchen Bench",
+    "imageUrl": "",
+    "url": "https://icarus.fandom.com/wiki/Kitchen_Bench",
+    "craft": []
+  },
+  {
+    "name": "Alteration Bench",
+    "imageUrl": "",
+    "url": "https://icarus.fandom.com/wiki/Alteration_Bench",
+    "craft": []
+  },
+  {
     "name": "Anvil Bench",
     "imageUrl": "",
     "url": "https://icarus.fandom.com/wiki/Anvil_Bench",
-    "craft": []
-  },
-  {
-    "name": "Drying Rack",
-    "imageUrl": "",
-    "url": "https://icarus.fandom.com/wiki/Drying_Rack",
-    "craft": []
-  },
-  {
-    "name": "Biofuel Stove",
-    "imageUrl": "",
-    "url": "https://icarus.fandom.com/wiki/Biofuel_Stove",
     "craft": []
   },
   {
@@ -120,15 +54,117 @@
     "craft": []
   },
   {
-    "name": "Cement Mixer",
+    "name": "Campfire",
     "imageUrl": "",
-    "url": "https://icarus.fandom.com/wiki/Cement_Mixer",
+    "url": "https://icarus.fandom.com/wiki/Campfire",
+    "craft": []
+  },
+  {
+    "name": "Advanced Textiles Bench",
+    "imageUrl": "",
+    "url": "https://icarus.fandom.com/wiki/Advanced_Textiles_Bench",
+    "craft": []
+  },
+  {
+    "name": "Glassworking Bench",
+    "imageUrl": "",
+    "url": "https://icarus.fandom.com/wiki/Glassworking_Bench",
     "craft": []
   },
   {
     "name": "Concrete Furnace",
     "imageUrl": "",
     "url": "https://icarus.fandom.com/wiki/Concrete_Furnace",
+    "craft": []
+  },
+  {
+    "name": "Crafting Bench",
+    "imageUrl": "",
+    "url": "https://icarus.fandom.com/wiki/Crafting_Bench",
+    "craft": []
+  },
+  {
+    "name": "Biofuel Stove",
+    "imageUrl": "",
+    "url": "https://icarus.fandom.com/wiki/Biofuel_Stove",
+    "craft": []
+  },
+  {
+    "name": "Drying Rack",
+    "imageUrl": "",
+    "url": "https://icarus.fandom.com/wiki/Drying_Rack",
+    "craft": []
+  },
+  {
+    "name": "Carpentry Bench",
+    "imageUrl": "",
+    "url": "https://icarus.fandom.com/wiki/Carpentry_Bench",
+    "craft": []
+  },
+  {
+    "name": "Mortar and Pestle",
+    "imageUrl": "",
+    "url": "https://icarus.fandom.com/wiki/Mortar_and_Pestle",
+    "craft": []
+  },
+  {
+    "name": "Trophy Bench",
+    "imageUrl": "",
+    "url": "https://icarus.fandom.com/wiki/Trophy_Bench",
+    "craft": []
+  },
+  {
+    "name": "Cooking Station",
+    "imageUrl": "",
+    "url": "https://icarus.fandom.com/wiki/Cooking_Station",
+    "craft": []
+  },
+  {
+    "name": "Wood Composter",
+    "imageUrl": "",
+    "url": "https://icarus.fandom.com/wiki/Wood_Composter",
+    "craft": []
+  },
+  {
+    "name": "Tool Attachment Pack",
+    "imageUrl": "",
+    "url": "https://icarus.fandom.com/wiki/Tool_Attachment_Pack",
+    "craft": []
+  },
+  {
+    "name": "Material Processor",
+    "imageUrl": "",
+    "url": "https://icarus.fandom.com/wiki/Material_Processor",
+    "craft": []
+  },
+  {
+    "name": "Stone Furnace",
+    "imageUrl": "",
+    "url": "https://icarus.fandom.com/wiki/Stone_Furnace",
+    "craft": []
+  },
+  {
+    "name": "Armor Attachment Pack",
+    "imageUrl": "",
+    "url": "https://icarus.fandom.com/wiki/Armor_Attachment_Pack",
+    "craft": []
+  },
+  {
+    "name": "Ranged Attachment Pack",
+    "imageUrl": "",
+    "url": "https://icarus.fandom.com/wiki/Ranged_Attachment_Pack",
+    "craft": []
+  },
+  {
+    "name": "Textiles Bench",
+    "imageUrl": "",
+    "url": "https://icarus.fandom.com/wiki/Textiles_Bench",
+    "craft": []
+  },
+  {
+    "name": "Cement Mixer",
+    "imageUrl": "",
+    "url": "https://icarus.fandom.com/wiki/Cement_Mixer",
     "craft": []
   }
 ]
