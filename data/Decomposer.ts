@@ -44,14 +44,14 @@ export class Decomposer {
   decomposeResource(resource: Resource | undefined, amount: number) {
     if (!resource) return;
 
-    if (resource.createdWith && !this.options.hideBenchs) {
-      for (const bench of resource.createdWith) {
+    if (resource.bench && !this.options.hideBenchs) {
+      for (const bench of resource.bench) {
         this.addBench(getBenchFromBenchId(bench.benchId));
       }
     }
 
-    if (resource.createdFrom) {
-      for (const resourceChild of resource.createdFrom) {
+    if (resource.craft) {
+      for (const resourceChild of resource.craft) {
         this.addResource(
           getResourceFromResourceId(resourceChild.resourceId),
           resourceChild.amount * amount

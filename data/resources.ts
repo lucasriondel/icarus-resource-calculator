@@ -1,10 +1,10 @@
 export interface Resource {
   id: string;
   name: string;
-  createdWith?: Array<{
+  bench?: Array<{
     benchId: string;
   }>;
-  createdFrom?: Array<{
+  craft?: Array<{
     resourceId: string;
     amount: number;
   }>;
@@ -22,13 +22,13 @@ export const resources: Resource[] = [
   {
     id: "resource-iron-ingot",
     name: "Iron Ingot",
-    createdFrom: [
+    craft: [
       {
         resourceId: "resource-iron-ore",
         amount: 2,
       },
     ],
-    createdWith: [
+    bench: [
       {
         benchId: "bench-stone-furnace",
       },
@@ -37,13 +37,13 @@ export const resources: Resource[] = [
   {
     id: "resource-copper-ingot",
     name: "Copper Ingot",
-    createdFrom: [
+    craft: [
       {
         resourceId: "resource-copper-ore",
         amount: 2,
       },
     ],
-    createdWith: [
+    bench: [
       {
         benchId: "bench-stone-furnace",
       },
