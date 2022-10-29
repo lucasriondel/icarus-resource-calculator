@@ -1,7 +1,7 @@
 import { Bench, benchs } from "./benchs";
-import { Resource, resources } from "./resources";
+import { Craftable, resources } from "./craftables";
 
-export function getResourceFromResourceId(resourceId: string): Resource {
+export function getResourceFromResourceId(resourceId: string): Craftable {
   const resource = resources.find((r) => r.id === resourceId);
   if (!resource) {
     throw new Error(`Resource with id ${resourceId} not found`);
@@ -18,3 +18,9 @@ export function getBenchFromBenchId(benchId: string): Bench {
   }
   return bench;
 }
+
+export const kebabCasify = (string: string) =>
+  string
+    .replace(/([a-z])([A-Z])/g, "$1-$2")
+    .replace(/[\s_]+/g, "-")
+    .toLowerCase();

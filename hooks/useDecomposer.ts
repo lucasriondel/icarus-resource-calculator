@@ -1,11 +1,11 @@
 import { useMemo } from "react";
 import { benchs } from "../data/benchs";
+import { resources } from "../data/craftables";
 import {
   Decomposer,
   DecomposerOptions,
   Decomposition,
 } from "../data/Decomposer";
-import { resources } from "../data/resources";
 import { tools } from "../data/tools";
 
 export function useDecomposer(

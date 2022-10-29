@@ -1,9 +1,9 @@
 import { Bench } from "./benchs";
+import { Craftable } from "./craftables";
 import { getBenchFromBenchId, getResourceFromResourceId } from "./helper";
-import { Resource } from "./resources";
 import { Tool } from "./tools";
 
-interface ResourceWithAmount extends Resource {
+interface ResourceWithAmount extends Craftable {
   amount: number;
 }
 
@@ -41,7 +41,7 @@ export class Decomposer {
     }
   }
 
-  decomposeResource(resource: Resource | undefined, amount: number) {
+  decomposeResource(resource: Craftable | undefined, amount: number) {
     if (!resource) return;
 
     if (resource.bench && !this.options.hideBenchs) {
@@ -96,7 +96,7 @@ export class Decomposer {
     }
   }
 
-  addResource(resource: Resource, amount: number) {
+  addResource(resource: Craftable, amount: number) {
     console.log(this.resources, resource);
     const existingResourceIndex = this.resources.findIndex(
       (r) => r.id === resource.id

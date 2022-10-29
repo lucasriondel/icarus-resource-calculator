@@ -58,6 +58,13 @@ export const scrapItemsPage = async () => {
 
   console.log(`Scrapped ${items.length} items and ${benchs.length} benches`);
 
-  writeFileSync("items.json", JSON.stringify(items, null, 2));
+  writeFileSync(
+    "items.json",
+    JSON.stringify(
+      items.filter((i) => !!i),
+      null,
+      2
+    )
+  );
   writeFileSync("benchs.json", JSON.stringify(benchs, null, 2));
 };

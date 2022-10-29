@@ -1,6 +1,8 @@
 import axios from "axios";
 import chalk from "chalk";
 import * as cheerio from "cheerio";
+import { Craftable } from "../data/craftables";
+import { kebabCasify } from "../data/helper";
 import { baseUrl, benchs } from "./constants";
 
 class NoCraftFoundError extends Error {
@@ -15,9 +17,10 @@ const scrapBench = async (title: string, url: string) => {
   if (!benchExists) {
     try {
       benchs.push({
+        id: kebabCasify(title),
         name: title,
-        imageUrl: "",
         url: baseUrl + url,
+        imageUrl: "",
         craft: [],
       });
       const benchData = await scrapItemPage(url);
@@ -45,14 +48,11 @@ export const scrapItemPage = async (url: string) => {
 
     const $ = cheerio.load(data);
 
-    let itemData: {
-      name: string;
-      imageUrl: string;
-      url: string;
-      craft: Array<{ amount: number; title: string; link: string }>;
-      bench?: string;
-    } = {
-      name: $("h1#firstHeading").text().trim(),
+    const name = $("h1#firstHeading").text().trim();
+
+    let itemData: Craftable = {
+      id: kebabCasify(name),
+      name,
       imageUrl: $("img.pi-image-thumbnail").attr("src") || "",
       url: baseUrl + url,
       craft: [],
@@ -75,7 +75,7 @@ export const scrapItemPage = async (url: string) => {
 
         await scrapBench(title, href);
 
-        itemData.bench = title;
+        itemData.bench = kebabCasify(title);
       }
     } catch (error) {
       console.error(error);
@@ -114,9 +114,8 @@ export const scrapItemPage = async (url: string) => {
               const aTag = (li.children[1] as any).children[2] as any;
 
               itemData.craft.push({
+                id: kebabCasify(aTag.attribs.title),
                 amount,
-                title: aTag.attribs.title,
-                link: aTag.attribs.href,
               });
             }
           }
@@ -144,9 +143,8 @@ export const scrapItemPage = async (url: string) => {
           const amount = parseInt($(el).find("td").eq(0).text());
           const aTag = $(el).find("td").eq(1).find("a")[0];
           itemData.craft.push({
+            id: kebabCasify(aTag.attribs.title),
             amount,
-            title: aTag.attribs.title,
-            link: aTag.attribs.href,
           });
         });
       } else {

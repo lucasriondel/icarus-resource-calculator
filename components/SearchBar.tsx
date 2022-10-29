@@ -1,6 +1,6 @@
 import { benchs } from "../data/benchs";
+import { resources } from "../data/craftables";
 import { DecomposerOptions } from "../data/Decomposer";
-import { resources } from "../data/resources";
 import { tools } from "../data/tools";
 
 interface SearchBarProps {
