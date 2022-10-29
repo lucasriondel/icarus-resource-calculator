@@ -31,6 +31,7 @@ export const scrapItemsPage = async () => {
     }
   });
 
+  // TODO make the script check in the sortedCraftables.json file if the item is already there
   const items = await Promise.all(itemUrls.map(scrapItemPage));
 
   // const items = await Promise.all(
