@@ -73,7 +73,7 @@
         "link": "/wiki/Copper_Ingot"
       }
     ],
-    "bench": "Armor Attachment Pack"
+    "bench": "Alteration Bench"
   },
   {
     "name": "Attack Speed Attachment",
@@ -500,7 +500,7 @@
         "link": "/wiki/Steel_Ingot"
       }
     ],
-    "bench": "Ranged Attachment Pack"
+    "bench": "Alteration Bench"
   },
   {
     "name": "Reaping Attachment",
@@ -768,7 +768,7 @@
         "link": "/wiki/Copper_Ingot"
       }
     ],
-    "bench": "Tool Attachment Pack"
+    "bench": "Alteration Bench"
   },
   {
     "name": "Trajectory Module Attachment",
@@ -798,7 +798,8 @@
         "title": "Fiber",
         "link": "/wiki/Fiber"
       }
-    ]
+    ],
+    "bench": "Character Crafting"
   },
   {
     "name": "Cloth Chest Armor",
@@ -810,7 +811,8 @@
         "title": "Fiber",
         "link": "/wiki/Fiber"
       }
-    ]
+    ],
+    "bench": "Character Crafting"
   },
   {
     "name": "Cloth Feet Armor",
@@ -822,7 +824,8 @@
         "title": "Fiber",
         "link": "/wiki/Fiber"
       }
-    ]
+    ],
+    "bench": "Character Crafting"
   },
   {
     "name": "Cloth Head Armor",
@@ -834,7 +837,8 @@
         "title": "Fiber",
         "link": "/wiki/Fiber"
       }
-    ]
+    ],
+    "bench": "Character Crafting"
   },
   {
     "name": "Cloth Legs Armor",
@@ -846,7 +850,8 @@
         "title": "Fiber",
         "link": "/wiki/Fiber"
       }
-    ]
+    ],
+    "bench": "Character Crafting"
   },
   {
     "name": "Composite Arms Armor",
@@ -878,7 +883,8 @@
         "title": "Refined Gold",
         "link": "/wiki/Refined_Gold"
       }
-    ]
+    ],
+    "bench": "Fabricator"
   },
   {
     "name": "Composite Chest Armor",
@@ -910,7 +916,8 @@
         "title": "Refined Gold",
         "link": "/wiki/Refined_Gold"
       }
-    ]
+    ],
+    "bench": "Fabricator"
   },
   {
     "name": "Composite Feet Armor",
@@ -942,7 +949,8 @@
         "title": "Refined Gold",
         "link": "/wiki/Refined_Gold"
       }
-    ]
+    ],
+    "bench": "Fabricator"
   },
   {
     "name": "Composite Head Armor",
@@ -974,7 +982,8 @@
         "title": "Refined Gold",
         "link": "/wiki/Refined_Gold"
       }
-    ]
+    ],
+    "bench": "Fabricator"
   },
   {
     "name": "Composite Legs Armor",
@@ -1006,7 +1015,8 @@
         "title": "Refined Gold",
         "link": "/wiki/Refined_Gold"
       }
-    ]
+    ],
+    "bench": "Fabricator"
   },
   {
     "name": "Cured Head Armor",
@@ -1023,7 +1033,8 @@
         "title": "Platinum Weave",
         "link": "/wiki/Platinum_Weave"
       }
-    ]
+    ],
+    "bench": "Advanced Textiles Bench"
   },
   {
     "name": "Cured Leather Arms Armor",
@@ -1040,7 +1051,8 @@
         "title": "Platinum Weave",
         "link": "/wiki/Platinum_Weave"
       }
-    ]
+    ],
+    "bench": "Advanced Textiles Bench"
   },
   {
     "name": "Cured Leather Chest Armor",
@@ -1057,7 +1069,8 @@
         "title": "Platinum Weave",
         "link": "/wiki/Platinum_Weave"
       }
-    ]
+    ],
+    "bench": "Advanced Textiles Bench"
   },
   {
     "name": "Cured Leather Feet Armor",
@@ -1074,7 +1087,8 @@
         "title": "Platinum Weave",
         "link": "/wiki/Platinum_Weave"
       }
-    ]
+    ],
+    "bench": "Advanced Textiles Bench"
   },
   {
     "name": "Cured Leather Leg Armor",
@@ -1091,7 +1105,8 @@
         "title": "Platinum Weave",
         "link": "/wiki/Platinum_Weave"
       }
-    ]
+    ],
+    "bench": "Advanced Textiles Bench"
   },
   {
     "name": "Fur Arms Armor",
@@ -1113,7 +1128,8 @@
         "title": "Rope",
         "link": "/wiki/Rope"
       }
-    ]
+    ],
+    "bench": "Textiles Bench"
   },
   {
     "name": "Fur Chest Armor",
@@ -1135,7 +1151,8 @@
         "title": "Rope",
         "link": "/wiki/Rope"
       }
-    ]
+    ],
+    "bench": "Textiles Bench"
   },
   {
     "name": "Fur Feet Armor",
@@ -1157,7 +1174,8 @@
         "title": "Rope",
         "link": "/wiki/Rope"
       }
-    ]
+    ],
+    "bench": "Textiles Bench"
   },
   {
     "name": "Fur Head Armor",
@@ -1179,7 +1197,8 @@
         "title": "Rope",
         "link": "/wiki/Rope"
       }
-    ]
+    ],
+    "bench": "Textiles Bench"
   },
   {
     "name": "Fur Legs Armor",
@@ -1201,7 +1220,8 @@
         "title": "Rope",
         "link": "/wiki/Rope"
       }
-    ]
+    ],
+    "bench": "Textiles Bench"
   },
   {
     "name": "Ghillie Arms Armor",
@@ -1223,7 +1243,8 @@
         "title": "Rope",
         "link": "/wiki/Rope"
       }
-    ]
+    ],
+    "bench": "Textiles Bench"
   },
   {
     "name": "Ghillie Chest Armor",
@@ -1245,7 +1266,8 @@
         "title": "Rope",
         "link": "/wiki/Rope"
       }
-    ]
+    ],
+    "bench": "Textiles Bench"
   },
   {
     "name": "Ghillie Feet Armor",
@@ -1267,7 +1289,8 @@
         "title": "Rope",
         "link": "/wiki/Rope"
       }
-    ]
+    ],
+    "bench": "Textiles Bench"
   },
   {
     "name": "Ghillie Head Armor",
@@ -1289,7 +1312,8 @@
         "title": "Rope",
         "link": "/wiki/Rope"
       }
-    ]
+    ],
+    "bench": "Textiles Bench"
   },
   {
     "name": "Ghillie Legs Armor",
@@ -1311,7 +1335,8 @@
         "title": "Rope",
         "link": "/wiki/Rope"
       }
-    ]
+    ],
+    "bench": "Textiles Bench"
   },
   {
     "name": "Hunter Arms Armor",
@@ -1362,7 +1387,7 @@
         "link": "/wiki/Epoxy"
       }
     ],
-    "bench": "Advanced Textiles Bench"
+    "bench": "Machining Bench"
   },
   {
     "name": "Hunter Feet Armor",
@@ -1463,7 +1488,8 @@
         "title": "Leather",
         "link": "/wiki/Leather"
       }
-    ]
+    ],
+    "bench": "Textiles Bench"
   },
   {
     "name": "Leather Chest Armor",
@@ -1480,7 +1506,8 @@
         "title": "Leather",
         "link": "/wiki/Leather"
       }
-    ]
+    ],
+    "bench": "Textiles Bench"
   },
   {
     "name": "Leather Feet Armor",
@@ -1497,7 +1524,8 @@
         "title": "Leather",
         "link": "/wiki/Leather"
       }
-    ]
+    ],
+    "bench": "Textiles Bench"
   },
   {
     "name": "Leather Head Armor",
@@ -1514,7 +1542,8 @@
         "title": "Leather",
         "link": "/wiki/Leather"
       }
-    ]
+    ],
+    "bench": "Textiles Bench"
   },
   {
     "name": "Leather Legs Armor",
@@ -1531,7 +1560,8 @@
         "title": "Leather",
         "link": "/wiki/Leather"
       }
-    ]
+    ],
+    "bench": "Textiles Bench"
   },
   {
     "name": "Polar Bear Arms Armor",
@@ -1553,7 +1583,8 @@
         "title": "Rope",
         "link": "/wiki/Rope"
       }
-    ]
+    ],
+    "bench": "Textiles Bench"
   },
   {
     "name": "Polar Bear Chest Armor",
@@ -1575,7 +1606,8 @@
         "title": "Rope",
         "link": "/wiki/Rope"
       }
-    ]
+    ],
+    "bench": "Textiles Bench"
   },
   {
     "name": "Polar Bear Feet Armor",
@@ -1597,7 +1629,8 @@
         "title": "Rope",
         "link": "/wiki/Rope"
       }
-    ]
+    ],
+    "bench": "Textiles Bench"
   },
   {
     "name": "Polar Bear Head Armor",
@@ -1619,7 +1652,8 @@
         "title": "Rope",
         "link": "/wiki/Rope"
       }
-    ]
+    ],
+    "bench": "Textiles Bench"
   },
   {
     "name": "Polar Bear Legs Armor",
@@ -1641,7 +1675,8 @@
         "title": "Rope",
         "link": "/wiki/Rope"
       }
-    ]
+    ],
+    "bench": "Textiles Bench"
   },
   {
     "name": "Wayfarer Arms Armor",
@@ -1653,7 +1688,8 @@
         "title": "Platinum Weave",
         "link": "/wiki/Platinum_Weave"
       }
-    ]
+    ],
+    "bench": "Advanced Textiles Bench"
   },
   {
     "name": "Wayfarer Chest Armor",
@@ -1665,7 +1701,8 @@
         "title": "Platinum Weave",
         "link": "/wiki/Platinum_Weave"
       }
-    ]
+    ],
+    "bench": "Advanced Textiles Bench"
   },
   {
     "name": "Wayfarer Feet Armor",
@@ -1677,7 +1714,8 @@
         "title": "Platinum Weave",
         "link": "/wiki/Platinum_Weave"
       }
-    ]
+    ],
+    "bench": "Advanced Textiles Bench"
   },
   {
     "name": "Wayfarer Head Armor",
@@ -1689,7 +1727,8 @@
         "title": "Platinum Weave",
         "link": "/wiki/Platinum_Weave"
       }
-    ]
+    ],
+    "bench": "Advanced Textiles Bench"
   },
   {
     "name": "Wayfarer Leg Armor",
@@ -1701,7 +1740,8 @@
         "title": "Platinum Weave",
         "link": "/wiki/Platinum_Weave"
       }
-    ]
+    ],
+    "bench": "Advanced Textiles Bench"
   },
   {
     "name": "Aluminium Beam",
@@ -1751,89 +1791,25 @@
     "name": "Aluminium Floor",
     "imageUrl": "https://static.wikia.nocookie.net/icarus/images/0/02/ITEM_Aluminium_Floor.png/revision/latest?cb=20211223235332",
     "url": "https://icarus.fandom.com/wiki/Aluminium_Floor",
-    "craft": [
-      {
-        "amount": 4,
-        "title": "Aluminium Ore",
-        "link": "/wiki/Aluminium_Ore"
-      },
-      {
-        "amount": 6,
-        "title": "Wood",
-        "link": "/wiki/Wood"
-      },
-      {
-        "amount": 4,
-        "title": "Steel Screw",
-        "link": "/wiki/Steel_Screw"
-      }
-    ]
+    "craft": []
   },
   {
     "name": "Aluminium Floor Trapdoor",
     "imageUrl": "https://static.wikia.nocookie.net/icarus/images/4/46/ITEM_Aluminium_Floor_Trapdoor.png/revision/latest?cb=20211223235345",
     "url": "https://icarus.fandom.com/wiki/Aluminium_Floor_Trapdoor",
-    "craft": [
-      {
-        "amount": 4,
-        "title": "Aluminium Ore",
-        "link": "/wiki/Aluminium_Ore"
-      },
-      {
-        "amount": 6,
-        "title": "Wood",
-        "link": "/wiki/Wood"
-      },
-      {
-        "amount": 4,
-        "title": "Steel Screw",
-        "link": "/wiki/Steel_Screw"
-      }
-    ]
+    "craft": []
   },
   {
     "name": "Aluminium Halfpieces",
     "imageUrl": "https://static.wikia.nocookie.net/icarus/images/e/e5/ITEM_Aluminium_Halfpieces.png/revision/latest?cb=20211223235956",
     "url": "https://icarus.fandom.com/wiki/Aluminium_Halfpieces",
-    "craft": [
-      {
-        "amount": 4,
-        "title": "Aluminium Ore",
-        "link": "/wiki/Aluminium_Ore"
-      },
-      {
-        "amount": 6,
-        "title": "Wood",
-        "link": "/wiki/Wood"
-      },
-      {
-        "amount": 4,
-        "title": "Steel Screw",
-        "link": "/wiki/Steel_Screw"
-      }
-    ]
+    "craft": []
   },
   {
     "name": "Aluminium Halfpitches",
     "imageUrl": "https://static.wikia.nocookie.net/icarus/images/f/f3/ITEM_Aluminium_Halfpitches.png/revision/latest?cb=20211223235939",
     "url": "https://icarus.fandom.com/wiki/Aluminium_Halfpitches",
-    "craft": [
-      {
-        "amount": 4,
-        "title": "Aluminium Ore",
-        "link": "/wiki/Aluminium_Ore"
-      },
-      {
-        "amount": 6,
-        "title": "Wood",
-        "link": "/wiki/Wood"
-      },
-      {
-        "amount": 4,
-        "title": "Steel Screw",
-        "link": "/wiki/Steel_Screw"
-      }
-    ]
+    "craft": []
   },
   {
     "name": "Aluminium Ladder",
@@ -1883,89 +1859,25 @@
     "name": "Aluminium Ramp",
     "imageUrl": "https://static.wikia.nocookie.net/icarus/images/1/12/ITEM_Aluminium_Ramp.png/revision/latest?cb=20211223235416",
     "url": "https://icarus.fandom.com/wiki/Aluminium_Ramp",
-    "craft": [
-      {
-        "amount": 4,
-        "title": "Aluminium Ore",
-        "link": "/wiki/Aluminium_Ore"
-      },
-      {
-        "amount": 6,
-        "title": "Wood",
-        "link": "/wiki/Wood"
-      },
-      {
-        "amount": 4,
-        "title": "Steel Screw",
-        "link": "/wiki/Steel_Screw"
-      }
-    ]
+    "craft": []
   },
   {
     "name": "Aluminium Roof",
     "imageUrl": "https://static.wikia.nocookie.net/icarus/images/9/9e/ITEM_Aluminium_Roof.png/revision/latest?cb=20211223235438",
     "url": "https://icarus.fandom.com/wiki/Aluminium_Roof",
-    "craft": [
-      {
-        "amount": 4,
-        "title": "Aluminium Ore",
-        "link": "/wiki/Aluminium_Ore"
-      },
-      {
-        "amount": 6,
-        "title": "Wood",
-        "link": "/wiki/Wood"
-      },
-      {
-        "amount": 4,
-        "title": "Steel Screw",
-        "link": "/wiki/Steel_Screw"
-      }
-    ]
+    "craft": []
   },
   {
     "name": "Aluminium Roof Corner",
     "imageUrl": "https://static.wikia.nocookie.net/icarus/images/4/4d/ITEM_Aluminium_Roof_Corner.png/revision/latest?cb=20211223235451",
     "url": "https://icarus.fandom.com/wiki/Aluminium_Roof_Corner",
-    "craft": [
-      {
-        "amount": 2,
-        "title": "Aluminium Ore",
-        "link": "/wiki/Aluminium_Ore"
-      },
-      {
-        "amount": 6,
-        "title": "Wood",
-        "link": "/wiki/Wood"
-      },
-      {
-        "amount": 4,
-        "title": "Steel Screw",
-        "link": "/wiki/Steel_Screw"
-      }
-    ]
+    "craft": []
   },
   {
     "name": "Aluminium Stairs",
     "imageUrl": "https://static.wikia.nocookie.net/icarus/images/a/ad/ITEM_Aluminium_Stairs.png/revision/latest?cb=20211223235504",
     "url": "https://icarus.fandom.com/wiki/Aluminium_Stairs",
-    "craft": [
-      {
-        "amount": 4,
-        "title": "Aluminium Ore",
-        "link": "/wiki/Aluminium_Ore"
-      },
-      {
-        "amount": 6,
-        "title": "Wood",
-        "link": "/wiki/Wood"
-      },
-      {
-        "amount": 4,
-        "title": "Steel Screw",
-        "link": "/wiki/Steel_Screw"
-      }
-    ]
+    "craft": []
   },
   {
     "name": "Aluminium Trapdoor",
@@ -2015,23 +1927,7 @@
     "name": "Aluminium Wall Angled",
     "imageUrl": "https://static.wikia.nocookie.net/icarus/images/2/28/ITEM_Aluminium_Wall_Angled.png/revision/latest?cb=20211223235835",
     "url": "https://icarus.fandom.com/wiki/Aluminium_Wall_Angled",
-    "craft": [
-      {
-        "amount": 4,
-        "title": "Aluminium Ore",
-        "link": "/wiki/Aluminium_Ore"
-      },
-      {
-        "amount": 6,
-        "title": "Wood",
-        "link": "/wiki/Wood"
-      },
-      {
-        "amount": 2,
-        "title": "Steel Screw",
-        "link": "/wiki/Steel_Screw"
-      }
-    ]
+    "craft": []
   },
   {
     "name": "Aluminium Window",
@@ -3799,7 +3695,8 @@
         "title": "Charcoal",
         "link": "/wiki/Charcoal"
       }
-    ]
+    ],
+    "bench": "Character Crafting"
   },
   {
     "name": "Anti-Parasitic Pill",
@@ -3867,7 +3764,8 @@
         "title": "Charcoal",
         "link": "/wiki/Charcoal"
       }
-    ]
+    ],
+    "bench": "Character Crafting"
   },
   {
     "name": "Anti-Poison Pill",
@@ -4065,7 +3963,8 @@
         "title": "Charcoal",
         "link": "/wiki/Charcoal"
       }
-    ]
+    ],
+    "bench": "Character Crafting"
   },
   {
     "name": "Blood Thinning Pill",
@@ -4252,7 +4151,8 @@
         "title": "Charcoal",
         "link": "/wiki/Charcoal"
       }
-    ]
+    ],
+    "bench": "Character Crafting"
   },
   {
     "name": "Corn",
@@ -4567,7 +4467,8 @@
         "title": "Charcoal",
         "link": "/wiki/Charcoal"
       }
-    ]
+    ],
+    "bench": "Character Crafting"
   },
   {
     "name": "Hot Cocoa",
@@ -4856,7 +4757,8 @@
         "title": "Rope",
         "link": "/wiki/Rope"
       }
-    ]
+    ],
+    "bench": "Character Crafting"
   },
   {
     "name": "Spoiled Meat",
@@ -4995,7 +4897,8 @@
         "title": "Leather",
         "link": "/wiki/Leather"
       }
-    ]
+    ],
+    "bench": "Character Crafting"
   },
   {
     "name": "Sweetcorn Soup",
@@ -5350,29 +5253,24 @@
     "url": "https://icarus.fandom.com/wiki/Biofuel_Composter",
     "craft": [
       {
-        "amount": 1000,
-        "title": "Fiber",
-        "link": "/wiki/Fiber"
+        "amount": 20,
+        "title": "Iron Ingot",
+        "link": "/wiki/Iron_Ingot"
       },
       {
-        "amount": 500,
-        "title": "Stick",
-        "link": "/wiki/Stick"
+        "amount": 8,
+        "title": "Copper Ingot",
+        "link": "/wiki/Copper_Ingot"
       },
       {
-        "amount": 100,
-        "title": "Wood",
-        "link": "/wiki/Wood"
+        "amount": 12,
+        "title": "Concrete Mix",
+        "link": "/wiki/Concrete_Mix"
       },
       {
-        "amount": 200,
-        "title": "Raw Meat",
-        "link": "/wiki/Raw_Meat"
-      },
-      {
-        "amount": 500,
-        "title": "Cooked Meat",
-        "link": "/wiki/Cooked_Meat"
+        "amount": 20,
+        "title": "Steel Screw",
+        "link": "/wiki/Steel_Screw"
       }
     ],
     "bench": "Machining Bench"
@@ -5812,7 +5710,13 @@
     ],
     "bench": "Fabricator"
   },
-  null,
+  {
+    "name": "Drying Rack",
+    "imageUrl": "https://static.wikia.nocookie.net/icarus/images/3/3e/ITEM_Drying_Rack.png/revision/latest?cb=20220402110219",
+    "url": "https://icarus.fandom.com/wiki/Drying_Rack",
+    "craft": [],
+    "bench": "Character Crafting"
+  },
   {
     "name": "Electric Carpentry Bench",
     "imageUrl": "https://static.wikia.nocookie.net/icarus/images/2/29/ITEM_Electric_Carpentry_Bench.png/revision/latest?cb=20211224011122",
@@ -5846,8 +5750,72 @@
     ],
     "bench": "Fabricator"
   },
-  null,
-  null,
+  {
+    "name": "Electric Composter",
+    "imageUrl": "https://static.wikia.nocookie.net/icarus/images/8/89/ITEM_Electric_Composter.png/revision/latest?cb=20211224011130",
+    "url": "https://icarus.fandom.com/wiki/Electric_Composter",
+    "craft": [
+      {
+        "amount": 20,
+        "title": "Composites",
+        "link": "/wiki/Composites"
+      },
+      {
+        "amount": 60,
+        "title": "Steel Ingot",
+        "link": "/wiki/Steel_Ingot"
+      },
+      {
+        "amount": 10,
+        "title": "Electronics",
+        "link": "/wiki/Electronics"
+      },
+      {
+        "amount": 100,
+        "title": "Concrete Mix",
+        "link": "/wiki/Concrete_Mix"
+      },
+      {
+        "amount": 20,
+        "title": "Steel Screw",
+        "link": "/wiki/Steel_Screw"
+      }
+    ],
+    "bench": "Fabricator"
+  },
+  {
+    "name": "Electric Deep-Mining Drill",
+    "imageUrl": "https://static.wikia.nocookie.net/icarus/images/0/03/ITEM_Electric_Deep-Mining_Drill.png/revision/latest?cb=20220304155553",
+    "url": "https://icarus.fandom.com/wiki/Electric_Deep-Mining_Drill",
+    "craft": [
+      {
+        "amount": 25,
+        "title": "Aluminium Ingot",
+        "link": "/wiki/Aluminium_Ingot"
+      },
+      {
+        "amount": 15,
+        "title": "Electronics",
+        "link": "/wiki/Electronics"
+      },
+      {
+        "amount": 12,
+        "title": "Steel Screw",
+        "link": "/wiki/Steel_Screw"
+      },
+      {
+        "amount": 8,
+        "title": "Titanium Ingot",
+        "link": "/wiki/Titanium_Ingot"
+      },
+      {
+        "amount": 8,
+        "title": "Carbon Fiber",
+        "link": "/wiki/Carbon_Fiber"
+      }
+    ],
+    "bench": "Fabricator"
+  },
   {
     "name": "Electric Dehumidifier",
     "imageUrl": "https://static.wikia.nocookie.net/icarus/images/9/97/ITEM_Electric_Dehumidifier.png/revision/latest?cb=20211224011236",
@@ -6002,7 +5970,23 @@
       }
     ]
   },
-  null,
+  {
+    "name": "Fireplace",
+    "imageUrl": "https://static.wikia.nocookie.net/icarus/images/6/62/ITEM_Fireplace.png/revision/latest?cb=20210916184555",
+    "url": "https://icarus.fandom.com/wiki/Fireplace",
+    "craft": [
+      {
+        "amount": 120,
+        "title": "Stone",
+        "link": "/wiki/Stone"
+      },
+      {
+        "amount": 30,
+        "title": "Wood",
+        "link": "/wiki/Wood"
+      }
+    ]
+  },
   {
     "name": "Floor Torch",
     "imageUrl": "https://static.wikia.nocookie.net/icarus/images/2/25/ITEM_Floor_Torch.png/revision/latest?cb=20210916184733",
@@ -6716,13 +6700,6 @@
     ]
   },
   {
-    "name": "Poisoned Animal Bait",
-    "imageUrl": "https://static.wikia.nocookie.net/icarus/images/2/2e/ITEM_Poisoned_Animal_Bait.png/revision/latest?cb=20220304155553",
-    "url": "https://icarus.fandom.com/wiki/Poisoned_Animal_Bait",
-    "craft": [],
-    "bench": "Cooking Station"
-  },
-  {
     "name": "Polar Bear Trophy",
     "imageUrl": "https://static.wikia.nocookie.net/icarus/images/4/4e/ITEM_Polar_Bear_Trophy.png/revision/latest?cb=20210916190549",
     "url": "https://icarus.fandom.com/wiki/Polar_Bear_Trophy",
@@ -6847,7 +6824,34 @@
     ],
     "bench": "Crafting Bench"
   },
-  null,
+  {
+    "name": "Skinning Bench",
+    "imageUrl": "https://static.wikia.nocookie.net/icarus/images/9/9e/ITEM_Skinning_Bench.png/revision/latest?cb=20210916211521",
+    "url": "https://icarus.fandom.com/wiki/Skinning_Bench",
+    "craft": [
+      {
+        "amount": 60,
+        "title": "Fiber",
+        "link": "/wiki/Fiber"
+      },
+      {
+        "amount": 50,
+        "title": "Wood",
+        "link": "/wiki/Wood"
+      },
+      {
+        "amount": 12,
+        "title": "Stone",
+        "link": "/wiki/Stone"
+      },
+      {
+        "amount": 20,
+        "title": "Leather",
+        "link": "/wiki/Leather"
+      }
+    ],
+    "bench": "Crafting Bench"
+  },
   {
     "name": "Small Interior Wood Crate",
     "imageUrl": "https://static.wikia.nocookie.net/icarus/images/0/08/ITEM_Small_Interior_Wood_Crate.png/revision/latest?cb=20210916184555",
@@ -7781,7 +7785,19 @@
     ],
     "bench": "Concrete Furnace"
   },
-  null,
+  {
+    "name": "Steel Rebar",
+    "imageUrl": "https://static.wikia.nocookie.net/icarus/images/c/c7/ITEM_Steel_Rebar.png/revision/latest?cb=20211114000707",
+    "url": "https://icarus.fandom.com/wiki/Steel_Rebar",
+    "craft": [
+      {
+        "amount": 1,
+        "title": "Steel Ingot",
+        "link": "/wiki/Steel_Ingot"
+      }
+    ],
+    "bench": "Machining Bench"
+  },
   {
     "name": "Steel Screw",
     "imageUrl": "https://static.wikia.nocookie.net/icarus/images/9/9a/ITEM_Steel_Screw.png/revision/latest?cb=20211110185552",
@@ -7852,36 +7868,43 @@
     "url": "https://icarus.fandom.com/wiki/Yeast",
     "craft": []
   },
-  null,
+  {
+    "name": "Binoculars",
+    "imageUrl": "https://static.wikia.nocookie.net/icarus/images/9/98/ITEM_Binoculars.png/revision/latest?cb=20210916211001",
+    "url": "https://icarus.fandom.com/wiki/Binoculars",
+    "craft": [
+      {
+        "amount": 4,
+        "title": "Rope",
+        "link": "/wiki/Rope"
+      },
+      {
+        "amount": 6,
+        "title": "Glass",
+        "link": "/wiki/Glass"
+      },
+      {
+        "amount": 6,
+        "title": "Aluminium Ingot",
+        "link": "/wiki/Aluminium_Ingot"
+      },
+      {
+        "amount": 2,
+        "title": "Epoxy",
+        "link": "/wiki/Epoxy"
+      }
+    ],
+    "bench": "Machining Bench"
+  },
   {
     "name": "Biofuel Can",
     "imageUrl": "https://static.wikia.nocookie.net/icarus/images/2/25/ITEM_Biofuel_Can.png/revision/latest?cb=20211101181353",
     "url": "https://icarus.fandom.com/wiki/Biofuel_Can",
     "craft": [
       {
-        "amount": 1000,
-        "title": "Fiber",
-        "link": "/wiki/Fiber"
-      },
-      {
-        "amount": 500,
-        "title": "Stick",
-        "link": "/wiki/Stick"
-      },
-      {
-        "amount": 100,
-        "title": "Wood",
-        "link": "/wiki/Wood"
-      },
-      {
-        "amount": 200,
-        "title": "Raw Meat",
-        "link": "/wiki/Raw_Meat"
-      },
-      {
-        "amount": 500,
-        "title": "Cooked Meat",
-        "link": "/wiki/Cooked_Meat"
+        "amount": 25,
+        "title": "Iron Ingot",
+        "link": "/wiki/Iron_Ingot"
       }
     ],
     "bench": "Machining Bench"
@@ -8483,29 +8506,7 @@
     ],
     "bench": "Crafting Bench"
   },
-  {
-    "name": "Leather Backpack",
-    "imageUrl": "https://static.wikia.nocookie.net/icarus/images/c/c1/ITEM_Leather_Backpack.png/revision/latest?cb=20220305171151",
-    "url": "https://icarus.fandom.com/wiki/Leather_Backpack",
-    "craft": [
-      {
-        "amount": 8,
-        "title": "Rope",
-        "link": "/wiki/Rope"
-      },
-      {
-        "amount": 20,
-        "title": "Leather",
-        "link": "/wiki/Leather"
-      },
-      {
-        "amount": 10,
-        "title": "Fiber",
-        "link": "/wiki/Fiber"
-      }
-    ],
-    "bench": "Textiles Bench"
-  },
+  null,
   {
     "name": "Machete",
     "imageUrl": "https://static.wikia.nocookie.net/icarus/images/1/1a/ITEM_Machete.png/revision/latest?cb=20210916203255",

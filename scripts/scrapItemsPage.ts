@@ -33,6 +33,21 @@ export const scrapItemsPage = async () => {
 
   const items = await Promise.all(itemUrls.map(scrapItemPage));
 
+  // const items = await Promise.all(
+  //   [
+  //     "/wiki/Aerodynamic_Attachment",
+  //     "/wiki/Armor_Attachment_Pack",
+  //     // '/wiki/Attack_Speed_Attachment',
+  //     // '/wiki/Basic_Scope_Attachment',
+  //     // '/wiki/Calibrated_Grip_Attachment',
+  //     // '/wiki/Carcass_Harvesting_Attachment',
+  //     // '/wiki/Copper_Attachment',
+  //     // '/wiki/Economic_Attachment',
+  //     // '/wiki/Flexible_Frame_Attachment',
+  //     // '/wiki/Gold_Attachment'
+  //   ].map(scrapItemPage)
+  // );
+
   items.map((item) => {
     if (item?.craft.length === 0) {
       console.log(

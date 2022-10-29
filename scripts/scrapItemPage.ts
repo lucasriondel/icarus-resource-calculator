@@ -10,6 +10,35 @@ class NoCraftFoundError extends Error {
   }
 }
 
+const scrapBench = async (title: string, url: string) => {
+  const benchExists = !!benchs.find((b) => b.name === title);
+  if (!benchExists) {
+    try {
+      benchs.push({
+        name: title,
+        imageUrl: "",
+        url: baseUrl + url,
+        craft: [],
+      });
+      const benchData = await scrapItemPage(url);
+
+      if (!benchData) {
+        throw new Error("benchData is undefined");
+      }
+
+      const benchCreatedIndex = benchs.findIndex((b) => b.name === title);
+      if (benchCreatedIndex !== -1) {
+        benchs[benchCreatedIndex].imageUrl = benchData.imageUrl;
+        benchs[benchCreatedIndex].craft = benchData.craft;
+      }
+    } catch (e) {
+      console.error(
+        `${chalk.bgRed("ERROR")}: ${e} failed to scrap bench (${baseUrl + url})`
+      );
+    }
+  }
+};
+
 export const scrapItemPage = async (url: string) => {
   try {
     const { data } = await axios.get(baseUrl + url);
@@ -30,42 +59,55 @@ export const scrapItemPage = async (url: string) => {
     };
 
     // bench
-    let benchScrap = $('div[data-source="crafted_at"]');
-    if (benchScrap.length === 0) {
-      benchScrap = $('div[data-source="bench"]');
-    }
+    let benchScrap = [
+      $('div[data-source="crafted_at"]'),
+      $('div[data-source="bench"]'),
+      $('div[data-source="benchtool"]'),
+    ].find((el) => el.length > 0);
 
     try {
-      if (benchScrap.length > 0) {
-        const title = (benchScrap.find("a")[1] as any).attribs.title.trim();
-        const href = (benchScrap.find("a")[1] as any).attribs.href.trim();
+      if (benchScrap) {
+        const anchors = benchScrap.find("a");
+        const anchor = anchors.length > 0 ? anchors[0] : null;
 
-        const benchExists = !!benchs.find((b) => b.name === title);
-        if (!benchExists) {
-          // TODO: HERE SCRAP THE BENCH
+        const title = (anchor as any).attribs.title.trim();
+        const href = (anchor as any).attribs.href.trim();
 
-          benchs.push({
-            name: title,
-            imageUrl: "",
-            url: baseUrl + href,
-            craft: [],
-          });
-        }
+        await scrapBench(title, href);
 
         itemData.bench = title;
       }
-    } catch (error) {}
+    } catch (error) {
+      console.error(error);
+    }
 
     // crafting recipe
     try {
-      let nextItemIsCrafting = false;
+      let isInCraftingSection = false;
       for (const children of $("div.mw-parser-output")[0].children) {
         if (
-          nextItemIsCrafting &&
+          children.type === "tag" &&
+          children.name === "h2" &&
+          (children.children[0] as any).attribs.id === "Crafting"
+        ) {
+          isInCraftingSection = true;
+        }
+
+        if (
+          children.type === "tag" &&
+          children.name === "h2" &&
+          (children.children[0] as any).attribs.id !== "Crafting" &&
+          isInCraftingSection
+        ) {
+          isInCraftingSection = false;
+        }
+
+        if (
+          isInCraftingSection &&
           children.type === "tag" &&
           children.name === "ul"
         ) {
-          nextItemIsCrafting = false;
+          isInCraftingSection = false;
           for (const li of children.children) {
             if (li.type === "tag" && li.name === "li") {
               const amount = parseInt((li.children[0] as any).data);
@@ -79,14 +121,6 @@ export const scrapItemPage = async (url: string) => {
             }
           }
         }
-
-        if (
-          children.type === "tag" &&
-          children.name === "h2" &&
-          (children.children[0] as any).attribs.id === "Crafting"
-        ) {
-          nextItemIsCrafting = true;
-        }
       }
 
       if (itemData.craft.length === 0)
@@ -95,23 +129,13 @@ export const scrapItemPage = async (url: string) => {
       if (e instanceof NoCraftFoundError) {
         const anchorForBench = $("table.fandom-table > caption > span > a")[0];
 
-        if (anchorForBench) {
+        if (anchorForBench && !itemData.bench) {
           const title = (anchorForBench as any).attribs.title as string;
+          const href = (anchorForBench as any).attribs.href as string;
+
+          await scrapBench(title, href);
 
           itemData.bench = title;
-
-          const benchExists = !!benchs.find((b) => b.name === title);
-          if (!benchExists) {
-            const href = (anchorForBench as any).attribs.href as string;
-            // TODO: HERE SCRAP THE BENCH
-
-            benchs.push({
-              name: title,
-              imageUrl: "",
-              url: baseUrl + href,
-              craft: [],
-            });
-          }
         }
 
         $("table.fandom-table > tbody > tr").each((i, el) => {

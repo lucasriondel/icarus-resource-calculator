@@ -1,170 +1,602 @@
 [
   {
+    "name": "Alteration Bench",
+    "imageUrl": "https://static.wikia.nocookie.net/icarus/images/f/ff/ITEM_Alteration_Bench.png/revision/latest/scale-to-width-down/350?cb=20221018044945",
+    "url": "https://icarus.fandom.com/wiki/Alteration_Bench",
+    "craft": [
+      {
+        "amount": 24,
+        "title": "Iron Ingot",
+        "link": "/wiki/Iron_Ingot"
+      },
+      {
+        "amount": 10,
+        "title": "Wood",
+        "link": "/wiki/Wood"
+      },
+      {
+        "amount": 6,
+        "title": "Epoxy",
+        "link": "/wiki/Epoxy"
+      },
+      {
+        "amount": 6,
+        "title": "Rope",
+        "link": "/wiki/Rope"
+      },
+      {
+        "amount": 40,
+        "title": "Copper Nail",
+        "link": "/wiki/Copper_Nail"
+      }
+    ]
+  },
+  {
     "name": "Character Crafting",
     "imageUrl": "",
     "url": "https://icarus.fandom.com/wiki/Character_Crafting",
     "craft": []
   },
   {
-    "name": "Chemistry Bench",
-    "imageUrl": "",
-    "url": "https://icarus.fandom.com/wiki/Chemistry_Bench",
-    "craft": []
-  },
-  {
-    "name": "Machining Bench",
-    "imageUrl": "",
-    "url": "https://icarus.fandom.com/wiki/Machining_Bench",
-    "craft": []
-  },
-  {
-    "name": "Fabricator",
-    "imageUrl": "",
-    "url": "https://icarus.fandom.com/wiki/Fabricator",
-    "craft": []
-  },
-  {
-    "name": "Herbalism Bench",
-    "imageUrl": "",
-    "url": "https://icarus.fandom.com/wiki/Herbalism_Bench",
-    "craft": []
-  },
-  {
-    "name": "Kitchen Bench",
-    "imageUrl": "",
-    "url": "https://icarus.fandom.com/wiki/Kitchen_Bench",
-    "craft": []
-  },
-  {
-    "name": "Alteration Bench",
-    "imageUrl": "",
-    "url": "https://icarus.fandom.com/wiki/Alteration_Bench",
-    "craft": []
-  },
-  {
-    "name": "Anvil Bench",
-    "imageUrl": "",
-    "url": "https://icarus.fandom.com/wiki/Anvil_Bench",
-    "craft": []
-  },
-  {
-    "name": "Potbelly Stove",
-    "imageUrl": "",
-    "url": "https://icarus.fandom.com/wiki/Potbelly_Stove",
-    "craft": []
-  },
-  {
-    "name": "Campfire",
-    "imageUrl": "",
-    "url": "https://icarus.fandom.com/wiki/Campfire",
-    "craft": []
-  },
-  {
-    "name": "Advanced Textiles Bench",
-    "imageUrl": "",
-    "url": "https://icarus.fandom.com/wiki/Advanced_Textiles_Bench",
-    "craft": []
-  },
-  {
-    "name": "Glassworking Bench",
-    "imageUrl": "",
-    "url": "https://icarus.fandom.com/wiki/Glassworking_Bench",
-    "craft": []
+    "name": "Textiles Bench",
+    "imageUrl": "https://static.wikia.nocookie.net/icarus/images/8/87/ITEM_Textiles_Bench.png/revision/latest?cb=20210916204947",
+    "url": "https://icarus.fandom.com/wiki/Textiles_Bench",
+    "craft": [
+      {
+        "amount": 60,
+        "title": "Fiber",
+        "link": "/wiki/Fiber"
+      },
+      {
+        "amount": 20,
+        "title": "Stick",
+        "link": "/wiki/Stick"
+      },
+      {
+        "amount": 50,
+        "title": "Wood",
+        "link": "/wiki/Wood"
+      },
+      {
+        "amount": 12,
+        "title": "Stone",
+        "link": "/wiki/Stone"
+      }
+    ]
   },
   {
     "name": "Concrete Furnace",
-    "imageUrl": "",
+    "imageUrl": "https://static.wikia.nocookie.net/icarus/images/6/6d/ITEM_Concrete_Furnace.png/revision/latest?cb=20211113110411",
     "url": "https://icarus.fandom.com/wiki/Concrete_Furnace",
-    "craft": []
+    "craft": [
+      {
+        "amount": 12,
+        "title": "Iron Ingot",
+        "link": "/wiki/Iron_Ingot"
+      },
+      {
+        "amount": 8,
+        "title": "Rope",
+        "link": "/wiki/Rope"
+      },
+      {
+        "amount": 12,
+        "title": "Epoxy",
+        "link": "/wiki/Epoxy"
+      },
+      {
+        "amount": 20,
+        "title": "Concrete Mix",
+        "link": "/wiki/Concrete_Mix"
+      }
+    ]
   },
   {
-    "name": "Crafting Bench",
-    "imageUrl": "",
-    "url": "https://icarus.fandom.com/wiki/Crafting_Bench",
-    "craft": []
+    "name": "Advanced Textiles Bench",
+    "imageUrl": "https://static.wikia.nocookie.net/icarus/images/8/87/ITEM_Textiles_Bench.png/revision/latest?cb=20210916204947",
+    "url": "https://icarus.fandom.com/wiki/Advanced_Textiles_Bench",
+    "craft": [
+      {
+        "amount": 20,
+        "title": "Iron Ingot",
+        "link": "/wiki/Iron_Ingot"
+      },
+      {
+        "amount": 6,
+        "title": "Wood",
+        "link": "/wiki/Wood"
+      },
+      {
+        "amount": 8,
+        "title": "Epoxy",
+        "link": "/wiki/Epoxy"
+      },
+      {
+        "amount": 4,
+        "title": "Rope",
+        "link": "/wiki/Rope"
+      },
+      {
+        "amount": 40,
+        "title": "Steel Screw",
+        "link": "/wiki/Steel_Screw"
+      }
+    ]
   },
   {
     "name": "Biofuel Stove",
-    "imageUrl": "",
+    "imageUrl": "https://static.wikia.nocookie.net/icarus/images/9/9a/ITEM_Biofuel_Stove.png/revision/latest?cb=20211114001409",
     "url": "https://icarus.fandom.com/wiki/Biofuel_Stove",
-    "craft": []
+    "craft": [
+      {
+        "amount": 30,
+        "title": "Refined Wood",
+        "link": "/wiki/Refined_Wood"
+      },
+      {
+        "amount": 20,
+        "title": "Epoxy",
+        "link": "/wiki/Epoxy"
+      },
+      {
+        "amount": 4,
+        "title": "Copper Nail",
+        "link": "/wiki/Copper_Nail"
+      },
+      {
+        "amount": 24,
+        "title": "Steel Ingot",
+        "link": "/wiki/Steel_Ingot"
+      },
+      {
+        "amount": 8,
+        "title": "Steel Screw",
+        "link": "/wiki/Steel_Screw"
+      }
+    ]
+  },
+  {
+    "name": "Machining Bench",
+    "imageUrl": "https://static.wikia.nocookie.net/icarus/images/1/13/ITEM_Machining_Bench.png/revision/latest?cb=20210916211521",
+    "url": "https://icarus.fandom.com/wiki/Machining_Bench",
+    "craft": [
+      {
+        "amount": 20,
+        "title": "Wood",
+        "link": "/wiki/Wood"
+      },
+      {
+        "amount": 12,
+        "title": "Stone",
+        "link": "/wiki/Stone"
+      },
+      {
+        "amount": 120,
+        "title": "Iron Nail",
+        "link": "/wiki/Iron_Nail"
+      },
+      {
+        "amount": 40,
+        "title": "Iron Ingot",
+        "link": "/wiki/Iron_Ingot"
+      },
+      {
+        "amount": 10,
+        "title": "Epoxy",
+        "link": "/wiki/Epoxy"
+      },
+      {
+        "amount": 24,
+        "title": "Rope",
+        "link": "/wiki/Rope"
+      }
+    ]
+  },
+  {
+    "name": "Anvil Bench",
+    "imageUrl": "https://static.wikia.nocookie.net/icarus/images/4/45/ITEM_Anvil_Bench.png/revision/latest?cb=20210916204945",
+    "url": "https://icarus.fandom.com/wiki/Anvil_Bench",
+    "craft": [
+      {
+        "amount": 40,
+        "title": "Iron Ingot",
+        "link": "/wiki/Iron_Ingot"
+      },
+      {
+        "amount": 20,
+        "title": "Wood",
+        "link": "/wiki/Wood"
+      },
+      {
+        "amount": 10,
+        "title": "Stone",
+        "link": "/wiki/Stone"
+      }
+    ]
   },
   {
     "name": "Drying Rack",
-    "imageUrl": "",
+    "imageUrl": "https://static.wikia.nocookie.net/icarus/images/3/3e/ITEM_Drying_Rack.png/revision/latest?cb=20220402110219",
     "url": "https://icarus.fandom.com/wiki/Drying_Rack",
     "craft": []
   },
   {
-    "name": "Carpentry Bench",
-    "imageUrl": "",
-    "url": "https://icarus.fandom.com/wiki/Carpentry_Bench",
-    "craft": []
-  },
-  {
-    "name": "Mortar and Pestle",
-    "imageUrl": "",
-    "url": "https://icarus.fandom.com/wiki/Mortar_and_Pestle",
-    "craft": []
-  },
-  {
     "name": "Trophy Bench",
-    "imageUrl": "",
+    "imageUrl": "https://static.wikia.nocookie.net/icarus/images/4/4c/ITEM_Trophy_Bench.png/revision/latest?cb=20210916213015",
     "url": "https://icarus.fandom.com/wiki/Trophy_Bench",
+    "craft": [
+      {
+        "amount": 60,
+        "title": "Wood",
+        "link": "/wiki/Wood"
+      },
+      {
+        "amount": 50,
+        "title": "Copper Nail",
+        "link": "/wiki/Copper_Nail"
+      },
+      {
+        "amount": 2,
+        "title": "Iron Ingot",
+        "link": "/wiki/Iron_Ingot"
+      },
+      {
+        "amount": 12,
+        "title": "Rope",
+        "link": "/wiki/Rope"
+      }
+    ]
+  },
+  {
+    "name": "Fabricator",
+    "imageUrl": "https://static.wikia.nocookie.net/icarus/images/7/71/ITEM_Fabricator.png/revision/latest?cb=20210916213205",
+    "url": "https://icarus.fandom.com/wiki/Fabricator",
+    "craft": [
+      {
+        "amount": 8,
+        "title": "Steel Ingot",
+        "link": "/wiki/Steel_Ingot"
+      },
+      {
+        "amount": 40,
+        "title": "Aluminium Ingot",
+        "link": "/wiki/Aluminium_Ingot"
+      },
+      {
+        "amount": 60,
+        "title": "Electronics",
+        "link": "/wiki/Electronics"
+      },
+      {
+        "amount": 30,
+        "title": "Steel Screw",
+        "link": "/wiki/Steel_Screw"
+      },
+      {
+        "amount": 30,
+        "title": "Concrete Mix",
+        "link": "/wiki/Concrete_Mix"
+      },
+      {
+        "amount": 8,
+        "title": "Carbon Fiber",
+        "link": "/wiki/Carbon_Fiber"
+      }
+    ]
+  },
+  {
+    "name": "Crafting Bench",
+    "imageUrl": "https://static.wikia.nocookie.net/icarus/images/f/fe/ITEM_Crafting_Bench.png/revision/latest?cb=20210916204947",
+    "url": "https://icarus.fandom.com/wiki/Crafting_Bench",
+    "craft": [
+      {
+        "amount": 60,
+        "title": "Fiber",
+        "link": "/wiki/Fiber"
+      },
+      {
+        "amount": 50,
+        "title": "Wood",
+        "link": "/wiki/Wood"
+      },
+      {
+        "amount": 12,
+        "title": "Stone",
+        "link": "/wiki/Stone"
+      },
+      {
+        "amount": 20,
+        "title": "Leather",
+        "link": "/wiki/Leather"
+      }
+    ]
+  },
+  {
+    "name": "Campfire",
+    "imageUrl": "https://static.wikia.nocookie.net/icarus/images/0/01/Campfire.png/revision/latest?cb=20210915212202",
+    "url": "https://icarus.fandom.com/wiki/Campfire",
+    "craft": [
+      {
+        "amount": 24,
+        "title": "Stone",
+        "link": "/wiki/Stone"
+      },
+      {
+        "amount": 8,
+        "title": "Fiber",
+        "link": "/wiki/Fiber"
+      },
+      {
+        "amount": 8,
+        "title": "Stick",
+        "link": "/wiki/Stick"
+      }
+    ]
+  },
+  {
+    "name": "Cement Mixer",
+    "imageUrl": "https://static.wikia.nocookie.net/icarus/images/0/03/ITEM_Cement_Mixer.png/revision/latest?cb=20210916204947",
+    "url": "https://icarus.fandom.com/wiki/Cement_Mixer",
+    "craft": [
+      {
+        "amount": 50,
+        "title": "Wood",
+        "link": "/wiki/Wood"
+      },
+      {
+        "amount": 40,
+        "title": "Stone",
+        "link": "/wiki/Stone"
+      },
+      {
+        "amount": 20,
+        "title": "Iron Ingot",
+        "link": "/wiki/Iron_Ingot"
+      },
+      {
+        "amount": 8,
+        "title": "Rope",
+        "link": "/wiki/Rope"
+      },
+      {
+        "amount": 8,
+        "title": "Iron Nail",
+        "link": "/wiki/Iron_Nail"
+      }
+    ]
+  },
+  {
+    "name": "Herbalism Bench",
+    "imageUrl": "https://static.wikia.nocookie.net/icarus/images/4/44/ITEM_Herbalism_Bench.png/revision/latest?cb=20210916211520",
+    "url": "https://icarus.fandom.com/wiki/Herbalism_Bench",
+    "craft": [
+      {
+        "amount": 50,
+        "title": "Wood",
+        "link": "/wiki/Wood"
+      },
+      {
+        "amount": 20,
+        "title": "Stick",
+        "link": "/wiki/Stick"
+      },
+      {
+        "amount": 12,
+        "title": "Fiber",
+        "link": "/wiki/Fiber"
+      },
+      {
+        "amount": 12,
+        "title": "Stone",
+        "link": "/wiki/Stone"
+      }
+    ]
+  },
+  {
+    "name": "Potbelly Stove",
+    "imageUrl": "https://static.wikia.nocookie.net/icarus/images/1/12/ITEM_Potbelly_Stove.png/revision/latest?cb=20211114002709",
+    "url": "https://icarus.fandom.com/wiki/Potbelly_Stove",
     "craft": []
+  },
+  {
+    "name": "Carpentry Bench",
+    "imageUrl": "https://static.wikia.nocookie.net/icarus/images/0/0c/ITEM_Carpentry_Bench.png/revision/latest?cb=20210916204947",
+    "url": "https://icarus.fandom.com/wiki/Carpentry_Bench",
+    "craft": [
+      {
+        "amount": 12,
+        "title": "Fiber",
+        "link": "/wiki/Fiber"
+      },
+      {
+        "amount": 12,
+        "title": "Rope",
+        "link": "/wiki/Rope"
+      },
+      {
+        "amount": 120,
+        "title": "Copper Nail",
+        "link": "/wiki/Copper_Nail"
+      }
+    ]
+  },
+  {
+    "name": "Glassworking Bench",
+    "imageUrl": "https://static.wikia.nocookie.net/icarus/images/a/ac/ITEM_Glassworking_Bench.png/revision/latest?cb=20211112202241",
+    "url": "https://icarus.fandom.com/wiki/Glassworking_Bench",
+    "craft": [
+      {
+        "amount": 24,
+        "title": "Iron Ingot",
+        "link": "/wiki/Iron_Ingot"
+      },
+      {
+        "amount": 10,
+        "title": "Wood",
+        "link": "/wiki/Wood"
+      },
+      {
+        "amount": 6,
+        "title": "Epoxy",
+        "link": "/wiki/Epoxy"
+      },
+      {
+        "amount": 6,
+        "title": "Rope",
+        "link": "/wiki/Rope"
+      },
+      {
+        "amount": 40,
+        "title": "Copper Nail",
+        "link": "/wiki/Copper_Nail"
+      }
+    ]
   },
   {
     "name": "Cooking Station",
-    "imageUrl": "",
+    "imageUrl": "https://static.wikia.nocookie.net/icarus/images/e/e5/ITEM_Cooking_Station.png/revision/latest?cb=20210916213205",
     "url": "https://icarus.fandom.com/wiki/Cooking_Station",
     "craft": []
   },
   {
-    "name": "Wood Composter",
-    "imageUrl": "",
-    "url": "https://icarus.fandom.com/wiki/Wood_Composter",
+    "name": "Kitchen Bench",
+    "imageUrl": "https://static.wikia.nocookie.net/icarus/images/4/4c/ITEM_Kitchen_Bench.png/revision/latest?cb=20211114001409",
+    "url": "https://icarus.fandom.com/wiki/Kitchen_Bench",
     "craft": []
   },
   {
-    "name": "Tool Attachment Pack",
-    "imageUrl": "",
-    "url": "https://icarus.fandom.com/wiki/Tool_Attachment_Pack",
-    "craft": []
-  },
-  {
-    "name": "Material Processor",
-    "imageUrl": "",
-    "url": "https://icarus.fandom.com/wiki/Material_Processor",
-    "craft": []
+    "name": "Mortar and Pestle",
+    "imageUrl": "https://static.wikia.nocookie.net/icarus/images/4/4f/ITEM_Mortar_and_Pestle.png/revision/latest?cb=20210916211521",
+    "url": "https://icarus.fandom.com/wiki/Mortar_and_Pestle",
+    "craft": [
+      {
+        "amount": 4,
+        "title": "Silica Ore",
+        "link": "/wiki/Silica_Ore"
+      },
+      {
+        "amount": 12,
+        "title": "Stone",
+        "link": "/wiki/Stone"
+      }
+    ]
   },
   {
     "name": "Stone Furnace",
-    "imageUrl": "",
+    "imageUrl": "https://static.wikia.nocookie.net/icarus/images/0/09/ITEM_Stone_Furnace.png/revision/latest?cb=20210916213015",
     "url": "https://icarus.fandom.com/wiki/Stone_Furnace",
-    "craft": []
+    "craft": [
+      {
+        "amount": 4,
+        "title": "Stick",
+        "link": "/wiki/Stick"
+      },
+      {
+        "amount": 12,
+        "title": "Wood",
+        "link": "/wiki/Wood"
+      },
+      {
+        "amount": 80,
+        "title": "Stone",
+        "link": "/wiki/Stone"
+      },
+      {
+        "amount": 12,
+        "title": "Leather",
+        "link": "/wiki/Leather"
+      }
+    ]
   },
   {
-    "name": "Armor Attachment Pack",
-    "imageUrl": "",
-    "url": "https://icarus.fandom.com/wiki/Armor_Attachment_Pack",
-    "craft": []
+    "name": "Material Processor",
+    "imageUrl": "https://static.wikia.nocookie.net/icarus/images/b/b3/ITEM_Material_Processor.png/revision/latest?cb=20210916213206",
+    "url": "https://icarus.fandom.com/wiki/Material_Processor",
+    "craft": [
+      {
+        "amount": 30,
+        "title": "Aluminium Ingot",
+        "link": "/wiki/Aluminium_Ingot"
+      },
+      {
+        "amount": 80,
+        "title": "Electronics",
+        "link": "/wiki/Electronics"
+      },
+      {
+        "amount": 12,
+        "title": "Steel Screw",
+        "link": "/wiki/Steel_Screw"
+      },
+      {
+        "amount": 8,
+        "title": "Titanium Ingot",
+        "link": "/wiki/Titanium_Ingot"
+      },
+      {
+        "amount": 8,
+        "title": "Carbon Fiber",
+        "link": "/wiki/Carbon_Fiber"
+      }
+    ]
   },
   {
-    "name": "Ranged Attachment Pack",
-    "imageUrl": "",
-    "url": "https://icarus.fandom.com/wiki/Ranged_Attachment_Pack",
-    "craft": []
+    "name": "Chemistry Bench",
+    "imageUrl": "https://static.wikia.nocookie.net/icarus/images/6/63/ITEM_Chemistry_Bench.png/revision/latest?cb=20211224011107",
+    "url": "https://icarus.fandom.com/wiki/Chemistry_Bench",
+    "craft": [
+      {
+        "amount": 20,
+        "title": "Steel Ingot",
+        "link": "/wiki/Steel_Ingot"
+      },
+      {
+        "amount": 30,
+        "title": "Wood",
+        "link": "/wiki/Wood"
+      },
+      {
+        "amount": 8,
+        "title": "Electronics",
+        "link": "/wiki/Electronics"
+      },
+      {
+        "amount": 10,
+        "title": "Composites",
+        "link": "/wiki/Composites"
+      },
+      {
+        "amount": 10,
+        "title": "Glass",
+        "link": "/wiki/Glass"
+      }
+    ]
   },
   {
-    "name": "Textiles Bench",
-    "imageUrl": "",
-    "url": "https://icarus.fandom.com/wiki/Textiles_Bench",
-    "craft": []
-  },
-  {
-    "name": "Cement Mixer",
-    "imageUrl": "",
-    "url": "https://icarus.fandom.com/wiki/Cement_Mixer",
-    "craft": []
+    "name": "Wood Composter",
+    "imageUrl": "https://static.wikia.nocookie.net/icarus/images/b/bc/ITEM_Wood_Composter.png/revision/latest?cb=20220313070843",
+    "url": "https://icarus.fandom.com/wiki/Wood_Composter",
+    "craft": [
+      {
+        "amount": 25,
+        "title": "Wood",
+        "link": "/wiki/Wood"
+      },
+      {
+        "amount": 10,
+        "title": "Stone",
+        "link": "/wiki/Stone"
+      },
+      {
+        "amount": 5,
+        "title": "Spoiled Plants",
+        "link": "/wiki/Spoiled_Plants"
+      },
+      {
+        "amount": 5,
+        "title": "Sulfur",
+        "link": "/wiki/Sulfur"
+      }
+    ]
   }
 ]
