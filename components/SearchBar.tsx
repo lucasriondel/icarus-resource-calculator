@@ -1,5 +1,5 @@
 import { benchs } from "../data/benchs";
-import { resources } from "../data/craftables";
+import { craftables } from "../data/craftables";
 import { DecomposerOptions } from "../data/Decomposer";
 import { tools } from "../data/tools";
 
@@ -35,7 +35,7 @@ export function SearchBar({ value, onChange }: SearchBarProps) {
           }
         >
           <option value="">--Please choose a craft--</option>
-          {resources
+          {craftables
             .filter((resource) => !!resource.craft)
             .map((resource) => (
               <option key={resource.id} value={resource.id}>

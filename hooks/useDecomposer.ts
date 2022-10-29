@@ -1,6 +1,6 @@
 import { useMemo } from "react";
 import { benchs } from "../data/benchs";
-import { resources } from "../data/craftables";
+import { craftables } from "../data/craftables";
 import {
   Decomposer,
   DecomposerOptions,
@@ -21,7 +21,7 @@ export function useDecomposer(
       amount
     );
     decomposer.decomposeResource(
-      resources.find((r) => r.id === craftId),
+      craftables.find((r) => r.id === craftId),
       amount
     );
     decomposer.decomposeBench(

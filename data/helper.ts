@@ -1,8 +1,8 @@
 import { Bench, benchs } from "./benchs";
-import { Craftable, resources } from "./craftables";
+import { Craftable, craftables } from "./craftables";
 
 export function getResourceFromResourceId(resourceId: string): Craftable {
-  const resource = resources.find((r) => r.id === resourceId);
+  const resource = craftables.find((r) => r.id === resourceId);
   if (!resource) {
     throw new Error(`Resource with id ${resourceId} not found`);
   }

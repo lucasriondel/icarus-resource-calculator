@@ -1,3 +1,5 @@
+import craftablesJSON from "../items.json";
+
 export interface Craftable {
   id: string;
   name: string;
@@ -10,4 +12,4 @@ export interface Craftable {
   }>;
 }
 
-export const resources: Craftable[] = [];
+export const craftables: Craftable[] = craftablesJSON as Craftable[];
