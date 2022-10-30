@@ -1,15 +1,13 @@
 import { useMemo } from "react";
-import { Decomposer, Decomposition } from "../data/Decomposer";
+import { Decomposer } from "../data/Decomposer";
 import { getResourceFromResourceId } from "../data/helper";
 
 export function useDecomposer(craftId: string | undefined, amount: number) {
-  return useMemo<Decomposition>(() => {
+  return useMemo(() => {
     const decomposer = new Decomposer();
 
-    if (craftId) {
-      decomposer.decomposeCraftable(getResourceFromResourceId(craftId), amount);
-    }
-
-    return decomposer.result();
+    return craftId
+      ? decomposer.getResourceList(getResourceFromResourceId(craftId), amount)
+      : [];
   }, [craftId, amount]);
 }

@@ -6,6 +6,27 @@ import { Option, ResourceWithAmount } from "../data/Decomposer";
 import { useDecomposer } from "../hooks/useDecomposer";
 import styles from "../styles/Home.module.css";
 
+const ResourceList: React.FC<{
+  resources: (ResourceWithAmount | Option)[];
+}> = ({ resources }) => (
+  <ul>
+    {resources.map((resource, index) =>
+      resource.hasOwnProperty("amount") ? (
+        <li key={index}>
+          {(resource as ResourceWithAmount).amount}{" "}
+          {(resource as ResourceWithAmount).name}
+        </li>
+      ) : (
+        <div className={styles.row}>
+          {(resource as Option).options.map((option, index) => (
+            <ResourceList key={index} resources={option} />
+          ))}
+        </div>
+      )
+    )}
+  </ul>
+);
+
 const Home: NextPage = () => {
   const [craftId, setCraftId] = useState<string>();
   const [amount, setAmount] = useState(1);
@@ -36,32 +57,7 @@ const Home: NextPage = () => {
           <div className={styles["row-item"]}>
             <h1>Resources</h1>
 
-            <ul>
-              {decomposition.resources.map((resource) => (
-                <li key={resource.id}>
-                  {resource.name} :{" "}
-                  {resource.hasOwnProperty("amount")
-                    ? (resource as ResourceWithAmount).amount
-                    : (resource as Option).options.map((option, index) => (
-                        <>
-                          <ul key={index}>
-                            {option.map(({ name, amount }) => (
-                              <li key={name}>
-                                {name} : {amount}
-                              </li>
-                            ))}
-                          </ul>
-                          OR
-                        </>
-                      ))}
-                </li>
-              ))}
-              {/* {decomposition.resources.map((resource) => (
-                <li key={resource.id}>
-                  {resource.name} : {resource.amount}
-                </li>
-              ))} */}
-            </ul>
+            <ResourceList resources={decomposition} />
           </div>
         </div>
       </div>

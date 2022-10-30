@@ -1925,13 +1925,7 @@
       "name": "Stick",
       "imageUrl": "https://static.wikia.nocookie.net/icarus/images/6/6e/ITEM_Stick.png",
       "url": "https://icarus.fandom.com/wiki/Stick",
-      "craft": [
-        {
-          "id": "wood",
-          "amount": 1
-        }
-      ],
-      "bench": "carpentry-bench"
+      "craft": []
     },
     {
       "id": "stone",
