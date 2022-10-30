@@ -9394,6 +9394,30 @@
           }
         ]
       ]
+    },
+    {
+      "id": "truc-avec-des-iron-nail",
+      "name": "truc avec des iron nail",
+      "craft": [
+        {
+          "id": "iron-nail",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "id": "test-for-multi-render",
+      "name": "test for multi render",
+      "craft": [
+        {
+          "id": "iron-nail",
+          "amount": 25
+        },
+        {
+          "id": "truc-avec-des-iron-nail",
+          "amount": 1
+        }
+      ]
     }
   ]
 }

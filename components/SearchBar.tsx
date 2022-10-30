@@ -1,3 +1,5 @@
+import { craftablesToFlatArray } from "../data/helper";
+
 interface SearchBarProps {
   value: {
     craftId: string | undefined;
@@ -25,14 +27,14 @@ export function SearchBar({ value, onChange }: SearchBarProps) {
           }
         >
           <option value="">--Please choose a craft--</option>
-          <option value={"composites"}>Composites</option>
-          {/* {craftables
+          {/* <option value={"composites"}>Composites</option> */}
+          {craftablesToFlatArray()
             .filter((resource) => !!resource.craft)
             .map((resource) => (
               <option key={resource.id} value={resource.id}>
                 {resource.name}
               </option>
-            ))} */}
+            ))}
         </select>
         *
         <input

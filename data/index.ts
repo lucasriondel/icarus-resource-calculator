@@ -22,3 +22,7 @@ export const craftables: Record<string, Craftable[]> = craftablesJSON as Record<
   string,
   Craftable[]
 >;
+
+if (process.env.NODE_ENV !== "development") {
+  delete craftables.debug;
+}

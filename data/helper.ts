@@ -12,6 +12,15 @@ export function getResourceFromResourceId(resourceId: string): Craftable {
   return resource;
 }
 
+export function craftablesToFlatArray() {
+  const categories = Object.keys(craftables);
+  const flatArray = categories.reduce((acc, category) => {
+    acc.push(...craftables[category]);
+    return acc;
+  }, [] as Craftable[]);
+  return flatArray;
+}
+
 export const kebabCasify = (string: string) =>
   string
     .replace(/([a-z])([A-Z])/g, "$1-$2")

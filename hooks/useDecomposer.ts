@@ -7,7 +7,9 @@ export function useDecomposer(craftId: string | undefined, amount: number) {
     const decomposer = new Decomposer();
 
     return craftId
-      ? decomposer.getResourceList(getResourceFromResourceId(craftId), amount)
+      ? decomposer.mergeDuplicates(
+          decomposer.getResourceList(getResourceFromResourceId(craftId), amount)
+        )
       : [];
   }, [craftId, amount]);
 }

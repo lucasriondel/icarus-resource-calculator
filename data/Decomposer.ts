@@ -9,6 +9,8 @@ export interface ResourceWithAmount extends Craftable {
 }
 
 export class Decomposer {
+  private multiRenderVault = new Map<string, number>();
+
   constructor() {}
 
   getResourceList(
@@ -47,19 +49,51 @@ export class Decomposer {
         const ingredient = getResourceFromResourceId(ingredientAndAmount.id);
         // ingredient is a base resource
         if (ingredient.craft.length === 0) {
-          // this.addIngredient(ingredient, ingredientAndAmount.amount);
           resources.push({
             ...ingredient,
             amount: ingredientAndAmount.amount * amount,
           });
         } else {
-          // this.findBaseResourcesAndAddToList(ingredient);
-          resources.push(
-            ...this.getResourceList(
-              ingredient,
-              ingredientAndAmount.amount * amount
-            )
-          );
+          // handle multi render (e.g. 1x iron ingot -> 10x iron nail, we do not want to render more than needed)
+          const neededAmount = ingredientAndAmount.amount * amount;
+
+          if (ingredient.quantityProduced !== undefined) {
+            const multiRenderAmount = this.multiRenderVault.get(ingredient.id);
+
+            if (multiRenderAmount !== undefined) {
+              if (multiRenderAmount >= neededAmount) {
+                this.multiRenderVault.set(
+                  ingredient.id,
+                  multiRenderAmount - neededAmount
+                );
+              } else {
+                const missingAmount = neededAmount - multiRenderAmount;
+                const numberToCraft = Math.ceil(
+                  missingAmount / ingredient.quantityProduced
+                );
+                const remainder = missingAmount % ingredient.quantityProduced;
+                this.multiRenderVault.set(ingredient.id, remainder);
+
+                resources.push(
+                  ...this.getResourceList(ingredient, numberToCraft)
+                );
+              }
+            } else {
+              // vault empty for this ressource
+              const numberToCraft = Math.ceil(
+                neededAmount / ingredient.quantityProduced
+              );
+              const remainder =
+                numberToCraft * ingredient.quantityProduced - neededAmount;
+
+              this.multiRenderVault.set(ingredient.id, remainder);
+              resources.push(
+                ...this.getResourceList(ingredient, numberToCraft)
+              );
+            }
+          } else {
+            resources.push(...this.getResourceList(ingredient, neededAmount));
+          }
         }
       }
     }
