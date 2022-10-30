@@ -15,6 +15,7 @@ export interface Craftable {
   quantityProduced?: number;
 }
 
+// @ts-ignore
 export const craftables: Record<string, Craftable[]> = craftablesJSON as Record<
   string,
   Craftable[]
