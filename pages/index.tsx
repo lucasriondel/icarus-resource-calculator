@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 import { useState } from "react";
 import { SearchBar } from "../components/SearchBar";
 import { Option, ResourceWithAmount } from "../data/Decomposer";
@@ -56,22 +57,31 @@ const Home: NextPage = () => {
       </Head>
 
       <div>
-        <h1>
-          <Image
-            width={40}
-            height={40}
-            src={require("../public/favicon.png")}
-            alt="Icarus logo"
-            onClick={() => {
-              alert("log printed in console for better debugging");
-              console.log({ craftId, amount, decomposition });
-              console.log(
-                "^^^ right-click > copy object and then paste it to me ^^^"
-              );
-            }}
-          />
-          Icarus Resource Calculator v{version}
-        </h1>
+        <div
+          className={styles.row}
+          style={{ justifyContent: "space-between", alignItems: "center" }}
+        >
+          <h1>
+            <Image
+              width={40}
+              height={40}
+              src={require("../public/favicon.png")}
+              alt="Icarus logo"
+              onClick={() => {
+                alert("log printed in console for better debugging");
+                console.log({ craftId, amount, decomposition });
+                console.log(
+                  "^^^ right-click > copy object and then paste it to me ^^^"
+                );
+              }}
+            />
+            Icarus Resource Calculator v{version}
+          </h1>
+
+          <Link href="https://github.com/lucasriondel/icarus-resource-calculator">
+            Github
+          </Link>
+        </div>
 
         <SearchBar
           value={{ craftId, amount }}

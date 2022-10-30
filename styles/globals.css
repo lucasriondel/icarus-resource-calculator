@@ -24,3 +24,12 @@ a {
     background: black;
   }
 }
+
+a {
+  color:  #E9A444;
+  transition: color 0.2s ease;
+  font-weight: 500;
+}
+a:hover {
+  color:  #e49220;
+}
