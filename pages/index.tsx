@@ -65,6 +65,9 @@ const Home: NextPage = () => {
             onClick={() => {
               alert("log printed in console for better debugging");
               console.log({ craftId, amount, decomposition });
+              console.log(
+                "^^^ right-click > copy object and then paste it to me ^^^"
+              );
             }}
           />
           Icarus Resource Calculator v{version}
