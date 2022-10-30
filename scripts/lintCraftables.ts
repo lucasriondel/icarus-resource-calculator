@@ -1,3 +1,6 @@
+import axios, { AxiosError } from "axios";
+import * as cheerio from "cheerio";
+
 import editJsonFile from "edit-json-file";
 
 import inquirer from "inquirer";
@@ -142,10 +145,55 @@ async function findMissingRessource() {
   );
 }
 
+// scan and fetch images from imageUrl and warn if there is no image
+async function fixImages() {
+  let file = editJsonFile("./data/sortedCraftables.json");
+
+  const craftables = file.get();
+
+  const categories = Object.keys(file.get()).sort((a, b) => a.localeCompare(b));
+
+  let fixedImages = 0;
+  for (const category of categories) {
+    for (let i = 0; i < craftables[category].length; i++) {
+      const item = craftables[category][i];
+
+      if (item.imageUrl) {
+        try {
+          await axios.get(item.imageUrl);
+        } catch (e) {
+          if (e instanceof AxiosError && e.response?.status === 404) {
+            try {
+              const { data } = await axios.get(item.url!);
+              const $ = cheerio.load(data);
+              const imageUrl = $("img.pi-image-thumbnail").attr("src");
+              if (imageUrl) {
+                item.imageUrl = imageUrl;
+                file.set(category, craftables[category]);
+                file.save();
+                fixedImages++;
+              } else {
+                throw new Error("no image found");
+              }
+            } catch (e) {
+              console.error(
+                `error while trying to fix image for item ${item.id} (${item.url}): ${e}`
+              );
+            }
+          }
+        }
+      }
+    }
+  }
+
+  console.log(`fixed ${fixedImages} images`);
+}
+
 async function main() {
   await findDuplicates();
   await findAndFixDuplicates();
   await findMissingRessource();
+  await fixImages();
 }
 
 main();
