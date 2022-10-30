@@ -5,6 +5,7 @@ import { useState } from "react";
 import { SearchBar } from "../components/SearchBar";
 import { Option, ResourceWithAmount } from "../data/Decomposer";
 import { useDecomposer } from "../hooks/useDecomposer";
+import { version } from "../package.json";
 import styles from "../styles/Home.module.css";
 
 const ResourceList: React.FC<{
@@ -66,7 +67,7 @@ const Home: NextPage = () => {
               console.log({ craftId, amount, decomposition });
             }}
           />
-          Icarus Resource Calculator v0.1
+          Icarus Resource Calculator v{version}
         </h1>
 
         <SearchBar
