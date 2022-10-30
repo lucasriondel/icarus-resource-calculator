@@ -8764,7 +8764,20 @@
       "name": "Drying Rack",
       "imageUrl": "https://static.wikia.nocookie.net/icarus/images/3/3e/ITEM_Drying_Rack.png",
       "url": "https://icarus.fandom.com/wiki/Drying_Rack",
-      "craft": [],
+      "craft": [
+        {
+          "id": "wood",
+          "amount": 50
+        },
+        {
+          "id": "stick",
+          "amount": 25
+        },
+        {
+          "id": "iron-nail",
+          "amount": 50
+        }
+      ],
       "bench": "character-crafting"
     },
     {
