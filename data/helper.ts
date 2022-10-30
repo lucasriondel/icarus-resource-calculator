@@ -12,9 +12,10 @@ export function getResourceFromResourceId(resourceId: string): Craftable {
   return resource;
 }
 
-export function craftablesToFlatArray() {
+export function craftablesToFlatArray(ignoreBase = false) {
   const categories = Object.keys(craftables);
   const flatArray = categories.reduce((acc, category) => {
+    if (ignoreBase && category === "base") return acc;
     acc.push(...craftables[category]);
     return acc;
   }, [] as Craftable[]);

@@ -1,3 +1,4 @@
+import { useMemo } from "react";
 import { craftablesToFlatArray } from "../data/helper";
 
 interface SearchBarProps {
@@ -14,10 +15,17 @@ export function SearchBar({ value, onChange }: SearchBarProps) {
     onChange(value.craftId, newAmount < 1 ? 1 : newAmount);
   };
 
+  const choices = useMemo(
+    () =>
+      craftablesToFlatArray(true)
+        .filter((resource) => !!resource.craft)
+        .sort((a, b) => a.name.localeCompare(b.name)),
+    []
+  );
+
   return (
     <header>
       <div>
-        Craft:{" "}
         <select
           name="craft"
           id="craft-select"
@@ -28,15 +36,13 @@ export function SearchBar({ value, onChange }: SearchBarProps) {
         >
           <option value="">--Please choose a craft--</option>
           {/* <option value={"composites"}>Composites</option> */}
-          {craftablesToFlatArray()
-            .filter((resource) => !!resource.craft)
-            .map((resource) => (
-              <option key={resource.id} value={resource.id}>
-                {resource.name}
-              </option>
-            ))}
+          {choices.map((resource) => (
+            <option key={resource.id} value={resource.id}>
+              {resource.name}
+            </option>
+          ))}
         </select>
-        *
+        {" x "}
         <input
           type="number"
           id="amount-craft"

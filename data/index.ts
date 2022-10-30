@@ -8,8 +8,8 @@ export interface CraftItem {
 export interface Craftable {
   id: string;
   name: string;
-  url?: string;
-  imageUrl?: string;
+  url: string;
+  imageUrl: string;
   bench?: string;
   craft: CraftItem[] | CraftItem[][];
   quantityProduced?: number;
