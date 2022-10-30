@@ -1,6 +1,6 @@
 import editJsonFile from "edit-json-file";
 import inquirer from "inquirer";
-import { Craftable } from "../data/craftables";
+import { Craftable } from "../data";
 
 // this script is useful to sort craftables into categories in the sortedCraftables.json file.
 // It will prompt you for each craftable in the unsortedCraftables category, asking you to select a category.

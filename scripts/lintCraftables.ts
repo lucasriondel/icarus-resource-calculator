@@ -4,7 +4,7 @@ import * as cheerio from "cheerio";
 import editJsonFile from "edit-json-file";
 
 import inquirer from "inquirer";
-import { Craftable } from "../data/craftables";
+import { Craftable } from "../data";
 
 // tells you if there are duplicate ids in the sortedCraftables.json file
 function findDuplicates() {
@@ -194,6 +194,7 @@ async function main() {
   await findAndFixDuplicates();
   await findMissingRessource();
   await fixImages();
+  // TODO: await findNullAmounts();
 }
 
 main();

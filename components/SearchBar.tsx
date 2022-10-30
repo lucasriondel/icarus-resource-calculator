@@ -1,5 +1,3 @@
-import { craftables } from "../data/craftables";
-
 interface SearchBarProps {
   value: {
     craftId: string | undefined;
@@ -27,13 +25,14 @@ export function SearchBar({ value, onChange }: SearchBarProps) {
           }
         >
           <option value="">--Please choose a craft--</option>
-          {craftables
+          <option value={"composites"}>Composites</option>
+          {/* {craftables
             .filter((resource) => !!resource.craft)
             .map((resource) => (
               <option key={resource.id} value={resource.id}>
                 {resource.name}
               </option>
-            ))}
+            ))} */}
         </select>
         *
         <input

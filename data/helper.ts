@@ -1,12 +1,14 @@
-import { Craftable, craftables } from "./craftables";
+import { Craftable, craftables } from ".";
 
 export function getResourceFromResourceId(resourceId: string): Craftable {
-  const resource = craftables.find((r) => r.id === resourceId);
+  const categories = Object.keys(craftables);
+  const search = categories.map((category) => {
+    return craftables[category].find((resource) => resource.id === resourceId);
+  });
+  const resource = search.find((r) => !!r);
   if (!resource) {
     throw new Error(`Resource with id ${resourceId} not found`);
   }
-
-  console.log({ resourceId, resource });
   return resource;
 }
 

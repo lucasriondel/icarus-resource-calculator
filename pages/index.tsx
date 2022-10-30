@@ -2,6 +2,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import { useState } from "react";
 import { SearchBar } from "../components/SearchBar";
+import { Option, ResourceWithAmount } from "../data/Decomposer";
 import { useDecomposer } from "../hooks/useDecomposer";
 import styles from "../styles/Home.module.css";
 
@@ -38,9 +39,28 @@ const Home: NextPage = () => {
             <ul>
               {decomposition.resources.map((resource) => (
                 <li key={resource.id}>
-                  {resource.name} : {resource.amount}
+                  {resource.name} :{" "}
+                  {resource.hasOwnProperty("amount")
+                    ? (resource as ResourceWithAmount).amount
+                    : (resource as Option).options.map((option, index) => (
+                        <>
+                          <ul key={index}>
+                            {option.map(({ name, amount }) => (
+                              <li key={name}>
+                                {name} : {amount}
+                              </li>
+                            ))}
+                          </ul>
+                          OR
+                        </>
+                      ))}
                 </li>
               ))}
+              {/* {decomposition.resources.map((resource) => (
+                <li key={resource.id}>
+                  {resource.name} : {resource.amount}
+                </li>
+              ))} */}
             </ul>
           </div>
         </div>

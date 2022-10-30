@@ -9351,5 +9351,55 @@
       "url": "https://icarus.fandom.com/wiki/Carbon_Fiber",
       "craft": []
     }
+  ],
+  "debug": [
+    {
+      "id": "test-for-multi-recipe",
+      "name": "test for multi recipe",
+      "craft": [
+        [
+          {
+            "id": "wood",
+            "amount": 20
+          },
+          {
+            "id": "stick",
+            "amount": 10
+          },
+          {
+            "id": "iron-ore",
+            "amount": 1
+          }
+        ],
+        [
+          {
+            "id": "wood",
+            "amount": 20
+          },
+          {
+            "id": "stick",
+            "amount": 15
+          },
+          {
+            "id": "copper-ore",
+            "amount": 1
+          }
+        ],
+        [
+          {
+            "id": "wood",
+            "amount": 20
+          },
+          {
+            "id": "stick",
+            "amount": 2
+          },
+          {
+            "id": "gold-ore",
+            "amount": 1
+          }
+        ]
+      ]
+    }
   ]
 }

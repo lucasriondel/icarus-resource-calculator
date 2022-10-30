@@ -1,3 +1,5 @@
+import craftablesJSON from "./craftables.json" assert { type: "json" };
+
 export interface Craftable {
   id: string;
   name: string;
@@ -7,13 +9,16 @@ export interface Craftable {
   craft:
     | Array<{
         id: string;
-        amount: number | null;
+        amount: number;
       }>
     | Array<{
         id: string;
-        amount: number | null;
+        amount: number;
       }>[];
   quantityProduced?: number;
 }
 
-export const craftables: Record<string, Craftable[]> = {};
+export const craftables: Record<string, Craftable[]> = craftablesJSON as Record<
+  string,
+  Craftable[]
+>;
