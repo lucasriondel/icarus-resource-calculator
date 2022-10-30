@@ -1,4 +1,4 @@
-import { Craftable } from "../data/craftables";
+import { Craftable } from "../../data";
 
 export const baseUrl = "https://icarus.fandom.com";
 
