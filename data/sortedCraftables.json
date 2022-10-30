@@ -1522,6 +1522,84 @@
   ],
   "base": [
     {
+      "id": "alpha-wolf-head",
+      "name": "Alpha Wolf Head",
+      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/5/5a/ITEM_Alpha_Wolf_Head.png",
+      "url": "https://icarus.fandom.com/wiki/Alpha_Wolf_Head",
+      "craft": []
+    },
+    {
+      "id": "bear-head",
+      "name": "Bear Head",
+      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/0/00/ITEM_Bear_Head.png",
+      "url": "https://icarus.fandom.com/wiki/Bear_Head",
+      "craft": []
+    },
+    {
+      "id": "black-jaguar-head",
+      "name": "Black Jaguar Head",
+      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/2/26/ITEM_Black_Jaguar_Head.png",
+      "url": "https://icarus.fandom.com/wiki/Black_Jaguar_Head",
+      "craft": []
+    },
+    {
+      "id": "buffalo-head",
+      "name": "Buffalo Head",
+      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/0/00/ITEM_Buffalo_Head.png",
+      "url": "https://icarus.fandom.com/wiki/Buffalo_Head",
+      "craft": []
+    },
+    {
+      "id": "cougar-head",
+      "name": "Cougar Head",
+      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/0/00/ITEM_Bougar_Head.png",
+      "url": "https://icarus.fandom.com/wiki/Bougar_Head",
+      "craft": []
+    },
+    {
+      "id": "deer-head",
+      "name": "Deer Head",
+      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/0/00/ITEM_Beer_Head.png",
+      "url": "https://icarus.fandom.com/wiki/Beer_Head",
+      "craft": []
+    },
+    {
+      "id": "jaguar-head",
+      "name": "Jaguar Head",
+      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/0/00/ITEM_Baguar_Head.png",
+      "url": "https://icarus.fandom.com/wiki/Baguar_Head",
+      "craft": []
+    },
+    {
+      "id": "mammoth-head",
+      "name": "Mammoth Head",
+      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/0/00/ITEM_Bammoth_Head.png",
+      "url": "https://icarus.fandom.com/wiki/Bammoth_Head",
+      "craft": []
+    },
+    {
+      "id": "polar-bear-head",
+      "name": "Polar Bear Head",
+      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/0/00/ITEM_Bolar_Bear_Head.png",
+      "url": "https://icarus.fandom.com/wiki/Bolar_Bear_Head",
+      "craft": []
+    },
+    {
+      "id": "snow-leopard-head",
+      "name": "Snow Leopard Head",
+      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/0/00/ITEM_Bnow_Leopard_Head.png",
+      "url": "https://icarus.fandom.com/wiki/Bnow_Leopard_Head",
+      "craft": []
+    },
+
+    {
+      "id": "coal-ore",
+      "name": "Coal Ore",
+      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/5/5a/ITEM_Coal_Ore.png",
+      "url": "https://icarus.fandom.com/wiki/Coal_Ore",
+      "craft": []
+    },
+    {
       "id": "poison-sack",
       "name": "Poison Sack",
       "imageUrl": "https://static.wikia.nocookie.net/icarus/images/5/5a/ITEM_Poison_Sack.png",
@@ -8856,6 +8934,171 @@
   ],
   "processedRessources": [
     {
+      "id": "beer-bottle",
+      "name": "Beer Bottle",
+      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/5/5e/ITEM_Beer_Bottle.png",
+      "url": "https://icarus.fandom.com/wiki/Beer_Bottle",
+      "craft": [
+        {
+          "id": "glass",
+          "amount": 5
+        }
+      ],
+      "bench": "Glassworking Bench"
+    },
+    {
+      "id": "wine-bottle",
+      "name": "Wine Bottle",
+      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/5/5e/ITEM_Wine_Bottle.png",
+      "url": "https://icarus.fandom.com/wiki/Wine_Bottle",
+      "craft": [
+        {
+          "id": "glass",
+          "amount": 5
+        }
+      ],
+      "bench": "Glassworking Bench"
+    },
+    {
+      "id": "refined-wood",
+      "name": "Refined Wood",
+      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/5/5a/ITEM_Refined_Wood.png",
+      "url": "https://icarus.fandom.com/wiki/Refined_Wood",
+      "craft": [
+        {
+          "id": "wood",
+          "amount": 1
+        }
+      ],
+      "bench": "carpentry-bench",
+      "quantityProduced": 10
+    },
+    {
+      "id": "glass-jar",
+      "name": "Glass Jar",
+      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/5/5e/ITEM_Glass_Jar.png",
+      "url": "https://icarus.fandom.com/wiki/Glass_Jar",
+      "craft": [
+        {
+          "id": "glass",
+          "amount": 1
+        },
+        {
+          "id": "iron-ingot",
+          "amount": 1
+        }
+      ],
+      "bench": "Glassworking Bench"
+    },
+    {
+      "id": "steel-bloom",
+      "name": "Steel Bloom",
+      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/5/5a/ITEM_Steel_Bloom.png",
+      "url": "https://icarus.fandom.com/wiki/Steel_Bloom",
+      "craft": [
+        [
+          {
+            "id": "iron-ore",
+            "amount": 6
+          },
+          {
+            "id": "coal-ore",
+            "amount": 1
+          }
+        ],
+        [
+          {
+            "id": "iron-ingot",
+            "amount": 3
+          },
+          {
+            "id": "coal-ore",
+            "amount": 1
+          }
+        ]
+      ],
+      "bench": "mortar-and-pestle"
+    },
+    {
+      "id": "tree-sap",
+      "name": "Tree Sap",
+      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/5/5a/ITEM_Tree_Sap.png",
+      "url": "https://icarus.fandom.com/wiki/Tree_Sap",
+      "craft": [
+        {
+          "id": "stick",
+          "amount": 4
+        }
+      ],
+      "bench": "mortar-and-pestle"
+    },
+    {
+      "id": "copper-nail",
+      "name": "Copper Nail",
+      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/5/5a/ITEM_Copper_Nail.png",
+      "url": "https://icarus.fandom.com/wiki/Copper_Nail",
+      "craft": [
+        {
+          "id": "copper-ingot",
+          "amount": 1
+        }
+      ],
+      "bench": "anvil-bench",
+      "quantityProduced": 10
+    },
+    {
+      "id": "iron-nail",
+      "name": "Iron Nail",
+      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/5/5a/ITEM_Iron_Nail.png",
+      "url": "https://icarus.fandom.com/wiki/Iron_Nail",
+      "craft": [
+        {
+          "id": "iron-ingot",
+          "amount": 1
+        }
+      ],
+      "bench": "anvil-bench",
+      "quantityProduced": 10
+    },
+    {
+      "id": "glass",
+      "name": "Glass",
+      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/5/5e/ITEM_Glass.png",
+      "url": "https://icarus.fandom.com/wiki/Glass",
+      "craft": [
+        {
+          "id": "silica-ore",
+          "amount": 1
+        }
+      ],
+      "bench": "Concrete Furnace"
+    },
+    {
+      "id": "epoxy",
+      "name": "Epoxy",
+      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/5/5e/ITEM_Epoxy.png",
+      "url": "https://icarus.fandom.com/wiki/Epoxy",
+      "craft": [
+        [
+          {
+            "id": "crushed-bone",
+            "amount": 4
+          }
+        ],
+        [
+          {
+            "id": "sulfur",
+            "amount": 2
+          },
+          {
+            "id": "tree-sap",
+            "amount": 4
+          }
+        ]
+      ],
+      "bench": "mortar-and-pestle"
+    },
+    {
       "id": "rope",
       "name": "Rope",
       "imageUrl": "https://static.wikia.nocookie.net/icarus/images/e/e0/ITEM_Rope.png",
@@ -9085,7 +9328,8 @@
           "amount": 1
         }
       ],
-      "bench": "machining-bench"
+      "bench": "machining-bench",
+      "quantityProduced": 10
     },
     {
       "id": "steel-screw",
@@ -9098,7 +9342,8 @@
           "amount": 1
         }
       ],
-      "bench": "machining-bench"
+      "bench": "machining-bench",
+      "quantityProduced": 100
     },
     {
       "id": "carbon-fiber",

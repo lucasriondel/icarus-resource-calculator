@@ -13,6 +13,7 @@ export interface Craftable {
         id: string;
         amount: number | null;
       }>[];
+  quantityProduced?: number;
 }
 
 export const craftables: Record<string, Craftable[]> = {};
