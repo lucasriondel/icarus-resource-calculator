@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
+import Image from "next/image";
 import { useState } from "react";
 import { SearchBar } from "../components/SearchBar";
 import { Option, ResourceWithAmount } from "../data/Decomposer";
@@ -9,15 +10,24 @@ import styles from "../styles/Home.module.css";
 const ResourceList: React.FC<{
   resources: (ResourceWithAmount | Option)[];
 }> = ({ resources }) => (
-  <ul>
+  <ul style={{ padding: 0 }}>
     {resources.map((resource, index) =>
       resource.hasOwnProperty("amount") ? (
-        <li key={index}>
-          {(resource as ResourceWithAmount).amount}{" "}
-          {(resource as ResourceWithAmount).name}
+        <li
+          style={{ display: "flex", alignItems: "center", gap: "8px" }}
+          key={index}
+        >
+          <Image
+            src={(resource as ResourceWithAmount).imageUrl}
+            alt={(resource as ResourceWithAmount).name}
+            width={30}
+            height={30}
+          />
+          {(resource as ResourceWithAmount).name} *{" "}
+          {(resource as ResourceWithAmount).amount}
         </li>
       ) : (
-        <div className={styles.row}>
+        <div className={styles.row} style={{ gap: "8px", marginLeft: "16px" }}>
           {(resource as Option).options.map((option, index) => (
             <ResourceList key={index} resources={option} />
           ))}
@@ -45,6 +55,20 @@ const Home: NextPage = () => {
       </Head>
 
       <div>
+        <h1>
+          <Image
+            width={40}
+            height={40}
+            src={require("../public/favicon.png")}
+            alt="Icarus logo"
+            onClick={() => {
+              alert("log printed in console for better debugging");
+              console.log({ craftId, amount, decomposition });
+            }}
+          />
+          Icarus Resource Calculator v0.1
+        </h1>
+
         <SearchBar
           value={{ craftId, amount }}
           onChange={(craftId, amount) => {
@@ -55,7 +79,7 @@ const Home: NextPage = () => {
 
         <div className={styles.row}>
           <div className={styles["row-item"]}>
-            <h1>Resources</h1>
+            <h3>Resources</h3>
 
             <ResourceList resources={decomposition} />
           </div>
