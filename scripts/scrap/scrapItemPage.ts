@@ -1,8 +1,9 @@
 import axios from "axios";
 import chalk from "chalk";
 import * as cheerio from "cheerio";
-import { Craftable } from "../data/craftables";
-import { kebabCasify } from "../data/helper";
+import { Craftable, CraftItem } from "../../data";
+import { kebabCasify } from "../../data/helper";
+
 import { baseUrl, benchs } from "./constants";
 
 class NoCraftFoundError extends Error {
@@ -113,7 +114,7 @@ export const scrapItemPage = async (url: string) => {
               const amount = parseInt((li.children[0] as any).data);
               const aTag = (li.children[1] as any).children[2] as any;
 
-              itemData.craft.push({
+              (itemData.craft as CraftItem[]).push({
                 id: kebabCasify(aTag.attribs.title),
                 amount,
               });
@@ -142,7 +143,7 @@ export const scrapItemPage = async (url: string) => {
 
           const amount = parseInt($(el).find("td").eq(0).text());
           const aTag = $(el).find("td").eq(1).find("a")[0];
-          itemData.craft.push({
+          (itemData.craft as CraftItem[]).push({
             id: kebabCasify(aTag.attribs.title),
             amount,
           });

@@ -1,20 +1,17 @@
 import craftablesJSON from "./craftables.json" assert { type: "json" };
 
+export interface CraftItem {
+  id: string;
+  amount: number;
+}
+
 export interface Craftable {
   id: string;
   name: string;
   url?: string;
   imageUrl?: string;
   bench?: string;
-  craft:
-    | Array<{
-        id: string;
-        amount: number;
-      }>
-    | Array<{
-        id: string;
-        amount: number;
-      }>[];
+  craft: CraftItem[] | CraftItem[][];
   quantityProduced?: number;
 }
 
