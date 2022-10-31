@@ -1,4 +1,7 @@
+import Image from "next/image";
 import { useMemo } from "react";
+import { ReactSearchAutocomplete } from "react-search-autocomplete";
+import { Craftable } from "../data";
 import { craftablesToFlatArray } from "../data/helper";
 
 interface SearchBarProps {
@@ -23,26 +26,57 @@ export function SearchBar({ value, onChange }: SearchBarProps) {
     []
   );
 
+  const handleOnSearch = (string: string, results: Craftable[]) => {
+    // onSearch will have as the first callback parameter
+    // the string searched and for the second the results.
+    console.log(string, results);
+  };
+
+  const handleOnHover = (result: Craftable) => {
+    // the item hovered
+    console.log(result);
+  };
+
+  const handleOnSelect = (item: Craftable) => {
+    // the item selected
+    console.log(item);
+    onChange(item.id, value.amount);
+  };
+
+  const handleOnFocus = () => {
+    console.log("Focused");
+  };
+
+  const formatResult = (item: Craftable) => {
+    return (
+      <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
+        <Image src={item.imageUrl} width={30} height={30} alt={item.name} />
+        <span>{item.name}</span>
+      </div>
+    );
+  };
+
   return (
     <header>
       <div>
-        <select
-          name="craft"
-          id="craft-select"
-          value={value.craftId}
-          onChange={(event) =>
-            onChange(event.currentTarget.value, value.amount)
-          }
-        >
-          <option value="">--Please choose a craft--</option>
-          {/* <option value={"composites"}>Composites</option> */}
-          {choices.map((resource) => (
-            <option key={resource.id} value={resource.id}>
-              {resource.name}
-            </option>
-          ))}
-        </select>
-        {" x "}
+        <ReactSearchAutocomplete
+          items={choices}
+          onSearch={handleOnSearch}
+          onHover={handleOnHover}
+          onSelect={handleOnSelect}
+          onFocus={handleOnFocus}
+          autoFocus
+          showIcon={false}
+          formatResult={formatResult}
+          styling={{
+            borderRadius: "none",
+            border: "1px solid #A1A29D",
+            backgroundColor: "#0E0E0E",
+            color: "#D2E4B2",
+            lineColor: "#D2E4B2",
+            hoverBackgroundColor: "#1D2017",
+          }}
+        />
         <input
           type="number"
           id="amount-craft"
