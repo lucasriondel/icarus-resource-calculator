@@ -1,8 +1,31 @@
+import styled from "@emotion/styled";
 import Image from "next/image";
 import { useMemo } from "react";
 import { ReactSearchAutocomplete } from "react-search-autocomplete";
 import { Craftable } from "../data";
 import { craftablesToFlatArray } from "../data/helper";
+
+const Row = styled.div`
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+
+  & > div {
+    width: 100%;
+  }
+`;
+
+const AmountInput = styled.input`
+  border: 1px solid #a1a29d;
+  background-color: #0e0e0e;
+  color: #d2e4b2;
+  padding: 0px 13px;
+  width: 70px;
+
+  &:focus {
+    outline: none;
+  }
+`;
 
 interface SearchBarProps {
   value: {
@@ -58,8 +81,9 @@ export function SearchBar({ value, onChange }: SearchBarProps) {
 
   return (
     <header>
-      <div>
+      <Row>
         <ReactSearchAutocomplete
+          placeholder="Please select a craft"
           items={choices}
           onSearch={handleOnSearch}
           onHover={handleOnHover}
@@ -75,15 +99,16 @@ export function SearchBar({ value, onChange }: SearchBarProps) {
             color: "#D2E4B2",
             lineColor: "#D2E4B2",
             hoverBackgroundColor: "#1D2017",
+            zIndex: 100,
           }}
         />
-        <input
+        <AmountInput
           type="number"
           id="amount-craft"
           value={value.amount}
           onChange={onChangeAmount}
         />
-      </div>
+      </Row>
     </header>
   );
 }

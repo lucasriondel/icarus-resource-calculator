@@ -12,6 +12,8 @@
     "data:sortHelper": "node --experimental-specifier-resolution=node --loader ts-node/esm scripts/sortCraftablesHelper.ts"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
     "chalk": "^5.1.2",
     "next": "12.3.1",
     "react": "18.2.0",
