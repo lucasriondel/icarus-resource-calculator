@@ -9356,7 +9356,8 @@
       "name": "Carbon Fiber",
       "imageUrl": "https://static.wikia.nocookie.net/icarus/images/6/68/ITEM_Carbon_Fiber.png",
       "url": "https://icarus.fandom.com/wiki/Carbon_Fiber",
-      "craft": []
+      "craft": [{ "id": "carbon-paste", "amount": 1 }],
+      "bench": "mortar-and-pestle"
     }
   ],
   "debug": [

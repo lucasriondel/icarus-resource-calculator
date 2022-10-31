@@ -43,6 +43,10 @@ const scrapBench = async (title: string, url: string) => {
   }
 };
 
+// TODOs:
+// - make the scrap script aware of what is already scrapped to avoid
+// re-scraping data that is already in the data folder and cleaned
+// - find a way to execute the script without having to set "type": "module" in package.json
 export const scrapItemPage = async (url: string) => {
   try {
     const { data } = await axios.get(baseUrl + url);
@@ -152,10 +156,6 @@ export const scrapItemPage = async (url: string) => {
         throw e;
       }
     }
-
-    // console.log(
-    //   `${chalk.bgGreen("SUCCESS")} scrapped ${itemData.name} (${itemData.url})`
-    // );
 
     return itemData;
   } catch (e) {
