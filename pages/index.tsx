@@ -3,7 +3,6 @@ import Head from "next/head";
 import { useState } from "react";
 import { SearchBar } from "../components/SearchBar";
 import { useDecomposer } from "../hooks/useDecomposer";
-import styles from "../styles/Home.module.css";
 
 import { AppBar } from "../components/AppBar";
 import { Page } from "../components/Page";
@@ -17,7 +16,7 @@ const Home: NextPage = () => {
   const decomposition = useDecomposer(craftId, isNaN(amount) ? 0 : amount);
 
   return (
-    <Page className={styles.container}>
+    <Page>
       <Head>
         <title>Icarus Resource Calculator</title>
         <meta
