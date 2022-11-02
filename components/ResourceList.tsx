@@ -12,6 +12,7 @@ const Li = styled.li`
   display: flex;
   align-items: center;
   gap: 8px;
+  font-size: 1.25rem;
 `;
 
 const OptionContainer = styled.div`

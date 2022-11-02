@@ -1,12 +1,12 @@
 import styled from "@emotion/styled";
 import Image from "next/image";
-import { useMemo } from "react";
+import { useMemo, useState } from "react";
 import { ReactSearchAutocomplete } from "react-search-autocomplete";
 import { devGothic } from "../assets/fonts";
 import { Craftable } from "../data";
 import { craftablesToFlatArray } from "../data/helper";
 
-const Row = styled.div`
+const MainContainer = styled.form`
   display: flex;
   flex-direction: row;
   gap: 16px;
@@ -29,10 +29,6 @@ const AmountInput = styled.input`
   color: #d2e4b2;
   padding: 0px 13px;
   width: 70px;
-
-  &:focus {
-    outline: none;
-  }
 `;
 
 const Choice = styled.div`
@@ -41,18 +37,37 @@ const Choice = styled.div`
   gap: 8px;
 `;
 
+const AddButton = styled.button`
+  padding: 0px 16px;
+  font-family: ${devGothic.style.fontFamily};
+  font-size: 1.25rem;
+
+  border: 1px solid #d2e4b2;
+  color: #d2e4b2;
+  background-color: #0e0e0e;
+
+  &:hover {
+    color: #0e0e0e;
+    background-color: #d2e4b2;
+  }
+
+  &:active {
+    color: #d2e4b2;
+    background-color: #0e0e0e;
+  }
+`;
+
 interface SearchBarProps {
-  value: {
-    craftId: string | undefined;
-    amount: number;
-  };
-  onChange: (craftId: string | undefined, amount: number) => void;
+  onAddToCraftList: (craftId: string, amount: number) => void;
 }
 
-export function SearchBar({ value, onChange }: SearchBarProps) {
+export function SearchBar({ onAddToCraftList }: SearchBarProps) {
+  const [craftId, setCraftId] = useState<string>();
+  const [amount, setAmount] = useState(1);
+
   const onChangeAmount = (e: React.ChangeEvent<HTMLInputElement>) => {
     const newAmount = parseInt(e.currentTarget.value);
-    onChange(value.craftId, newAmount < 1 ? 1 : newAmount);
+    setAmount(newAmount < 1 ? 1 : newAmount);
   };
 
   const choices = useMemo(
@@ -64,7 +79,7 @@ export function SearchBar({ value, onChange }: SearchBarProps) {
   );
 
   const handleOnSelect = (item: Craftable) => {
-    onChange(item.id, value.amount);
+    setCraftId(item.id);
   };
 
   const handleOnFocus = () => {
@@ -81,33 +96,40 @@ export function SearchBar({ value, onChange }: SearchBarProps) {
   };
 
   return (
-    <div>
-      <Row>
-        <ReactSearchAutocomplete
-          placeholder="Please select a craft"
-          items={choices}
-          onSelect={handleOnSelect}
-          onFocus={handleOnFocus}
-          autoFocus
-          showIcon={false}
-          formatResult={formatResult}
-          styling={{
-            borderRadius: "none",
-            border: "1px solid #A1A29D",
-            backgroundColor: "#0E0E0E",
-            color: "#D2E4B2",
-            lineColor: "#D2E4B2",
-            hoverBackgroundColor: "#1D2017",
-            zIndex: 100,
-          }}
-        />
-        <AmountInput
-          type="number"
-          id="amount-craft"
-          value={value.amount}
-          onChange={onChangeAmount}
-        />
-      </Row>
-    </div>
+    <MainContainer
+      onSubmit={(e) => {
+        e.preventDefault();
+        console.log({ craftId, amount });
+        if (craftId && !isNaN(amount) && amount > 0) {
+          onAddToCraftList(craftId, amount);
+        }
+      }}
+    >
+      <ReactSearchAutocomplete
+        placeholder="Please select a craft"
+        items={choices}
+        onSelect={handleOnSelect}
+        onFocus={handleOnFocus}
+        autoFocus
+        showIcon={false}
+        formatResult={formatResult}
+        styling={{
+          borderRadius: "none",
+          border: "1px solid #A1A29D",
+          backgroundColor: "#0E0E0E",
+          color: "#D2E4B2",
+          lineColor: "#D2E4B2",
+          hoverBackgroundColor: "#1D2017",
+          zIndex: 100,
+        }}
+      />
+      <AmountInput
+        type="number"
+        id="amount-craft"
+        value={amount}
+        onChange={onChangeAmount}
+      />
+      <AddButton type="submit">Add</AddButton>
+    </MainContainer>
   );
 }

@@ -3,6 +3,7 @@ import { ReactNode } from "react";
 
 const Title = styled.h3`
   color: #d2e4b2;
+  margin: 0;
   margin-bottom: 4px;
   margin-left: 8px;
 `;
