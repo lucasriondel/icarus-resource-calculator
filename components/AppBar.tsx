@@ -9,6 +9,11 @@ const MainContainer = styled.header`
   align-items: center;
 `;
 
+const Links = styled.div`
+  display: flex;
+  gap: 16px;
+`;
+
 interface AppBarProps {
   onLogoClick: () => void;
 }
@@ -27,9 +32,21 @@ export const AppBar = ({ onLogoClick }: AppBarProps) => {
         Icarus Resource Calculator v{version}
       </h1>
 
-      <Link href="https://github.com/lucasriondel/icarus-resource-calculator">
-        Github
-      </Link>
+      <Links>
+        <Link
+          target="_blank"
+          href="https://github.com/lucasriondel/icarus-resource-calculator"
+        >
+          Github
+        </Link>
+
+        <Link
+          target="_blank"
+          href="https://github.com/lucasriondel/icarus-resource-calculator/issues/new/choose"
+        >
+          Bug Report
+        </Link>
+      </Links>
     </MainContainer>
   );
 };
