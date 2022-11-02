@@ -2,6 +2,7 @@ import styled from "@emotion/styled";
 import Image from "next/image";
 import { useMemo } from "react";
 import { ReactSearchAutocomplete } from "react-search-autocomplete";
+import { devGothic } from "../assets/fonts";
 import { Craftable } from "../data";
 import { craftablesToFlatArray } from "../data/helper";
 
@@ -12,10 +13,17 @@ const Row = styled.div`
 
   & > div {
     width: 100%;
+
+    & > .wrapper {
+      font-family: ${devGothic.style.fontFamily};
+      font-size: 1.25rem;
+    }
   }
 `;
 
 const AmountInput = styled.input`
+  font-family: ${devGothic.style.fontFamily};
+  font-size: 1.25rem;
   border: 1px solid #a1a29d;
   background-color: #0e0e0e;
   color: #d2e4b2;
@@ -25,6 +33,12 @@ const AmountInput = styled.input`
   &:focus {
     outline: none;
   }
+`;
+
+const Choice = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 8px;
 `;
 
 interface SearchBarProps {
@@ -49,20 +63,7 @@ export function SearchBar({ value, onChange }: SearchBarProps) {
     []
   );
 
-  const handleOnSearch = (string: string, results: Craftable[]) => {
-    // onSearch will have as the first callback parameter
-    // the string searched and for the second the results.
-    console.log(string, results);
-  };
-
-  const handleOnHover = (result: Craftable) => {
-    // the item hovered
-    console.log(result);
-  };
-
   const handleOnSelect = (item: Craftable) => {
-    // the item selected
-    console.log(item);
     onChange(item.id, value.amount);
   };
 
@@ -72,21 +73,19 @@ export function SearchBar({ value, onChange }: SearchBarProps) {
 
   const formatResult = (item: Craftable) => {
     return (
-      <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
+      <Choice>
         <Image src={item.imageUrl} width={30} height={30} alt={item.name} />
         <span>{item.name}</span>
-      </div>
+      </Choice>
     );
   };
 
   return (
-    <header>
+    <div>
       <Row>
         <ReactSearchAutocomplete
           placeholder="Please select a craft"
           items={choices}
-          onSearch={handleOnSearch}
-          onHover={handleOnHover}
           onSelect={handleOnSelect}
           onFocus={handleOnFocus}
           autoFocus
@@ -109,6 +108,6 @@ export function SearchBar({ value, onChange }: SearchBarProps) {
           onChange={onChangeAmount}
         />
       </Row>
-    </header>
+    </div>
   );
 }
