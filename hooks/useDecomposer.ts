@@ -1,15 +1,22 @@
 import { useMemo } from "react";
-import { Decomposer } from "../data/Decomposer";
+import { Decomposer, Option, ResourceWithAmount } from "../data/Decomposer";
 import { getResourceFromResourceId } from "../data/helper";
+import { CraftList } from "../pages";
 
-export function useDecomposer(craftId: string | undefined, amount: number) {
+export function useDecomposer(craftList: CraftList) {
   return useMemo(() => {
     const decomposer = new Decomposer();
 
-    return craftId
-      ? decomposer.mergeDuplicates(
-          decomposer.getResourceList(getResourceFromResourceId(craftId), amount)
-        )
-      : [];
-  }, [craftId, amount]);
+    return decomposer.mergeDuplicates(
+      craftList.reduce((acc, { craftId, amount }) => {
+        acc.push(
+          ...decomposer.getResourceList(
+            getResourceFromResourceId(craftId),
+            amount
+          )
+        );
+        return acc;
+      }, [] as Array<ResourceWithAmount | Option>)
+    );
+  }, [craftList]);
 }
