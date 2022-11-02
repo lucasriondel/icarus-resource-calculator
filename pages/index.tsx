@@ -23,23 +23,19 @@ const CraftList = styled.div`
   gap: 16px;
   overflow-x: scroll;
 
-  /* width */
   ::-webkit-scrollbar {
     width: 10px;
     height: 4px;
   }
 
-  /* Track */
   ::-webkit-scrollbar-track {
     background: transparent;
   }
 
-  /* Handle */
   ::-webkit-scrollbar-thumb {
     background: #5c84a4;
   }
 
-  /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
     background: #13192a;
   }
@@ -49,37 +45,7 @@ const CraftList = styled.div`
 export type CraftList = Array<{ craftId: string; amount: number }>;
 
 const Home: NextPage = () => {
-  // const [craftList, setCraftList] = useState<CraftList>([]);
-  const [craftList, setCraftList] = useState<CraftList>([
-    {
-      craftId: "electronics",
-      amount: 6,
-    },
-    {
-      craftId: "hunting-rifle",
-      amount: 4,
-    },
-    {
-      craftId: "wood-beam",
-      amount: 4,
-    },
-    {
-      craftId: "wood-bed",
-      amount: 4,
-    },
-    {
-      craftId: "stew",
-      amount: 4,
-    },
-    {
-      craftId: "sandworm-bow",
-      amount: 4,
-    },
-    {
-      craftId: "oxidizer",
-      amount: 4,
-    },
-  ]);
+  const [craftList, setCraftList] = useState<CraftList>([]);
 
   const decomposition = useDecomposer(craftList);
 
