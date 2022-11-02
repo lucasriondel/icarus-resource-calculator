@@ -29,6 +29,11 @@ const AmountInput = styled.input`
   color: #d2e4b2;
   padding: 0px 13px;
   width: 70px;
+
+  &:focus,
+  &:hover {
+    border: 1px solid #d2e4b2;
+  }
 `;
 
 const Choice = styled.div`
@@ -42,17 +47,25 @@ const AddButton = styled.button`
   font-family: ${devGothic.style.fontFamily};
   font-size: 1.25rem;
 
-  border: 1px solid #d2e4b2;
+  border: 1px solid #a1a29d;
   color: #d2e4b2;
   background-color: #0e0e0e;
 
   &:hover {
     color: #0e0e0e;
+    border: 1px solid #d2e4b2;
     background-color: #d2e4b2;
   }
 
   &:active {
     color: #d2e4b2;
+    border: 1px solid #d2e4b2;
+    background-color: #0e0e0e;
+  }
+
+  &:focus {
+    color: #d2e4b2;
+    border: 1px solid #d2e4b2;
     background-color: #0e0e0e;
   }
 `;
@@ -82,10 +95,6 @@ export function SearchBar({ onAddToCraftList }: SearchBarProps) {
     setCraftId(item.id);
   };
 
-  const handleOnFocus = () => {
-    console.log("Focused");
-  };
-
   const formatResult = (item: Craftable) => {
     return (
       <Choice>
@@ -109,7 +118,6 @@ export function SearchBar({ onAddToCraftList }: SearchBarProps) {
         placeholder="Please select a craft"
         items={choices}
         onSelect={handleOnSelect}
-        onFocus={handleOnFocus}
         autoFocus
         showIcon={false}
         formatResult={formatResult}
