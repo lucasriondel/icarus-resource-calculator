@@ -1524,112 +1524,112 @@
     {
       "id": "alpha-wolf-head",
       "name": "Alpha Wolf Head",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/d/d0/ITEM_Alpha_Wolf_Head.png/revision/latest?cb=20220304153324",
+      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/d/d0/ITEM_Alpha_Wolf_Head.png",
       "url": "https://icarus.fandom.com/wiki/Alpha_Wolf_Head",
       "craft": []
     },
     {
       "id": "bear-head",
       "name": "Bear Head",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/4/4d/ITEM_Bear_Head.png/revision/latest?cb=20220304153208",
+      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/4/4d/ITEM_Bear_Head.png",
       "url": "https://icarus.fandom.com/wiki/Bear_Head",
       "craft": []
     },
     {
       "id": "black-jaguar-head",
       "name": "Black Jaguar Head",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/7/73/ITEM_Black_Jaguar_Head.png/revision/latest?cb=20220304154949",
+      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/7/73/ITEM_Black_Jaguar_Head.png",
       "url": "https://icarus.fandom.com/wiki/Black_Jaguar_Head",
       "craft": []
     },
     {
       "id": "buffalo-head",
       "name": "Buffalo Head",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/2/26/ITEM_Buffalo_Head.png/revision/latest?cb=20220304154951",
+      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/2/26/ITEM_Buffalo_Head.png",
       "url": "https://icarus.fandom.com/wiki/Buffalo_Head",
       "craft": []
     },
     {
       "id": "cougar-head",
       "name": "Cougar Head",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/d/d8/ITEM_Cougar_Head.png/revision/latest?cb=20220304153317",
+      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/d/d8/ITEM_Cougar_Head.png",
       "url": "https://icarus.fandom.com/wiki/Cougar_Head",
       "craft": []
     },
     {
       "id": "deer-head",
       "name": "Deer Head",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/3/33/ITEM_Deer_Head.png/revision/latest?cb=20220304153216",
+      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/3/33/ITEM_Deer_Head.png",
       "url": "https://icarus.fandom.com/wiki/Deer_Head",
       "craft": []
     },
     {
       "id": "jaguar-head",
       "name": "Jaguar Head",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/8/8b/ITEM_Jaguar_Head.png/revision/latest?cb=20220304154951",
+      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/8/8b/ITEM_Jaguar_Head.png",
       "url": "https://icarus.fandom.com/wiki/Jaguar_Head",
       "craft": []
     },
     {
       "id": "mammoth-head",
       "name": "Mammoth Head",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/d/de/ITEM_Mammoth_Head.png/revision/latest?cb=20220304154951",
+      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/d/de/ITEM_Mammoth_Head.png",
       "url": "https://icarus.fandom.com/wiki/Mammoth_Head",
       "craft": []
     },
     {
       "id": "polar-bear-head",
       "name": "Polar Bear Head",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/a/aa/ITEM_Polar_Bear_Head.png/revision/latest?cb=20220304153332",
+      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/a/aa/ITEM_Polar_Bear_Head.png",
       "url": "https://icarus.fandom.com/wiki/Polar_Bear_Head",
       "craft": []
     },
     {
       "id": "snow-leopard-head",
       "name": "Snow Leopard Head",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/1/17/ITEM_Snow_Leopard_Head.png/revision/latest?cb=20220304155912",
+      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/1/17/ITEM_Snow_Leopard_Head.png",
       "url": "https://icarus.fandom.com/wiki/Snow_Leopard_Head",
       "craft": []
     },
     {
       "id": "coal-ore",
       "name": "Coal Ore",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/e/ee/ITEM_Coal_Ore.png/revision/latest?cb=20211113124646",
+      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/e/ee/ITEM_Coal_Ore.png",
       "url": "https://icarus.fandom.com/wiki/Coal_Ore",
       "craft": []
     },
     {
       "id": "poison-sack",
       "name": "Poison Sack",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/f/f1/ITEM_Poison_Sack.png/revision/latest?cb=20220325090242",
+      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/f/f1/ITEM_Poison_Sack.png",
       "url": "https://icarus.fandom.com/wiki/Poison_Sack",
       "craft": []
     },
     {
       "id": "mushroom",
       "name": "Mushroom",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/7/72/ITEM_Mushroom.png/revision/latest?cb=20211224115845",
+      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/7/72/ITEM_Mushroom.png",
       "url": "https://icarus.fandom.com/wiki/Mushroom",
       "craft": []
     },
     {
       "id": "carrot",
       "name": "Carrot",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/1/10/ITEM_Carrot.png/revision/latest?cb=20211224115814",
+      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/1/10/ITEM_Carrot.png",
       "url": "https://icarus.fandom.com/wiki/Carrot",
       "craft": []
     },
     {
       "id": "scorpion-tail",
       "name": "Scorpion Tail",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/7/71/ITEM_Scorpion_Tail.png/revision/latest?cb=20220414075219",
+      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/7/71/ITEM_Scorpion_Tail.png",
       "url": "https://icarus.fandom.com/wiki/Scorpion_Tail",
       "craft": []
     },
     {
       "id": "scorpion-pincer",
       "name": "Scorpion Pincer",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/d/d6/ITEM_Scorpion_Pincer.png/revision/latest?cb=20220414075219",
+      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/d/d6/ITEM_Scorpion_Pincer.png",
       "url": "https://icarus.fandom.com/wiki/Scorpion_Pincer",
       "craft": []
     },
@@ -1643,14 +1643,14 @@
     {
       "id": "sulfur",
       "name": "Sulfur",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/e/e0/ITEM_Sulfur.png/revision/latest?cb=20211113120550",
+      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/e/e0/ITEM_Sulfur.png",
       "url": "https://icarus.fandom.com/wiki/Sulfur",
       "craft": []
     },
     {
       "id": "oxite",
       "name": "Oxite",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/f/f0/ITEM_Oxite.png/revision/latest?cb=20211113122244",
+      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/f/f0/ITEM_Oxite.png",
       "url": "https://icarus.fandom.com/wiki/Oxite",
       "craft": []
     },
@@ -1671,7 +1671,7 @@
     {
       "id": "worm-scale",
       "name": "Worm Scale",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/e/e2/ITEM_Worm_Scale.png/revision/latest?cb=20220325214038",
+      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/e/e2/ITEM_Worm_Scale.png",
       "url": "https://icarus.fandom.com/wiki/Worm_Scale",
       "craft": []
     },
@@ -1748,28 +1748,28 @@
     {
       "id": "gold-ore",
       "name": "Gold Ore",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/2/26/ITEM_Gold_Ore.png/revision/latest?cb=20211113113539",
+      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/2/26/ITEM_Gold_Ore.png",
       "url": "https://icarus.fandom.com/wiki/Gold_Ore",
       "craft": []
     },
     {
       "id": "copper-ore",
       "name": "Copper Ore",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/6/63/ITEM_Copper_Ore.png/revision/latest?cb=20211113111551",
+      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/6/63/ITEM_Copper_Ore.png",
       "url": "https://icarus.fandom.com/wiki/Copper_Ore",
       "craft": []
     },
     {
       "id": "aluminium-ore",
       "name": "Aluminium Ore",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/a/a9/ITEM_Aluminium_Ore.png/revision/latest?cb=20211113113334",
+      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/a/a9/ITEM_Aluminium_Ore.png",
       "url": "https://icarus.fandom.com/wiki/Aluminium_Ore",
       "craft": []
     },
     {
       "id": "platinum-ore",
       "name": "Platinum Ore",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/2/22/ITEM_Platinum_Ore.png/revision/latest?cb=20211113113723",
+      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/2/22/ITEM_Platinum_Ore.png",
       "url": "https://icarus.fandom.com/wiki/Platinum_Ore",
       "craft": []
     },
@@ -8940,9 +8940,77 @@
   ],
   "processedRessources": [
     {
+      "id": "buckshot-shell",
+      "name": "Buckshot Shell",
+      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/c/c1/ITEM_00_Buckshot_Shell.png",
+      "craft": [
+        {
+          "id": "copper-ingot",
+          "amount": 1
+        },
+        {
+          "id": "epoxy",
+          "amount": 1
+        },
+        {
+          "id": "gunpowder",
+          "amount": 6
+        }
+      ],
+      "bench": "machining-bench"
+    },
+    {
+      "id": "pistol-round",
+      "name": "Pistol Round",
+      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/0/05/ITEM_Pistol_Round.png",
+      "craft": [
+        {
+          "id": "iron-ingot",
+          "amount": 1
+        },
+        {
+          "id": "gunpowder",
+          "amount": 1
+        }
+      ],
+      "bench": "machining-bench"
+    },
+    {
+      "id": "rifle-round",
+      "name": "Rifle Round",
+      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/a/ae/ITEM_Rifle_Round.png",
+      "craft": [
+        {
+          "id": "iron-ingot",
+          "amount": 1
+        },
+        {
+          "id": "gunpowder",
+          "amount": 1
+        }
+      ],
+      "bench": "machining-bench"
+    },
+    {
+      "id": "incendiary-rifle-round",
+      "name": "Incendiary Rifle Round",
+      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/2/2d/ITEM_Incendiary_Rifle_Round.png",
+      "craft": [
+        {
+          "id": "iron-ingot",
+          "amount": 1
+        },
+        {
+          "id": "gunpowder",
+          "amount": 10
+        }
+      ],
+      "bench": "machining-bench"
+    },
+    {
       "id": "beer-bottle",
       "name": "Beer Bottle",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/6/6a/ITEM_Beer_Bottle.png/revision/latest?cb=20211101181127",
+      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/6/6a/ITEM_Beer_Bottle.png",
       "url": "https://icarus.fandom.com/wiki/Beer_Bottle",
       "craft": [
         {
@@ -8955,7 +9023,7 @@
     {
       "id": "wine-bottle",
       "name": "Wine Bottle",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/9/91/ITEM_Wine_Bottle.png/revision/latest?cb=20211101181136",
+      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/9/91/ITEM_Wine_Bottle.png",
       "url": "https://icarus.fandom.com/wiki/Wine_Bottle",
       "craft": [
         {
@@ -8968,7 +9036,7 @@
     {
       "id": "refined-wood",
       "name": "Refined Wood",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/1/14/ITEM_Refined_Wood.png/revision/latest?cb=20210916210129",
+      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/1/14/ITEM_Refined_Wood.png",
       "url": "https://icarus.fandom.com/wiki/Refined_Wood",
       "craft": [
         {
@@ -8982,7 +9050,7 @@
     {
       "id": "glass-jar",
       "name": "Glass Jar",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/0/03/ITEM_Glass_Jar.png/revision/latest?cb=20211101180949",
+      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/0/03/ITEM_Glass_Jar.png",
       "url": "https://icarus.fandom.com/wiki/Glass_Jar",
       "craft": [
         {
@@ -8999,7 +9067,7 @@
     {
       "id": "steel-bloom",
       "name": "Steel Bloom",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/2/27/ITEM_Steel_Bloom.png/revision/latest?cb=20210916210129",
+      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/2/27/ITEM_Steel_Bloom.png",
       "url": "https://icarus.fandom.com/wiki/Steel_Bloom",
       "craft": [
         [
@@ -9028,7 +9096,7 @@
     {
       "id": "tree-sap",
       "name": "Tree Sap",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/5/50/ITEM_Tree_Sap.png/revision/latest?cb=20210916210129",
+      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/5/50/ITEM_Tree_Sap.png",
       "url": "https://icarus.fandom.com/wiki/Tree_Sap",
       "craft": [
         {
@@ -9041,7 +9109,7 @@
     {
       "id": "copper-nail",
       "name": "Copper Nail",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/6/6b/ITEM_Copper_Nail.png/revision/latest?cb=20211110183801",
+      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/6/6b/ITEM_Copper_Nail.png",
       "url": "https://icarus.fandom.com/wiki/Copper_Nail",
       "craft": [
         {
@@ -9055,7 +9123,7 @@
     {
       "id": "iron-nail",
       "name": "Iron Nail",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/0/06/ITEM_Iron_Nail.png/revision/latest?cb=20211110183818",
+      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/0/06/ITEM_Iron_Nail.png",
       "url": "https://icarus.fandom.com/wiki/Iron_Nail",
       "craft": [
         {
@@ -9069,7 +9137,7 @@
     {
       "id": "glass",
       "name": "Glass",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/9/91/ITEM_Glass.png/revision/latest?cb=20210916205913",
+      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/9/91/ITEM_Glass.png",
       "url": "https://icarus.fandom.com/wiki/Glass",
       "craft": [
         {
@@ -9082,7 +9150,7 @@
     {
       "id": "epoxy",
       "name": "Epoxy",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/8/8c/ITEM_Epoxy.png/revision/latest?cb=20210916205447",
+      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/8/8c/ITEM_Epoxy.png",
       "url": "https://icarus.fandom.com/wiki/Epoxy",
       "craft": [
         [
