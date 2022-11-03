@@ -9,7 +9,8 @@
     "lint": "next lint",
     "data:scrap": "node --experimental-specifier-resolution=node --loader ts-node/esm scripts/scrap/scrapper.ts",
     "data:lint": "node --experimental-specifier-resolution=node --loader ts-node/esm scripts/lintCraftables.ts",
-    "data:sortHelper": "node --experimental-specifier-resolution=node --loader ts-node/esm scripts/sortCraftablesHelper.ts"
+    "data:sortHelper": "node --experimental-specifier-resolution=node --loader ts-node/esm scripts/sortCraftablesHelper.ts",
+    "test": "vitest"
   },
   "dependencies": {
     "@emotion/react": "^11.10.5",
@@ -36,6 +37,7 @@
     "inquirer": "^9.1.4",
     "inquirer-search-list": "^1.2.6",
     "ts-node": "^10.9.1",
-    "typescript": "4.8.4"
+    "typescript": "4.8.4",
+    "vitest": "^0.24.5"
   }
 }

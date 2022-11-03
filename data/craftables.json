@@ -9152,23 +9152,36 @@
       "name": "Epoxy",
       "imageUrl": "https://static.wikia.nocookie.net/icarus/images/8/8c/ITEM_Epoxy.png",
       "url": "https://icarus.fandom.com/wiki/Epoxy",
+      "variants": ["epoxy-crushed-bone", "epoxy-sulfur-and-tree-sap"],
+      "bench": "mortar-and-pestle"
+    },
+    {
+      "id": "epoxy-crushed-bone",
+      "name": "Epoxy (Crushed Bone)",
+      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/8/8c/ITEM_Epoxy.png",
+      "url": "https://icarus.fandom.com/wiki/Epoxy",
       "craft": [
-        [
-          {
-            "id": "crushed-bone",
-            "amount": 4
-          }
-        ],
-        [
-          {
-            "id": "sulfur",
-            "amount": 2
-          },
-          {
-            "id": "tree-sap",
-            "amount": 4
-          }
-        ]
+        {
+          "id": "crushed-bone",
+          "amount": 4
+        }
+      ],
+      "bench": "mortar-and-pestle"
+    },
+    {
+      "id": "epoxy-sulfur-and-tree-sap",
+      "name": "Epoxy (Sulfur & Tree Sap)",
+      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/8/8c/ITEM_Epoxy.png",
+      "url": "https://icarus.fandom.com/wiki/Epoxy",
+      "craft": [
+        {
+          "id": "sulfur",
+          "amount": 2
+        },
+        {
+          "id": "tree-sap",
+          "amount": 4
+        }
       ],
       "bench": "mortar-and-pestle"
     },
