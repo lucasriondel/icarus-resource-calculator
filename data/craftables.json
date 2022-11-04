@@ -9070,26 +9070,14 @@
       "imageUrl": "https://static.wikia.nocookie.net/icarus/images/2/27/ITEM_Steel_Bloom.png",
       "url": "https://icarus.fandom.com/wiki/Steel_Bloom",
       "craft": [
-        [
-          {
-            "id": "iron-ore",
-            "amount": 6
-          },
-          {
-            "id": "coal-ore",
-            "amount": 1
-          }
-        ],
-        [
-          {
-            "id": "iron-ingot",
-            "amount": 3
-          },
-          {
-            "id": "coal-ore",
-            "amount": 1
-          }
-        ]
+        {
+          "id": "iron-ore",
+          "amount": 6
+        },
+        {
+          "id": "coal-ore",
+          "amount": 1
+        }
       ],
       "bench": "mortar-and-pestle"
     },
@@ -9190,19 +9178,32 @@
       "name": "Rope",
       "imageUrl": "https://static.wikia.nocookie.net/icarus/images/e/e0/ITEM_Rope.png",
       "url": "https://icarus.fandom.com/wiki/Rope",
+      "variants": ["rope-fiber", "rope-leather"],
+      "bench": "textiles-bench"
+    },
+    {
+      "id": "rope-fiber",
+      "name": "Rope (Fiber)",
+      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/e/e0/ITEM_Rope.png",
+      "url": "https://icarus.fandom.com/wiki/Rope",
       "craft": [
-        [
-          {
-            "id": "fiber",
-            "amount": 12
-          }
-        ],
-        [
-          {
-            "id": "leather",
-            "amount": 5
-          }
-        ]
+        {
+          "id": "fiber",
+          "amount": 12
+        }
+      ],
+      "bench": "crafting-bench"
+    },
+    {
+      "id": "rope-leather",
+      "name": "Rope (Leather)",
+      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/e/e0/ITEM_Rope.png",
+      "url": "https://icarus.fandom.com/wiki/Rope",
+      "craft": [
+        {
+          "id": "leather",
+          "amount": 5
+        }
       ],
       "bench": "textiles-bench"
     },
@@ -9211,43 +9212,57 @@
       "name": "Composite Paste",
       "imageUrl": "https://static.wikia.nocookie.net/icarus/images/f/fb/ITEM_Composite_Paste.png",
       "url": "https://icarus.fandom.com/wiki/Composite_Paste",
+      "variants": ["composite-paste-gold", "composite-paste-platinum"],
+
+      "bench": "material-processor"
+    },
+    {
+      "id": "composite-paste-gold",
+      "name": "Composite Paste (Gold)",
+      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/f/fb/ITEM_Composite_Paste.png",
+      "url": "https://icarus.fandom.com/wiki/Composite_Paste",
       "craft": [
-        [
-          {
-            "id": "iron-ore",
-            "amount": 2
-          },
-          {
-            "id": "silica-ore",
-            "amount": 1
-          },
-          {
-            "id": "organic-resin",
-            "amount": 1
-          },
-          {
-            "id": "gold-ore",
-            "amount": 1
-          }
-        ],
-        [
-          {
-            "id": "iron-ore",
-            "amount": 2
-          },
-          {
-            "id": "silica-ore",
-            "amount": 1
-          },
-          {
-            "id": "organic-resin",
-            "amount": 1
-          },
-          {
-            "id": "platinum-ore",
-            "amount": 1
-          }
-        ]
+        {
+          "id": "iron-ore",
+          "amount": 2
+        },
+        {
+          "id": "silica-ore",
+          "amount": 1
+        },
+        {
+          "id": "organic-resin",
+          "amount": 1
+        },
+        {
+          "id": "gold-ore",
+          "amount": 1
+        }
+      ],
+      "bench": "material-processor"
+    },
+    {
+      "id": "composite-paste-platinum",
+      "name": "Composite Paste (Platinum)",
+      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/f/fb/ITEM_Composite_Paste.png",
+      "url": "https://icarus.fandom.com/wiki/Composite_Paste",
+      "craft": [
+        {
+          "id": "iron-ore",
+          "amount": 2
+        },
+        {
+          "id": "silica-ore",
+          "amount": 1
+        },
+        {
+          "id": "organic-resin",
+          "amount": 1
+        },
+        {
+          "id": "platinum-ore",
+          "amount": 1
+        }
       ],
       "bench": "material-processor"
     },
@@ -9439,80 +9454,6 @@
       "url": "https://icarus.fandom.com/wiki/Carbon_Fiber",
       "craft": [{ "id": "carbon-paste", "amount": 1 }],
       "bench": "mortar-and-pestle"
-    }
-  ],
-  "debug": [
-    {
-      "id": "test-for-multi-recipe",
-      "name": "test for multi recipe",
-      "craft": [
-        [
-          {
-            "id": "wood",
-            "amount": 20
-          },
-          {
-            "id": "stick",
-            "amount": 10
-          },
-          {
-            "id": "iron-ore",
-            "amount": 1
-          }
-        ],
-        [
-          {
-            "id": "wood",
-            "amount": 20
-          },
-          {
-            "id": "stick",
-            "amount": 15
-          },
-          {
-            "id": "copper-ore",
-            "amount": 1
-          }
-        ],
-        [
-          {
-            "id": "wood",
-            "amount": 20
-          },
-          {
-            "id": "stick",
-            "amount": 2
-          },
-          {
-            "id": "gold-ore",
-            "amount": 1
-          }
-        ]
-      ]
-    },
-    {
-      "id": "truc-avec-des-iron-nail",
-      "name": "truc avec des iron nail",
-      "craft": [
-        {
-          "id": "iron-nail",
-          "amount": 4
-        }
-      ]
-    },
-    {
-      "id": "test-for-multi-render",
-      "name": "test for multi render",
-      "craft": [
-        {
-          "id": "iron-nail",
-          "amount": 25
-        },
-        {
-          "id": "truc-avec-des-iron-nail",
-          "amount": 1
-        }
-      ]
     }
   ]
 }

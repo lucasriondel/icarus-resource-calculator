@@ -16,7 +16,7 @@ export class Decomposer {
     craftable: Craftable,
     amount = 1,
     forcedVariants?: string[]
-  ): any {
+  ): ResourceWithAmount {
     const result = this.getPathToResourceRecursive(
       craftable,
       amount,
