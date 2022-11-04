@@ -7,7 +7,6 @@ import { useDecomposer } from "../hooks/useDecomposer";
 import styled from "@emotion/styled";
 import { AppBar } from "../components/AppBar";
 import { Page } from "../components/Page";
-import { ResourceList } from "../components/ResourceList";
 import { Section } from "../components/Section";
 import { SelectedCraftable } from "../components/SelectedCraftable";
 import { getResourceFromResourceId } from "../data/helper";
@@ -117,7 +116,7 @@ const Home: NextPage = () => {
         )}
 
         <Section title="Resources">
-          <ResourceList resources={decomposition} />
+          {/* <ResourceList resources={decomposition} /> */}
         </Section>
       </Content>
     </Page>
