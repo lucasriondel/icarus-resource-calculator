@@ -119,7 +119,7 @@ const Home: NextPage = () => {
 
         <Section title="Detailed path">
           {paths.map((path) => (
-            <Path key={path.id} path={path} />
+            <Path key={path.id} path={path} isExpandedPath={false} />
           ))}
         </Section>
 
