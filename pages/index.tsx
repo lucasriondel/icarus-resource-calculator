@@ -1,22 +1,22 @@
-import type { NextPage } from "next";
+import styled from "@emotion/styled";
+import { NextPage } from "next";
 import Head from "next/head";
 import { useState } from "react";
-import { SearchBar } from "../components/SearchBar";
-import { useDecomposer } from "../hooks/useDecomposer";
-
-import styled from "@emotion/styled";
 import { AppBar } from "../components/AppBar";
 import { Page } from "../components/Page";
 import { Path } from "../components/Path";
 import { ResourceList } from "../components/ResourceList";
+import { SearchBar } from "../components/SearchBar";
 import { Section } from "../components/Section";
 import { SelectedCraftable } from "../components/SelectedCraftable";
 import { getResourceFromResourceId } from "../data/helper";
+import { useDecomposer } from "../hooks/useDecomposer";
 
 const Content = styled.div`
   display: flex;
   flex-direction: column;
   gap: 16px;
+  padding-bottom: 2rem;
 `;
 
 const CraftList = styled.div`
@@ -41,6 +41,10 @@ const CraftList = styled.div`
     background: #13192a;
   }
   padding-bottom: 8px;
+`;
+
+const DetailedPathSection = styled(Section)`
+  flex: 1;
 `;
 
 export type CraftList = Array<{ craftId: string; amount: number }>;
@@ -117,15 +121,17 @@ const Home: NextPage = () => {
           </CraftList>
         )}
 
-        <Section title="Detailed path">
-          {paths.map((path) => (
-            <Path key={path.id} path={path} isExpandedPath={false} />
-          ))}
-        </Section>
+        <div style={{ display: "flex", gap: "32px" }}>
+          <DetailedPathSection title="Detailed path">
+            {paths.map((path) => (
+              <Path key={path.id} path={path} isExpandedPath={false} />
+            ))}
+          </DetailedPathSection>
 
-        <Section title="Resources list">
-          <ResourceList resources={resourceList} />
-        </Section>
+          <Section title="Resources list">
+            <ResourceList resources={resourceList} />
+          </Section>
+        </div>
       </Content>
     </Page>
   );
