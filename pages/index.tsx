@@ -7,6 +7,8 @@ import { useDecomposer } from "../hooks/useDecomposer";
 import styled from "@emotion/styled";
 import { AppBar } from "../components/AppBar";
 import { Page } from "../components/Page";
+import { Path } from "../components/Path";
+import { ResourceList } from "../components/ResourceList";
 import { Section } from "../components/Section";
 import { SelectedCraftable } from "../components/SelectedCraftable";
 import { getResourceFromResourceId } from "../data/helper";
@@ -46,9 +48,9 @@ export type CraftList = Array<{ craftId: string; amount: number }>;
 const Home: NextPage = () => {
   const [craftList, setCraftList] = useState<CraftList>([]);
 
-  const decomposition = useDecomposer(craftList);
+  const { paths, resourceList } = useDecomposer(craftList);
 
-  console.log({ craftList, decomposition });
+  console.log({ craftList, paths, resourceList });
 
   return (
     <Page>
@@ -64,7 +66,7 @@ const Home: NextPage = () => {
       <AppBar
         onLogoClick={() => {
           alert("log printed in console for better debugging");
-          console.log({ craftList, decomposition });
+          console.log({ craftList, paths, resourceList });
           console.log(
             "^^^ right-click > copy object and then paste it to me ^^^"
           );
@@ -115,8 +117,14 @@ const Home: NextPage = () => {
           </CraftList>
         )}
 
-        <Section title="Resources">
-          {/* <ResourceList resources={decomposition} /> */}
+        <Section title="Detailed path">
+          {paths.map((path) => (
+            <Path key={path.id} path={path} />
+          ))}
+        </Section>
+
+        <Section title="Resources list">
+          <ResourceList resources={resourceList} />
         </Section>
       </Content>
     </Page>
