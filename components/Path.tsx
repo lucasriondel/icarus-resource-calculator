@@ -78,7 +78,7 @@ export const Path = ({ path, isExpandedPath }: PathProps) => {
       {expanded && (
         <Column withMargin={isExpandedPath}>
           {path.craft.map((craft, index) => (
-            <div key={craft.id} style={{ display: "flex" }}>
+            <div key={`${path.name}-${craft.id}`} style={{ display: "flex" }}>
               <Border
                 expandedMargin={isExpandedPath}
                 short={index === path.craft.length - 1}
