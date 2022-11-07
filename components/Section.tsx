@@ -6,6 +6,7 @@ const Title = styled.h3`
   margin: 0;
   margin-bottom: 4px;
   margin-left: 8px;
+  margin-right: 8px;
 `;
 
 const SectionBorder = styled.div`
@@ -29,11 +30,12 @@ const SectionContent = styled.div`
 interface SectionProps {
   title: string;
   children: ReactNode;
+  className?: string;
 }
 
-export const Section = ({ title, children }: SectionProps) => {
+export const Section = ({ title, children, className }: SectionProps) => {
   return (
-    <div>
+    <div className={className}>
       <Title>{title}</Title>
       <SectionBorderTop />
 

@@ -11,7 +11,8 @@ export interface Craftable {
   url: string;
   imageUrl: string;
   bench?: string;
-  craft: CraftItem[] | CraftItem[][];
+  variants?: string[];
+  craft?: CraftItem[];
   quantityProduced?: number;
 }
 
