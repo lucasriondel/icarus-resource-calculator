@@ -179,7 +179,7 @@ export const SelectedCraftable = ({
         </AmountContainer>
 
         <Recipe>
-          {craftable.craft.map((resourceOrOption, index) => {
+          {(craftable.craft ?? []).map((resourceOrOption, index) => {
             if (Array.isArray(resourceOrOption)) {
               return null;
             } else {

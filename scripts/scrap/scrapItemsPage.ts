@@ -50,7 +50,7 @@ export const scrapItemsPage = async () => {
   // );
 
   items.map((item) => {
-    if (item?.craft.length === 0) {
+    if (item?.craft?.length === 0) {
       console.log(
         `${chalk.bgYellow("WARNING")} ${item.name} has no craft (${item.url})`
       );

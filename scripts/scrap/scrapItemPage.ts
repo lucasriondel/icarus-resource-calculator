@@ -127,7 +127,7 @@ export const scrapItemPage = async (url: string) => {
         }
       }
 
-      if (itemData.craft.length === 0)
+      if (itemData.craft?.length === 0)
         throw new NoCraftFoundError("no craft found");
     } catch (e) {
       if (e instanceof NoCraftFoundError) {
