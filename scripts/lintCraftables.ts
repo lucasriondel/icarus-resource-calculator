@@ -98,9 +98,27 @@ async function findMissingRessource() {
 
   for (const category of categories) {
     for (const item of craftables[category] as Craftable[]) {
-      for (const mightBeArray of item.craft) {
-        if (Array.isArray(mightBeArray)) {
-          for (const ressource of mightBeArray) {
+      if (item.craft) {
+        for (const mightBeArray of item.craft) {
+          if (Array.isArray(mightBeArray)) {
+            for (const ressource of mightBeArray) {
+              let notFound = true;
+
+              for (const category2 of categories) {
+                for (const item2 of craftables[category2] as Craftable[]) {
+                  if (item2.id === ressource.id) {
+                    notFound = false;
+                  }
+                }
+              }
+
+              if (notFound) {
+                //   console.log(`not found: ${ressource.id}`);
+                notFoundIds.push(ressource.id);
+              }
+            }
+          } else {
+            const ressource = mightBeArray;
             let notFound = true;
 
             for (const category2 of categories) {
@@ -115,22 +133,6 @@ async function findMissingRessource() {
               //   console.log(`not found: ${ressource.id}`);
               notFoundIds.push(ressource.id);
             }
-          }
-        } else {
-          const ressource = mightBeArray;
-          let notFound = true;
-
-          for (const category2 of categories) {
-            for (const item2 of craftables[category2] as Craftable[]) {
-              if (item2.id === ressource.id) {
-                notFound = false;
-              }
-            }
-          }
-
-          if (notFound) {
-            //   console.log(`not found: ${ressource.id}`);
-            notFoundIds.push(ressource.id);
           }
         }
       }
