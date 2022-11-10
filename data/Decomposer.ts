@@ -123,9 +123,9 @@ export class Decomposer {
     const mergedResources: Array<ResourceWithAmount> = [];
 
     for (const resource of resources) {
-      const existingResource = mergedResources
-        .filter((resource) => !resource.hasOwnProperty("options"))
-        .find((r) => r.id === resource.id);
+      const existingResource = mergedResources.find(
+        (r) => r.id === resource.id
+      );
       if (existingResource) {
         existingResource.amount += (resource as ResourceWithAmount).amount;
       } else {
