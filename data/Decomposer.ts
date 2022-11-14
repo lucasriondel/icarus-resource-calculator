@@ -123,13 +123,15 @@ export class Decomposer {
     const mergedResources: Array<ResourceWithAmount> = [];
 
     for (const resource of resources) {
-      const existingResource = mergedResources
-        .filter((resource) => !resource.hasOwnProperty("options"))
-        .find((r) => r.id === resource.id);
-      if (existingResource) {
-        existingResource.amount += (resource as ResourceWithAmount).amount;
+      const existingResourceIndex = mergedResources.findIndex(
+        (r) => r.id === resource.id
+      );
+      if (existingResourceIndex !== -1) {
+        mergedResources[existingResourceIndex].amount += (
+          resource as ResourceWithAmount
+        ).amount;
       } else {
-        mergedResources.push(resource);
+        mergedResources.push({ ...resource });
       }
     }
 
