@@ -70,7 +70,12 @@ export const Path = ({ path, isExpandedPath }: PathProps) => {
               {expanded ? "-" : "+"}
             </ExpandButton>
           )}
-          <Image src={path.imageUrl} alt={path.name} width={30} height={30} />
+          <Image
+            src={path.imageUrl || "/images/placeholder.png"}
+            alt={path.name}
+            width={30}
+            height={30}
+          />
           {path.name} * {path.amount}
         </RowWithGap>
       </Row>

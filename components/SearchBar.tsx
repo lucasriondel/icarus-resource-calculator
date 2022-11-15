@@ -98,7 +98,12 @@ export function SearchBar({ onAddToCraftList }: SearchBarProps) {
   const formatResult = (item: Craftable) => {
     return (
       <Choice>
-        <Image src={item.imageUrl} width={30} height={30} alt={item.name} />
+        <Image
+          src={item.imageUrl || "/images/placeholder.png"}
+          width={30}
+          height={30}
+          alt={item.name}
+        />
         <span>{item.name}</span>
       </Choice>
     );
