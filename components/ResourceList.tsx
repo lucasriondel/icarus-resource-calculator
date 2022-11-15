@@ -32,7 +32,7 @@ export const ResourceList: React.FC<{
         return (
           <Li key={index}>
             <Image
-              src={resource.imageUrl}
+              src={resource.imageUrl || "/images/placeholder.png"}
               alt={resource.name}
               width={30}
               height={30}

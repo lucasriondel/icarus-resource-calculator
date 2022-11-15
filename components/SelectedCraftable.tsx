@@ -142,7 +142,7 @@ export const SelectedCraftable = ({
       <ContentContainer>
         <CraftImageContainer>
           <Image
-            src={craftable.imageUrl}
+            src={craftable.imageUrl || "/images/placeholder.png"}
             alt={craftable.name}
             width={100}
             height={100}
@@ -191,7 +191,7 @@ export const SelectedCraftable = ({
                     {amount * craftItem.amount}/{craftItem.amount}
                   </AmountRecipeItemContainer>
                   <Image
-                    src={resource.imageUrl}
+                    src={resource.imageUrl || "/images/placeholder.png"}
                     alt={resource.name}
                     width={55}
                     height={55}
