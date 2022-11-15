@@ -41,18 +41,24 @@ export class Decomposer {
         resources.push({ ...craftable, craft: [], amount });
         return resources;
       } else {
+        const craft = craftable.craft?.reduce((acc, craftItem) => {
+          acc.push(
+            ...this.getPathToResourceRecursive(
+              getResourceFromResourceId(craftItem.id),
+              craftable.quantityProduced !== undefined
+                ? Math.ceil(
+                    (amount * craftItem.amount) / craftable.quantityProduced
+                  )
+                : amount * craftItem.amount,
+              forcedVariants
+            )
+          );
+          return acc;
+        }, [] as Array<ResourceWithAmount>);
+
         resources.push({
           ...craftable,
-          craft: craftable.craft?.reduce((acc, craftItem) => {
-            acc.push(
-              ...this.getPathToResourceRecursive(
-                getResourceFromResourceId(craftItem.id),
-                amount * craftItem.amount,
-                forcedVariants
-              )
-            );
-            return acc;
-          }, [] as Array<ResourceWithAmount>),
+          craft,
           amount,
         });
         return resources;
