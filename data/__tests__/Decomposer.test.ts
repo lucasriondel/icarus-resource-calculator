@@ -113,6 +113,40 @@ describe("Decomposer", () => {
         ])
       );
     });
+
+    it("test with multi render (like nails) (round result)", () => {
+      const decomposer = new Decomposer();
+
+      const ironNails = getResourceFromResourceId("iron-nail");
+      const amount = 30;
+
+      const result = decomposer.getPathToResource(ironNails, amount);
+
+      expect(result).toEqual(
+        getResourceForTests("iron-nail", 30, [
+          getResourceForTests("iron-ingot", 3, [
+            getResourceForTests("iron-ore", 6),
+          ]),
+        ])
+      );
+    });
+
+    it("test with multi render (like nails) (not round result)", () => {
+      const decomposer = new Decomposer();
+
+      const ironNails = getResourceFromResourceId("iron-nail");
+      const amount = 28;
+
+      const result = decomposer.getPathToResource(ironNails, amount);
+
+      expect(result).toEqual(
+        getResourceForTests("iron-nail", 28, [
+          getResourceForTests("iron-ingot", 3, [
+            getResourceForTests("iron-ore", 6),
+          ]),
+        ])
+      );
+    });
   });
 
   describe("getResourceListFromPath", () => {

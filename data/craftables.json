@@ -3,7 +3,7 @@
     {
       "id": "cloth-arms-armor",
       "name": "Cloth Arms Armor",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/2/26/ITEM_Cloth_Arms_Armor.png",
+      "imageUrl": "/images/ITEM_Cloth_Arms_Armor.png",
       "url": "https://icarus.fandom.com/wiki/Cloth_Arms_Armor",
       "craft": [
         {
@@ -16,7 +16,7 @@
     {
       "id": "cloth-chest-armor",
       "name": "Cloth Chest Armor",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/7/7b/ITEM_Cloth_Chest_Armor.png",
+      "imageUrl": "/images/ITEM_Cloth_Chest_Armor.png",
       "url": "https://icarus.fandom.com/wiki/Cloth_Chest_Armor",
       "craft": [
         {
@@ -29,7 +29,7 @@
     {
       "id": "cloth-feet-armor",
       "name": "Cloth Feet Armor",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/7/73/ITEM_Cloth_Feet_Armor.png",
+      "imageUrl": "/images/ITEM_Cloth_Feet_Armor.png",
       "url": "https://icarus.fandom.com/wiki/Cloth_Feet_Armor",
       "craft": [
         {
@@ -42,7 +42,7 @@
     {
       "id": "cloth-head-armor",
       "name": "Cloth Head Armor",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/4/45/ITEM_Cloth_Head_Armor.png",
+      "imageUrl": "/images/ITEM_Cloth_Head_Armor.png",
       "url": "https://icarus.fandom.com/wiki/Cloth_Head_Armor",
       "craft": [
         {
@@ -55,7 +55,7 @@
     {
       "id": "cloth-legs-armor",
       "name": "Cloth Legs Armor",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/9/93/ITEM_Cloth_Legs_Armor.png",
+      "imageUrl": "/images/ITEM_Cloth_Legs_Armor.png",
       "url": "https://icarus.fandom.com/wiki/Cloth_Legs_Armor",
       "craft": [
         {
@@ -68,7 +68,7 @@
     {
       "id": "composite-arms-armor",
       "name": "Composite Arms Armor",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/7/75/ITEM_Composite_Arms_Armor.png",
+      "imageUrl": "/images/ITEM_Composite_Arms_Armor.png",
       "url": "https://icarus.fandom.com/wiki/Composite_Arms_Armor",
       "craft": [
         {
@@ -97,7 +97,7 @@
     {
       "id": "composite-chest-armor",
       "name": "Composite Chest Armor",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/e/e6/ITEM_Composite_Chest_Armor.png",
+      "imageUrl": "/images/ITEM_Composite_Chest_Armor.png",
       "url": "https://icarus.fandom.com/wiki/Composite_Chest_Armor",
       "craft": [
         {
@@ -126,7 +126,7 @@
     {
       "id": "composite-feet-armor",
       "name": "Composite Feet Armor",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/2/22/ITEM_Composite_Feet_Armor.png",
+      "imageUrl": "/images/ITEM_Composite_Feet_Armor.png",
       "url": "https://icarus.fandom.com/wiki/Composite_Feet_Armor",
       "craft": [
         {
@@ -155,7 +155,7 @@
     {
       "id": "composite-head-armor",
       "name": "Composite Head Armor",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/e/e3/ITEM_Composite_Head_Armor.png",
+      "imageUrl": "/images/ITEM_Composite_Head_Armor.png",
       "url": "https://icarus.fandom.com/wiki/Composite_Head_Armor",
       "craft": [
         {
@@ -184,7 +184,7 @@
     {
       "id": "composite-legs-armor",
       "name": "Composite Legs Armor",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/0/05/ITEM_Composite_Legs_Armor.png",
+      "imageUrl": "/images/ITEM_Composite_Legs_Armor.png",
       "url": "https://icarus.fandom.com/wiki/Composite_Legs_Armor",
       "craft": [
         {
@@ -213,7 +213,7 @@
     {
       "id": "cured-head-armor",
       "name": "Cured Head Armor",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/7/78/ITEM_Cured_Head_Armor.png/revision/latest/scale-to-width-down/350?cb=20221017225751",
+      "imageUrl": "/images/ITEM_Cured_Head_Armor.png",
       "url": "https://icarus.fandom.com/wiki/Cured_Head_Armor",
       "craft": [
         {
@@ -230,7 +230,7 @@
     {
       "id": "cured-leather-arms-armor",
       "name": "Cured Leather Arms Armor",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/b/be/ITEM_Cured_Leather_Arms_Armor.png/revision/latest/scale-to-width-down/350?cb=20221017230815",
+      "imageUrl": "/images/ITEM_Cured_Leather_Arms_Armor.png",
       "url": "https://icarus.fandom.com/wiki/Cured_Leather_Arms_Armor",
       "craft": [
         {
@@ -247,7 +247,7 @@
     {
       "id": "cured-leather-chest-armor",
       "name": "Cured Leather Chest Armor",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/d/d7/ITEM_Cured_Leather_Chest_Armor.png/revision/latest/scale-to-width-down/350?cb=20221017230524",
+      "imageUrl": "/images/ITEM_Cured_Leather_Chest_Armor.png",
       "url": "https://icarus.fandom.com/wiki/Cured_Leather_Chest_Armor",
       "craft": [
         {
@@ -264,7 +264,7 @@
     {
       "id": "cured-leather-feet-armor",
       "name": "Cured Leather Feet Armor",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/3/3a/ITEM_Cured_Leather_Feet_Armor.png/revision/latest/scale-to-width-down/350?cb=20221017231457",
+      "imageUrl": "/images/ITEM_Cured_Leather_Feet_Armor.png",
       "url": "https://icarus.fandom.com/wiki/Cured_Leather_Feet_Armor",
       "craft": [
         {
@@ -281,7 +281,7 @@
     {
       "id": "cured-leather-leg-armor",
       "name": "Cured Leather Leg Armor",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/9/90/ITEM_Cured_Leather_Leg_Armor.png/revision/latest/scale-to-width-down/350?cb=20221017231214",
+      "imageUrl": "/images/ITEM_Cured_Leather_Leg_Armor.png",
       "url": "https://icarus.fandom.com/wiki/Cured_Leather_Leg_Armor",
       "craft": [
         {
@@ -298,7 +298,7 @@
     {
       "id": "fur-arms-armor",
       "name": "Fur Arms Armor",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/6/6a/ITEM_Fur_Arms_Armor.png",
+      "imageUrl": "/images/ITEM_Fur_Arms_Armor.png",
       "url": "https://icarus.fandom.com/wiki/Fur_Arms_Armor",
       "craft": [
         {
@@ -319,7 +319,7 @@
     {
       "id": "fur-chest-armor",
       "name": "Fur Chest Armor",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/3/39/ITEM_Fur_Chest_Armor.png",
+      "imageUrl": "/images/ITEM_Fur_Chest_Armor.png",
       "url": "https://icarus.fandom.com/wiki/Fur_Chest_Armor",
       "craft": [
         {
@@ -340,7 +340,7 @@
     {
       "id": "fur-feet-armor",
       "name": "Fur Feet Armor",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/4/45/ITEM_Fur_Feet_Armor.png",
+      "imageUrl": "/images/ITEM_Fur_Feet_Armor.png",
       "url": "https://icarus.fandom.com/wiki/Fur_Feet_Armor",
       "craft": [
         {
@@ -361,7 +361,7 @@
     {
       "id": "fur-head-armor",
       "name": "Fur Head Armor",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/8/8e/ITEM_Fur_Head_Armor.png",
+      "imageUrl": "/images/ITEM_Fur_Head_Armor.png",
       "url": "https://icarus.fandom.com/wiki/Fur_Head_Armor",
       "craft": [
         {
@@ -382,7 +382,7 @@
     {
       "id": "fur-legs-armor",
       "name": "Fur Legs Armor",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/2/29/ITEM_Fur_Legs_Armor.png",
+      "imageUrl": "/images/ITEM_Fur_Legs_Armor.png",
       "url": "https://icarus.fandom.com/wiki/Fur_Legs_Armor",
       "craft": [
         {
@@ -403,7 +403,7 @@
     {
       "id": "ghillie-arms-armor",
       "name": "Ghillie Arms Armor",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/c/c2/ITEM_Ghillie_Arms_Armor.png",
+      "imageUrl": "/images/ITEM_Ghillie_Arms_Armor.png",
       "url": "https://icarus.fandom.com/wiki/Ghillie_Arms_Armor",
       "craft": [
         {
@@ -424,7 +424,7 @@
     {
       "id": "ghillie-chest-armor",
       "name": "Ghillie Chest Armor",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/4/48/ITEM_Ghillie_Chest_Armor.png",
+      "imageUrl": "/images/ITEM_Ghillie_Chest_Armor.png",
       "url": "https://icarus.fandom.com/wiki/Ghillie_Chest_Armor",
       "craft": [
         {
@@ -445,7 +445,7 @@
     {
       "id": "ghillie-feet-armor",
       "name": "Ghillie Feet Armor",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/6/68/ITEM_Ghillie_Feet_Armor.png",
+      "imageUrl": "/images/ITEM_Ghillie_Feet_Armor.png",
       "url": "https://icarus.fandom.com/wiki/Ghillie_Feet_Armor",
       "craft": [
         {
@@ -466,7 +466,7 @@
     {
       "id": "ghillie-head-armor",
       "name": "Ghillie Head Armor",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/6/64/ITEM_Ghillie_Head_Armor.png",
+      "imageUrl": "/images/ITEM_Ghillie_Head_Armor.png",
       "url": "https://icarus.fandom.com/wiki/Ghillie_Head_Armor",
       "craft": [
         {
@@ -487,7 +487,7 @@
     {
       "id": "ghillie-legs-armor",
       "name": "Ghillie Legs Armor",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/3/36/ITEM_Ghillie_Legs_Armor.png",
+      "imageUrl": "/images/ITEM_Ghillie_Legs_Armor.png",
       "url": "https://icarus.fandom.com/wiki/Ghillie_Legs_Armor",
       "craft": [
         {
@@ -508,7 +508,7 @@
     {
       "id": "hunter-arms-armor",
       "name": "Hunter Arms Armor",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/8/83/ITEM_Hunter_Arms_Armor.png",
+      "imageUrl": "/images/ITEM_Hunter_Arms_Armor.png",
       "url": "https://icarus.fandom.com/wiki/Hunter_Arms_Armor",
       "craft": [
         {
@@ -529,7 +529,7 @@
     {
       "id": "hunter-chest-armor",
       "name": "Hunter Chest Armor",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/2/27/ITEM_Hunter_Chest_Armor.png",
+      "imageUrl": "/images/ITEM_Hunter_Chest_Armor.png",
       "url": "https://icarus.fandom.com/wiki/Hunter_Chest_Armor",
       "craft": [
         {
@@ -554,7 +554,7 @@
     {
       "id": "hunter-feet-armor",
       "name": "Hunter Feet Armor",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/6/62/ITEM_Hunter_Feet_Armor.png",
+      "imageUrl": "/images/ITEM_Hunter_Feet_Armor.png",
       "url": "https://icarus.fandom.com/wiki/Hunter_Feet_Armor",
       "craft": [
         {
@@ -579,7 +579,7 @@
     {
       "id": "hunter-head-armor",
       "name": "Hunter Head Armor",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/b/b6/ITEM_Hunter_Head_Armor.png",
+      "imageUrl": "/images/ITEM_Hunter_Head_Armor.png",
       "url": "https://icarus.fandom.com/wiki/Hunter_Head_Armor",
       "craft": [
         {
@@ -604,7 +604,7 @@
     {
       "id": "hunter-legs-armor",
       "name": "Hunter Legs Armor",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/5/5d/ITEM_Hunter_Legs_Armor.png",
+      "imageUrl": "/images/ITEM_Hunter_Legs_Armor.png",
       "url": "https://icarus.fandom.com/wiki/Hunter_Legs_Armor",
       "craft": [
         {
@@ -629,7 +629,7 @@
     {
       "id": "leather-arms-armor",
       "name": "Leather Arms Armor",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/f/f2/ITEM_Leather_Arms_Armor.png",
+      "imageUrl": "/images/ITEM_Leather_Arms_Armor.png",
       "url": "https://icarus.fandom.com/wiki/Leather_Arms_Armor",
       "craft": [
         {
@@ -646,7 +646,7 @@
     {
       "id": "leather-backpack",
       "name": "Leather Backpack",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/c/c1/ITEM_Leather_Backpack.png",
+      "imageUrl": "/images/ITEM_Leather_Backpack.png",
       "url": "https://icarus.fandom.com/wiki/Leather_Backpack",
       "craft": [
         {
@@ -667,7 +667,7 @@
     {
       "id": "leather-chest-armor",
       "name": "Leather Chest Armor",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/0/0c/ITEM_Leather_Chest_Armor.png",
+      "imageUrl": "/images/ITEM_Leather_Chest_Armor.png",
       "url": "https://icarus.fandom.com/wiki/Leather_Chest_Armor",
       "craft": [
         {
@@ -684,7 +684,7 @@
     {
       "id": "leather-feet-armor",
       "name": "Leather Feet Armor",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/e/ef/ITEM_Leather_Feet_Armor.png",
+      "imageUrl": "/images/ITEM_Leather_Feet_Armor.png",
       "url": "https://icarus.fandom.com/wiki/Leather_Feet_Armor",
       "craft": [
         {
@@ -701,7 +701,7 @@
     {
       "id": "leather-head-armor",
       "name": "Leather Head Armor",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/7/7f/ITEM_Leather_Head_Armor.png",
+      "imageUrl": "/images/ITEM_Leather_Head_Armor.png",
       "url": "https://icarus.fandom.com/wiki/Leather_Head_Armor",
       "craft": [
         {
@@ -718,7 +718,7 @@
     {
       "id": "leather-legs-armor",
       "name": "Leather Legs Armor",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/3/34/ITEM_Leather_Legs_Armor.png",
+      "imageUrl": "/images/ITEM_Leather_Legs_Armor.png",
       "url": "https://icarus.fandom.com/wiki/Leather_Legs_Armor",
       "craft": [
         {
@@ -735,7 +735,7 @@
     {
       "id": "polar-bear-arms-armor",
       "name": "Polar Bear Arms Armor",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/5/57/ITEM_Polar_Bear_Arms_Armor.png",
+      "imageUrl": "/images/ITEM_Polar_Bear_Arms_Armor.png",
       "url": "https://icarus.fandom.com/wiki/Polar_Bear_Arms_Armor",
       "craft": [
         {
@@ -756,7 +756,7 @@
     {
       "id": "polar-bear-chest-armor",
       "name": "Polar Bear Chest Armor",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/9/97/ITEM_Polar_Bear_Chest_Armor.png",
+      "imageUrl": "/images/ITEM_Polar_Bear_Chest_Armor.png",
       "url": "https://icarus.fandom.com/wiki/Polar_Bear_Chest_Armor",
       "craft": [
         {
@@ -777,7 +777,7 @@
     {
       "id": "polar-bear-feet-armor",
       "name": "Polar Bear Feet Armor",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/c/c0/ITEM_Polar_Bear_Feet_Armor.png",
+      "imageUrl": "/images/ITEM_Polar_Bear_Feet_Armor.png",
       "url": "https://icarus.fandom.com/wiki/Polar_Bear_Feet_Armor",
       "craft": [
         {
@@ -798,7 +798,7 @@
     {
       "id": "polar-bear-head-armor",
       "name": "Polar Bear Head Armor",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/f/fb/ITEM_Polar_Bear_Head_Armor.png",
+      "imageUrl": "/images/ITEM_Polar_Bear_Head_Armor.png",
       "url": "https://icarus.fandom.com/wiki/Polar_Bear_Head_Armor",
       "craft": [
         {
@@ -819,7 +819,7 @@
     {
       "id": "polar-bear-legs-armor",
       "name": "Polar Bear Legs Armor",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/3/3e/ITEM_Polar_Bear_Legs_Armor.png",
+      "imageUrl": "/images/ITEM_Polar_Bear_Legs_Armor.png",
       "url": "https://icarus.fandom.com/wiki/Polar_Bear_Legs_Armor",
       "craft": [
         {
@@ -840,7 +840,7 @@
     {
       "id": "wayfarer-arms-armor",
       "name": "Wayfarer Arms Armor",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/9/97/ITEM_Wayfarer_Arms_Armor.png/revision/latest/scale-to-width-down/350?cb=20221018035242",
+      "imageUrl": "/images/ITEM_Wayfarer_Arms_Armor.png",
       "url": "https://icarus.fandom.com/wiki/Wayfarer_Arms_Armor",
       "craft": [
         {
@@ -853,7 +853,7 @@
     {
       "id": "wayfarer-chest-armor",
       "name": "Wayfarer Chest Armor",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/e/e2/ITEM_Wayfarer_Chest_Armor.png/revision/latest/scale-to-width-down/350?cb=20221018035047",
+      "imageUrl": "/images/ITEM_Wayfarer_Chest_Armor.png",
       "url": "https://icarus.fandom.com/wiki/Wayfarer_Chest_Armor",
       "craft": [
         {
@@ -866,7 +866,7 @@
     {
       "id": "wayfarer-feet-armor",
       "name": "Wayfarer Feet Armor",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/e/e1/ITEM_Wayfarer_Feet_Armor.png/revision/latest/scale-to-width-down/350?cb=20221018035743",
+      "imageUrl": "/images/ITEM_Wayfarer_Feet_Armor.png",
       "url": "https://icarus.fandom.com/wiki/Wayfarer_Feet_Armor",
       "craft": [
         {
@@ -879,7 +879,7 @@
     {
       "id": "wayfarer-head-armor",
       "name": "Wayfarer Head Armor",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/5/5d/ITEM_Wayfarer_Head_Armor.png/revision/latest/scale-to-width-down/350?cb=20221018034852",
+      "imageUrl": "/images/ITEM_Wayfarer_Head_Armor.png",
       "url": "https://icarus.fandom.com/wiki/Wayfarer_Head_Armor",
       "craft": [
         {
@@ -892,7 +892,7 @@
     {
       "id": "wayfarer-leg-armor",
       "name": "Wayfarer Leg Armor",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/f/f3/ITEM_Wayfarer_Leg_Armor.png/revision/latest/scale-to-width-down/350?cb=20221018035546",
+      "imageUrl": "/images/ITEM_Wayfarer_Leg_Armor.png",
       "url": "https://icarus.fandom.com/wiki/Wayfarer_Leg_Armor",
       "craft": [
         {
@@ -907,7 +907,7 @@
     {
       "id": "aerodynamic-attachment",
       "name": "Aerodynamic Attachment",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/f/f3/ITEM_Aerodynamic_Attachment.png",
+      "imageUrl": "/images/ITEM_Aerodynamic_Attachment.png",
       "url": "https://icarus.fandom.com/wiki/Aerodynamic_Attachment",
       "craft": [
         {
@@ -928,7 +928,7 @@
     {
       "id": "armor-attachment-pack",
       "name": "Armor Attachment Pack",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/9/97/ITEM_Armor_Attachment_Pack.png/revision/latest/scale-to-width-down/350?cb=20221019005801",
+      "imageUrl": "/images/ITEM_Armor_Attachment_Pack.png",
       "url": "https://icarus.fandom.com/wiki/Armor_Attachment_Pack",
       "craft": [
         {
@@ -973,7 +973,7 @@
     {
       "id": "attack-speed-attachment",
       "name": "Attack Speed Attachment",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/b/bd/ITEM_Attack_Speed_Attachment.png",
+      "imageUrl": "/images/ITEM_Attack_Speed_Attachment.png",
       "url": "https://icarus.fandom.com/wiki/Attack_Speed_Attachment",
       "craft": [
         {
@@ -990,7 +990,7 @@
     {
       "id": "basic-scope-attachment",
       "name": "Basic Scope Attachment",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/5/52/ITEM_Basic_Scope_Attachment.png",
+      "imageUrl": "/images/ITEM_Basic_Scope_Attachment.png",
       "url": "https://icarus.fandom.com/wiki/Basic_Scope_Attachment",
       "craft": [
         {
@@ -1007,7 +1007,7 @@
     {
       "id": "calibrated-grip-attachment",
       "name": "Calibrated Grip Attachment",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/9/94/ITEM_Calibrated_Grip_Attachment.png",
+      "imageUrl": "/images/ITEM_Calibrated_Grip_Attachment.png",
       "url": "https://icarus.fandom.com/wiki/Calibrated_Grip_Attachment",
       "craft": [
         {
@@ -1028,7 +1028,7 @@
     {
       "id": "carcass-harvesting-attachment",
       "name": "Carcass Harvesting Attachment",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/0/0c/ITEM_Carcass_Harvesting_Attachment.png",
+      "imageUrl": "/images/ITEM_Carcass_Harvesting_Attachment.png",
       "url": "https://icarus.fandom.com/wiki/Carcass_Harvesting_Attachment",
       "craft": [
         {
@@ -1045,7 +1045,7 @@
     {
       "id": "copper-attachment",
       "name": "Copper Attachment",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/a/a6/ITEM_Copper_Attachment.png",
+      "imageUrl": "/images/ITEM_Copper_Attachment.png",
       "url": "https://icarus.fandom.com/wiki/Copper_Attachment",
       "craft": [
         {
@@ -1062,7 +1062,7 @@
     {
       "id": "economic-attachment",
       "name": "Economic Attachment",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/e/ed/ITEM_Economic_Attachment.png",
+      "imageUrl": "/images/ITEM_Economic_Attachment.png",
       "url": "https://icarus.fandom.com/wiki/Economic_Attachment",
       "craft": [
         {
@@ -1079,7 +1079,7 @@
     {
       "id": "flexible-frame-attachment",
       "name": "Flexible Frame Attachment",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/d/de/ITEM_Flexible_Frame_Attachment.png",
+      "imageUrl": "/images/ITEM_Flexible_Frame_Attachment.png",
       "url": "https://icarus.fandom.com/wiki/Flexible_Frame_Attachment",
       "craft": [
         {
@@ -1096,7 +1096,7 @@
     {
       "id": "gold-attachment",
       "name": "Gold Attachment",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/e/e9/ITEM_Gold_Attachment.png",
+      "imageUrl": "/images/ITEM_Gold_Attachment.png",
       "url": "https://icarus.fandom.com/wiki/Gold_Attachment",
       "craft": [
         {
@@ -1113,7 +1113,7 @@
     {
       "id": "handcannon-attachment",
       "name": "Handcannon Attachment",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/3/3e/ITEM_Handcannon_Attachment.png",
+      "imageUrl": "/images/ITEM_Handcannon_Attachment.png",
       "url": "https://icarus.fandom.com/wiki/Handcannon_Attachment",
       "craft": [
         {
@@ -1130,7 +1130,7 @@
     {
       "id": "leather-attachment",
       "name": "Leather Attachment",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/c/c0/ITEM_Leather_Attachment.png",
+      "imageUrl": "/images/ITEM_Leather_Attachment.png",
       "url": "https://icarus.fandom.com/wiki/Leather_Attachment",
       "craft": [
         {
@@ -1147,7 +1147,7 @@
     {
       "id": "lightweight-frame-attachment",
       "name": "Lightweight Frame Attachment",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/a/af/ITEM_Lightweight_Frame_Attachment.png",
+      "imageUrl": "/images/ITEM_Lightweight_Frame_Attachment.png",
       "url": "https://icarus.fandom.com/wiki/Lightweight_Frame_Attachment",
       "craft": [
         {
@@ -1168,7 +1168,7 @@
     {
       "id": "melee-damage-attachment",
       "name": "Melee Damage Attachment",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/5/51/ITEM_Melee_Damage_Attachment.png",
+      "imageUrl": "/images/ITEM_Melee_Damage_Attachment.png",
       "url": "https://icarus.fandom.com/wiki/Melee_Damage_Attachment",
       "craft": [
         {
@@ -1189,7 +1189,7 @@
     {
       "id": "narrow-barrel-attachment",
       "name": "Narrow Barrel Attachment",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/0/04/ITEM_Narrow_Barrel_Attachment.png",
+      "imageUrl": "/images/ITEM_Narrow_Barrel_Attachment.png",
       "url": "https://icarus.fandom.com/wiki/Narrow_Barrel_Attachment",
       "craft": [
         {
@@ -1210,7 +1210,7 @@
     {
       "id": "noise-suppression-attachment",
       "name": "Noise Suppression Attachment",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/3/37/ITEM_Noise_Suppression_Attachment.png",
+      "imageUrl": "/images/ITEM_Noise_Suppression_Attachment.png",
       "url": "https://icarus.fandom.com/wiki/Noise_Suppression_Attachment",
       "craft": [
         {
@@ -1231,7 +1231,7 @@
     {
       "id": "plating-attachment",
       "name": "Plating Attachment",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/d/d7/ITEM_Plating_Attachment.png",
+      "imageUrl": "/images/ITEM_Plating_Attachment.png",
       "url": "https://icarus.fandom.com/wiki/Plating_Attachment",
       "craft": [
         {
@@ -1256,7 +1256,7 @@
     {
       "id": "platinum-attachment",
       "name": "Platinum Attachment",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/f/f0/ITEM_Platinum_Attachment.png",
+      "imageUrl": "/images/ITEM_Platinum_Attachment.png",
       "url": "https://icarus.fandom.com/wiki/Platinum_Attachment",
       "craft": [
         {
@@ -1273,7 +1273,7 @@
     {
       "id": "pockets-attachment",
       "name": "Pockets Attachment",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/c/cc/ITEM_Pockets_Attachment.png",
+      "imageUrl": "/images/ITEM_Pockets_Attachment.png",
       "url": "https://icarus.fandom.com/wiki/Pockets_Attachment",
       "craft": [
         {
@@ -1294,7 +1294,7 @@
     {
       "id": "prime-meat-attachment",
       "name": "Prime Meat Attachment",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/7/7d/ITEM_Prime_Meat_Attachment.png",
+      "imageUrl": "/images/ITEM_Prime_Meat_Attachment.png",
       "url": "https://icarus.fandom.com/wiki/Prime_Meat_Attachment",
       "craft": [
         {
@@ -1315,7 +1315,7 @@
     {
       "id": "reaping-attachment",
       "name": "Reaping Attachment",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/3/36/ITEM_Reaping_Attachment.png",
+      "imageUrl": "/images/ITEM_Reaping_Attachment.png",
       "url": "https://icarus.fandom.com/wiki/Reaping_Attachment",
       "craft": [
         {
@@ -1332,7 +1332,7 @@
     {
       "id": "repair-speed-attachment",
       "name": "Repair Speed Attachment",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/d/d2/ITEM_Repair_Speed_Attachment.png",
+      "imageUrl": "/images/ITEM_Repair_Speed_Attachment.png",
       "url": "https://icarus.fandom.com/wiki/Repair_Speed_Attachment",
       "craft": [
         {
@@ -1349,7 +1349,7 @@
     {
       "id": "rubberized-attachment",
       "name": "Rubberized Attachment",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/6/64/ITEM_Rubberized_Attachment.png",
+      "imageUrl": "/images/ITEM_Rubberized_Attachment.png",
       "url": "https://icarus.fandom.com/wiki/Rubberized_Attachment",
       "craft": [
         {
@@ -1370,7 +1370,7 @@
     {
       "id": "silencer-attachment",
       "name": "Silencer Attachment",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/4/4a/ITEM_Silencer_Attachment.png",
+      "imageUrl": "/images/ITEM_Silencer_Attachment.png",
       "url": "https://icarus.fandom.com/wiki/Silencer_Attachment",
       "craft": [
         {
@@ -1391,7 +1391,7 @@
     {
       "id": "sniper-scope-attachment",
       "name": "Sniper Scope Attachment",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/7/74/ITEM_Sniper_Scope_Attachment.png",
+      "imageUrl": "/images/ITEM_Sniper_Scope_Attachment.png",
       "url": "https://icarus.fandom.com/wiki/Sniper_Scope_Attachment",
       "craft": [
         {
@@ -1408,7 +1408,7 @@
     {
       "id": "storm-visor-attachment",
       "name": "Storm Visor Attachment",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/a/a1/ITEM_Storm_Visor_Attachment.png",
+      "imageUrl": "/images/ITEM_Storm_Visor_Attachment.png",
       "url": "https://icarus.fandom.com/wiki/Storm_Visor_Attachment",
       "craft": [
         {
@@ -1429,7 +1429,7 @@
     {
       "id": "strengthened-strings-attachment",
       "name": "Strengthened Strings Attachment",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/e/e7/ITEM_Strengthened_Strings_Attachment.png",
+      "imageUrl": "/images/ITEM_Strengthened_Strings_Attachment.png",
       "url": "https://icarus.fandom.com/wiki/Strengthened_Strings_Attachment",
       "craft": [
         {
@@ -1450,7 +1450,7 @@
     {
       "id": "supplemental-filtration-attachment",
       "name": "Supplemental Filtration Attachment",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/8/8e/ITEM_Supplemental_Filtration_Attachment.png",
+      "imageUrl": "/images/ITEM_Supplemental_Filtration_Attachment.png",
       "url": "https://icarus.fandom.com/wiki/Supplemental_Filtration_Attachment",
       "craft": [
         {
@@ -1471,7 +1471,7 @@
     {
       "id": "supplemental-respiration-attachment",
       "name": "Supplemental Respiration Attachment",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/7/71/ITEM_Supplemental_Respiration_Attachment.png",
+      "imageUrl": "/images/ITEM_Supplemental_Respiration_Attachment.png",
       "url": "https://icarus.fandom.com/wiki/Supplemental_Respiration_Attachment",
       "craft": [
         {
@@ -1488,7 +1488,7 @@
     {
       "id": "titanium-attachment",
       "name": "Titanium Attachment",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/e/ed/ITEM_Titanium_Attachment.png",
+      "imageUrl": "/images/ITEM_Titanium_Attachment.png",
       "url": "https://icarus.fandom.com/wiki/Titanium_Attachment",
       "craft": [
         {
@@ -1505,7 +1505,7 @@
     {
       "id": "trajectory-module-attachment",
       "name": "Trajectory Module Attachment",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/a/af/ITEM_Trajectory_Module_Attachment.png",
+      "imageUrl": "/images/ITEM_Trajectory_Module_Attachment.png",
       "url": "https://icarus.fandom.com/wiki/Trajectory_Module_Attachment",
       "craft": [
         {
@@ -1524,462 +1524,462 @@
     {
       "id": "alpha-wolf-head",
       "name": "Alpha Wolf Head",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/d/d0/ITEM_Alpha_Wolf_Head.png",
+      "imageUrl": "/images/ITEM_Alpha_Wolf_Head.png",
       "url": "https://icarus.fandom.com/wiki/Alpha_Wolf_Head",
       "craft": []
     },
     {
       "id": "bear-head",
       "name": "Bear Head",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/4/4d/ITEM_Bear_Head.png",
+      "imageUrl": "/images/ITEM_Bear_Head.png",
       "url": "https://icarus.fandom.com/wiki/Bear_Head",
       "craft": []
     },
     {
       "id": "black-jaguar-head",
       "name": "Black Jaguar Head",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/7/73/ITEM_Black_Jaguar_Head.png",
+      "imageUrl": "/images/ITEM_Black_Jaguar_Head.png",
       "url": "https://icarus.fandom.com/wiki/Black_Jaguar_Head",
       "craft": []
     },
     {
       "id": "buffalo-head",
       "name": "Buffalo Head",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/2/26/ITEM_Buffalo_Head.png",
+      "imageUrl": "/images/ITEM_Buffalo_Head.png",
       "url": "https://icarus.fandom.com/wiki/Buffalo_Head",
       "craft": []
     },
     {
       "id": "cougar-head",
       "name": "Cougar Head",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/d/d8/ITEM_Cougar_Head.png",
+      "imageUrl": "/images/ITEM_Cougar_Head.png",
       "url": "https://icarus.fandom.com/wiki/Cougar_Head",
       "craft": []
     },
     {
       "id": "deer-head",
       "name": "Deer Head",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/3/33/ITEM_Deer_Head.png",
+      "imageUrl": "/images/ITEM_Deer_Head.png",
       "url": "https://icarus.fandom.com/wiki/Deer_Head",
       "craft": []
     },
     {
       "id": "jaguar-head",
       "name": "Jaguar Head",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/8/8b/ITEM_Jaguar_Head.png",
+      "imageUrl": "/images/ITEM_Jaguar_Head.png",
       "url": "https://icarus.fandom.com/wiki/Jaguar_Head",
       "craft": []
     },
     {
       "id": "mammoth-head",
       "name": "Mammoth Head",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/d/de/ITEM_Mammoth_Head.png",
+      "imageUrl": "/images/ITEM_Mammoth_Head.png",
       "url": "https://icarus.fandom.com/wiki/Mammoth_Head",
       "craft": []
     },
     {
       "id": "polar-bear-head",
       "name": "Polar Bear Head",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/a/aa/ITEM_Polar_Bear_Head.png",
+      "imageUrl": "/images/ITEM_Polar_Bear_Head.png",
       "url": "https://icarus.fandom.com/wiki/Polar_Bear_Head",
       "craft": []
     },
     {
       "id": "snow-leopard-head",
       "name": "Snow Leopard Head",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/1/17/ITEM_Snow_Leopard_Head.png",
+      "imageUrl": "/images/ITEM_Snow_Leopard_Head.png",
       "url": "https://icarus.fandom.com/wiki/Snow_Leopard_Head",
       "craft": []
     },
     {
       "id": "coal-ore",
       "name": "Coal Ore",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/e/ee/ITEM_Coal_Ore.png",
+      "imageUrl": "/images/ITEM_Coal_Ore.png",
       "url": "https://icarus.fandom.com/wiki/Coal_Ore",
       "craft": []
     },
     {
       "id": "poison-sack",
       "name": "Poison Sack",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/f/f1/ITEM_Poison_Sack.png",
+      "imageUrl": "/images/ITEM_Poison_Sack.png",
       "url": "https://icarus.fandom.com/wiki/Poison_Sack",
       "craft": []
     },
     {
       "id": "mushroom",
       "name": "Mushroom",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/7/72/ITEM_Mushroom.png",
+      "imageUrl": "/images/ITEM_Mushroom.png",
       "url": "https://icarus.fandom.com/wiki/Mushroom",
       "craft": []
     },
     {
       "id": "carrot",
       "name": "Carrot",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/1/10/ITEM_Carrot.png",
+      "imageUrl": "/images/ITEM_Carrot.png",
       "url": "https://icarus.fandom.com/wiki/Carrot",
       "craft": []
     },
     {
       "id": "scorpion-tail",
       "name": "Scorpion Tail",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/7/71/ITEM_Scorpion_Tail.png",
+      "imageUrl": "/images/ITEM_Scorpion_Tail.png",
       "url": "https://icarus.fandom.com/wiki/Scorpion_Tail",
       "craft": []
     },
     {
       "id": "scorpion-pincer",
       "name": "Scorpion Pincer",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/d/d6/ITEM_Scorpion_Pincer.png",
+      "imageUrl": "/images/ITEM_Scorpion_Pincer.png",
       "url": "https://icarus.fandom.com/wiki/Scorpion_Pincer",
       "craft": []
     },
     {
       "id": "silica-ore",
       "name": "Silica Ore",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/8/8e/ITEM_Silica_Ore.png",
+      "imageUrl": "/images/ITEM_Silica_Ore.png",
       "url": "https://icarus.fandom.com/wiki/Silica_Ore",
       "craft": []
     },
     {
       "id": "sulfur",
       "name": "Sulfur",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/e/e0/ITEM_Sulfur.png",
+      "imageUrl": "/images/ITEM_Sulfur.png",
       "url": "https://icarus.fandom.com/wiki/Sulfur",
       "craft": []
     },
     {
       "id": "oxite",
       "name": "Oxite",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/f/f0/ITEM_Oxite.png",
+      "imageUrl": "/images/ITEM_Oxite.png",
       "url": "https://icarus.fandom.com/wiki/Oxite",
       "craft": []
     },
     {
       "id": "water",
       "name": "Water",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/6/65/Icon_Water.png",
+      "imageUrl": "/images/Icon_Water.png",
       "url": "https://icarus.fandom.com/wiki/Water",
       "craft": []
     },
     {
       "id": "sandworm-scale",
       "name": "Sandworm Scale",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/6/62/ITEM_Sandworm_Scale.png",
+      "imageUrl": "/images/ITEM_Sandworm_Scale.png",
       "url": "https://icarus.fandom.com/wiki/Sandworm_Scale",
       "craft": []
     },
     {
       "id": "worm-scale",
       "name": "Worm Scale",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/e/e2/ITEM_Worm_Scale.png",
+      "imageUrl": "/images/ITEM_Worm_Scale.png",
       "url": "https://icarus.fandom.com/wiki/Worm_Scale",
       "craft": []
     },
     {
       "id": "bone",
       "name": "Bone",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/7/71/ITEM_Bone.png",
+      "imageUrl": "/images/ITEM_Bone.png",
       "url": "https://icarus.fandom.com/wiki/Bone",
       "craft": []
     },
     {
       "id": "yeast",
       "name": "Yeast",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/a/a5/ITEM_Yeast.png",
+      "imageUrl": "/images/ITEM_Yeast.png",
       "url": "https://icarus.fandom.com/wiki/Yeast",
       "craft": []
     },
     {
       "id": "cocoa-seed",
       "name": "Cocoa Seed",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/1/1b/ITEM_Cocoa_Seed.png",
+      "imageUrl": "/images/ITEM_Cocoa_Seed.png",
       "url": "https://icarus.fandom.com/wiki/Cocoa_Seed",
       "craft": []
     },
     {
       "id": "coffee-bean",
       "name": "Coffee Bean",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/9/9f/ITEM_Coffee_Bean.png",
+      "imageUrl": "/images/ITEM_Coffee_Bean.png",
       "url": "https://icarus.fandom.com/wiki/Coffee_Bean",
       "craft": []
     },
     {
       "id": "corn",
       "name": "Corn",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/c/c5/ITEM_Corn.png",
+      "imageUrl": "/images/ITEM_Corn.png",
       "url": "https://icarus.fandom.com/wiki/Corn",
       "craft": []
     },
     {
       "id": "fiber",
       "name": "Fiber",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/6/6f/ITEM_Fiber.png",
+      "imageUrl": "/images/ITEM_Fiber.png",
       "url": "https://icarus.fandom.com/wiki/Fiber",
       "craft": []
     },
     {
       "id": "fur",
       "name": "Fur",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/d/df/ITEM_Fur.png",
+      "imageUrl": "/images/ITEM_Fur.png",
       "url": "https://icarus.fandom.com/wiki/Fur",
       "craft": []
     },
     {
       "id": "gorse-flower",
       "name": "Gorse Flower",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/2/2f/ITEM_Gorse_Flower.png",
+      "imageUrl": "/images/ITEM_Gorse_Flower.png",
       "url": "https://icarus.fandom.com/wiki/Gorse_Flower",
       "craft": []
     },
     {
       "id": "ice",
       "name": "Ice",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/b/b4/ITEM_Ice.png",
+      "imageUrl": "/images/ITEM_Ice.png",
       "url": "https://icarus.fandom.com/wiki/Ice",
       "craft": []
     },
     {
       "id": "iron-ore",
       "name": "Iron Ore",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/6/68/ITEM_Iron_Ore.png",
+      "imageUrl": "/images/ITEM_Iron_Ore.png",
       "url": "https://icarus.fandom.com/wiki/Iron_Ore",
       "craft": []
     },
     {
       "id": "gold-ore",
       "name": "Gold Ore",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/2/26/ITEM_Gold_Ore.png",
+      "imageUrl": "/images/ITEM_Gold_Ore.png",
       "url": "https://icarus.fandom.com/wiki/Gold_Ore",
       "craft": []
     },
     {
       "id": "copper-ore",
       "name": "Copper Ore",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/6/63/ITEM_Copper_Ore.png",
+      "imageUrl": "/images/ITEM_Copper_Ore.png",
       "url": "https://icarus.fandom.com/wiki/Copper_Ore",
       "craft": []
     },
     {
       "id": "aluminium-ore",
       "name": "Aluminium Ore",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/a/a9/ITEM_Aluminium_Ore.png",
+      "imageUrl": "/images/ITEM_Aluminium_Ore.png",
       "url": "https://icarus.fandom.com/wiki/Aluminium_Ore",
       "craft": []
     },
     {
       "id": "platinum-ore",
       "name": "Platinum Ore",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/2/22/ITEM_Platinum_Ore.png",
+      "imageUrl": "/images/ITEM_Platinum_Ore.png",
       "url": "https://icarus.fandom.com/wiki/Platinum_Ore",
       "craft": []
     },
     {
       "id": "leather",
       "name": "Leather",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/d/db/ITEM_Leather.png",
+      "imageUrl": "/images/ITEM_Leather.png",
       "url": "https://icarus.fandom.com/wiki/Leather",
       "craft": []
     },
     {
       "id": "lily",
       "name": "Lily",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/8/88/ITEM_Lily.png/revision/latest/scale-to-width-down/350?cb=20211223225416",
+      "imageUrl": "/images/ITEM_Lily.png",
       "url": "https://icarus.fandom.com/wiki/Lily",
       "craft": []
     },
     {
       "id": "mature-coconut",
       "name": "Mature Coconut",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/7/7a/ITEM_Mature_Coconut.png",
+      "imageUrl": "/images/ITEM_Mature_Coconut.png",
       "url": "https://icarus.fandom.com/wiki/Mature_Coconut",
       "craft": []
     },
     {
       "id": "polar-bear-pelt",
       "name": "Polar Bear Pelt",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/6/65/ITEM_Polar_Bear_Pelt.png",
+      "imageUrl": "/images/ITEM_Polar_Bear_Pelt.png",
       "url": "https://icarus.fandom.com/wiki/Polar_Bear_Pelt",
       "craft": []
     },
     {
       "id": "pumpkin",
       "name": "Pumpkin",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/a/a9/ITEM_Pumpkin.png",
+      "imageUrl": "/images/ITEM_Pumpkin.png",
       "url": "https://icarus.fandom.com/wiki/Pumpkin",
       "craft": []
     },
     {
       "id": "raw-bacon",
       "name": "Raw Bacon",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/a/a7/ITEM_Raw_Bacon.png",
+      "imageUrl": "/images/ITEM_Raw_Bacon.png",
       "url": "https://icarus.fandom.com/wiki/Raw_Bacon",
       "craft": []
     },
     {
       "id": "raw-fatty-tbone",
       "name": "Raw Fatty Tbone",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/a/a6/ITEM_Raw_Fatty_Tbone.png",
+      "imageUrl": "/images/ITEM_Raw_Fatty_Tbone.png",
       "url": "https://icarus.fandom.com/wiki/Raw_Fatty_Tbone",
       "craft": []
     },
     {
       "id": "raw-fish",
       "name": "Raw Fish",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/7/77/Raw_Fish.png",
+      "imageUrl": "/images/Raw_Fish.png",
       "url": "https://icarus.fandom.com/wiki/Raw_Fish",
       "craft": []
     },
     {
       "id": "raw-game-meat",
       "name": "Raw Game Meat",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/8/88/ITEM_Raw_Game_Meat.png",
+      "imageUrl": "/images/ITEM_Raw_Game_Meat.png",
       "url": "https://icarus.fandom.com/wiki/Raw_Game_Meat",
       "craft": []
     },
     {
       "id": "raw-giant-steak",
       "name": "Raw Giant Steak",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/3/32/ITEM_Raw_Giant_Steak.png",
+      "imageUrl": "/images/ITEM_Raw_Giant_Steak.png",
       "url": "https://icarus.fandom.com/wiki/Raw_Giant_Steak",
       "craft": []
     },
     {
       "id": "raw-meat",
       "name": "Raw Meat",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/2/22/ITEM_Raw_Meat.png",
+      "imageUrl": "/images/ITEM_Raw_Meat.png",
       "url": "https://icarus.fandom.com/wiki/Raw_Meat",
       "craft": []
     },
     {
       "id": "raw-soft-meat",
       "name": "Raw Soft Meat",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/1/1a/ITEM_Raw_Soft_Meat.png",
+      "imageUrl": "/images/ITEM_Raw_Soft_Meat.png",
       "url": "https://icarus.fandom.com/wiki/Raw_Soft_Meat",
       "craft": []
     },
     {
       "id": "raw-stringy-meat",
       "name": "Raw Stringy Meat",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/6/6c/ITEM_Raw_Stringy_Meat.png",
+      "imageUrl": "/images/ITEM_Raw_Stringy_Meat.png",
       "url": "https://icarus.fandom.com/wiki/Raw_Stringy_Meat",
       "craft": []
     },
     {
       "id": "raw-white-meat",
       "name": "Raw White Meat",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/1/13/ITEM_Raw_White_Meat.png",
+      "imageUrl": "/images/ITEM_Raw_White_Meat.png",
       "url": "https://icarus.fandom.com/wiki/Raw_White_Meat",
       "craft": []
     },
     {
       "id": "reed-flower",
       "name": "Reed Flower",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/3/3e/ITEM_Reed_Flower.png",
+      "imageUrl": "/images/ITEM_Reed_Flower.png",
       "url": "https://icarus.fandom.com/wiki/Reed_Flower",
       "craft": []
     },
     {
       "id": "ripe-coconut",
       "name": "Ripe Coconut",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/3/3c/ITEM_Ripe_Coconut.png",
+      "imageUrl": "/images/ITEM_Ripe_Coconut.png",
       "url": "https://icarus.fandom.com/wiki/Ripe_Coconut",
       "craft": []
     },
     {
       "id": "soy-bean",
       "name": "Soy Bean",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/b/b1/ITEM_Soy_Bean.png",
+      "imageUrl": "/images/ITEM_Soy_Bean.png",
       "url": "https://icarus.fandom.com/wiki/Soy_Bean",
       "craft": []
     },
     {
       "id": "spoiled-meat",
       "name": "Spoiled Meat",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/d/dd/ITEM_Spoiled_Meat.png",
+      "imageUrl": "/images/ITEM_Spoiled_Meat.png",
       "url": "https://icarus.fandom.com/wiki/Spoiled_Meat",
       "craft": []
     },
     {
       "id": "spoiled-plants",
       "name": "Spoiled Plants",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/1/10/ITEM_Spoiled_Plants.png",
+      "imageUrl": "/images/ITEM_Spoiled_Plants.png",
       "url": "https://icarus.fandom.com/wiki/Spoiled_Plants",
       "craft": []
     },
     {
       "id": "sponge",
       "name": "Sponge",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/a/ad/ITEM_Sponge.png",
+      "imageUrl": "/images/ITEM_Sponge.png",
       "url": "https://icarus.fandom.com/wiki/Sponge",
       "craft": []
     },
     {
       "id": "squash",
       "name": "Squash",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/2/25/ITEM_Squash.png",
+      "imageUrl": "/images/ITEM_Squash.png",
       "url": "https://icarus.fandom.com/wiki/Squash",
       "craft": []
     },
     {
       "id": "stick",
       "name": "Stick",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/6/6e/ITEM_Stick.png",
+      "imageUrl": "/images/ITEM_Stick.png",
       "url": "https://icarus.fandom.com/wiki/Stick",
       "craft": []
     },
     {
       "id": "stone",
       "name": "Stone",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/c/ce/ITEM_Stone.png",
+      "imageUrl": "/images/ITEM_Stone.png",
       "url": "https://icarus.fandom.com/wiki/Stone",
       "craft": []
     },
     {
       "id": "tea",
       "name": "Tea",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/5/5a/ITEM_Tea.png",
+      "imageUrl": "/images/ITEM_Tea.png",
       "url": "https://icarus.fandom.com/wiki/Tea",
       "craft": []
     },
     {
       "id": "titanium-ore",
       "name": "Titanium Ore",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/9/98/ITEM_Titanium_Ore.png",
+      "imageUrl": "/images/ITEM_Titanium_Ore.png",
       "url": "https://icarus.fandom.com/wiki/Titanium_Ore",
       "craft": []
     },
     {
       "id": "watermelon",
       "name": "Watermelon",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/d/d1/ITEM_Watermelon.png",
+      "imageUrl": "/images/ITEM_Watermelon.png",
       "url": "https://icarus.fandom.com/wiki/Watermelon",
       "craft": []
     },
     {
       "id": "wheat",
       "name": "Wheat",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/d/dc/ITEM_Wheat.png",
+      "imageUrl": "/images/ITEM_Wheat.png",
       "url": "https://icarus.fandom.com/wiki/Wheat",
       "craft": []
     },
     {
       "id": "wild-berry",
       "name": "Wild Berry",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/8/8b/ITEM_Wild_Berry.png",
+      "imageUrl": "/images/ITEM_Wild_Berry.png",
       "url": "https://icarus.fandom.com/wiki/Wild_Berry",
       "craft": []
     },
     {
       "id": "wood",
       "name": "Wood",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/3/3e/ITEM_Wood.png",
+      "imageUrl": "/images/ITEM_Wood.png",
       "url": "https://icarus.fandom.com/wiki/Wood",
       "craft": []
     },
     {
       "id": "young-coconut",
       "name": "Young Coconut",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/6/62/ITEM_Young_Coconut.png",
+      "imageUrl": "/images/ITEM_Young_Coconut.png",
       "url": "https://icarus.fandom.com/wiki/Young_Coconut",
       "craft": []
     }
@@ -1988,35 +1988,35 @@
     {
       "id": "aluminium-floor",
       "name": "Aluminium Floor",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/0/02/ITEM_Aluminium_Floor.png",
+      "imageUrl": "/images/ITEM_Aluminium_Floor.png",
       "url": "https://icarus.fandom.com/wiki/Aluminium_Floor",
       "craft": []
     },
     {
       "id": "aluminium-floor-trapdoor",
       "name": "Aluminium Floor Trapdoor",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/4/46/ITEM_Aluminium_Floor_Trapdoor.png",
+      "imageUrl": "/images/ITEM_Aluminium_Floor_Trapdoor.png",
       "url": "https://icarus.fandom.com/wiki/Aluminium_Floor_Trapdoor",
       "craft": []
     },
     {
       "id": "aluminium-halfpieces",
       "name": "Aluminium Halfpieces",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/e/e5/ITEM_Aluminium_Halfpieces.png",
+      "imageUrl": "/images/ITEM_Aluminium_Halfpieces.png",
       "url": "https://icarus.fandom.com/wiki/Aluminium_Halfpieces",
       "craft": []
     },
     {
       "id": "aluminium-halfpitches",
       "name": "Aluminium Halfpitches",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/f/f3/ITEM_Aluminium_Halfpitches.png",
+      "imageUrl": "/images/ITEM_Aluminium_Halfpitches.png",
       "url": "https://icarus.fandom.com/wiki/Aluminium_Halfpitches",
       "craft": []
     },
     {
       "id": "aluminium-beam",
       "name": "Aluminium Beam",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/2/25/ITEM_Aluminium_Beam.png",
+      "imageUrl": "/images/ITEM_Aluminium_Beam.png",
       "url": "https://icarus.fandom.com/wiki/Aluminium_Beam",
       "craft": [
         {
@@ -2036,7 +2036,7 @@
     {
       "id": "aluminium-door",
       "name": "Aluminium Door",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/7/7c/ITEM_Aluminium_Door.png",
+      "imageUrl": "/images/ITEM_Aluminium_Door.png",
       "url": "https://icarus.fandom.com/wiki/Aluminium_Door",
       "craft": [
         {
@@ -2056,7 +2056,7 @@
     {
       "id": "aluminium-ladder",
       "name": "Aluminium Ladder",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/4/42/ITEM_Aluminium_Ladder.png",
+      "imageUrl": "/images/ITEM_Aluminium_Ladder.png",
       "url": "https://icarus.fandom.com/wiki/Aluminium_Ladder",
       "craft": [
         {
@@ -2076,7 +2076,7 @@
     {
       "id": "aluminium-railing",
       "name": "Aluminium Railing",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/f/f2/ITEM_Aluminium_Railing.png",
+      "imageUrl": "/images/ITEM_Aluminium_Railing.png",
       "url": "https://icarus.fandom.com/wiki/Aluminium_Railing",
       "craft": [
         {
@@ -2096,35 +2096,35 @@
     {
       "id": "aluminium-ramp",
       "name": "Aluminium Ramp",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/1/12/ITEM_Aluminium_Ramp.png",
+      "imageUrl": "/images/ITEM_Aluminium_Ramp.png",
       "url": "https://icarus.fandom.com/wiki/Aluminium_Ramp",
       "craft": []
     },
     {
       "id": "aluminium-roof",
       "name": "Aluminium Roof",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/9/9e/ITEM_Aluminium_Roof.png",
+      "imageUrl": "/images/ITEM_Aluminium_Roof.png",
       "url": "https://icarus.fandom.com/wiki/Aluminium_Roof",
       "craft": []
     },
     {
       "id": "aluminium-roof-corner",
       "name": "Aluminium Roof Corner",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/4/4d/ITEM_Aluminium_Roof_Corner.png",
+      "imageUrl": "/images/ITEM_Aluminium_Roof_Corner.png",
       "url": "https://icarus.fandom.com/wiki/Aluminium_Roof_Corner",
       "craft": []
     },
     {
       "id": "aluminium-stairs",
       "name": "Aluminium Stairs",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/a/ad/ITEM_Aluminium_Stairs.png",
+      "imageUrl": "/images/ITEM_Aluminium_Stairs.png",
       "url": "https://icarus.fandom.com/wiki/Aluminium_Stairs",
       "craft": []
     },
     {
       "id": "aluminium-trapdoor",
       "name": "Aluminium Trapdoor",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/6/65/ITEM_Aluminium_Trapdoor.png",
+      "imageUrl": "/images/ITEM_Aluminium_Trapdoor.png",
       "url": "https://icarus.fandom.com/wiki/Aluminium_Trapdoor",
       "craft": [
         {
@@ -2144,7 +2144,7 @@
     {
       "id": "aluminium-wall",
       "name": "Aluminium Wall",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/6/61/ITEM_Aluminium_Wall.png",
+      "imageUrl": "/images/ITEM_Aluminium_Wall.png",
       "url": "https://icarus.fandom.com/wiki/Aluminium_Wall",
       "craft": [
         {
@@ -2164,14 +2164,14 @@
     {
       "id": "aluminium-wall-angled",
       "name": "Aluminium Wall Angled",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/2/28/ITEM_Aluminium_Wall_Angled.png",
+      "imageUrl": "/images/ITEM_Aluminium_Wall_Angled.png",
       "url": "https://icarus.fandom.com/wiki/Aluminium_Wall_Angled",
       "craft": []
     },
     {
       "id": "aluminium-window",
       "name": "Aluminium Window",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/0/04/ITEM_Aluminium_Window.png",
+      "imageUrl": "/images/ITEM_Aluminium_Window.png",
       "url": "https://icarus.fandom.com/wiki/Aluminium_Window",
       "craft": [
         {
@@ -2191,7 +2191,7 @@
     {
       "id": "basic-ceiling-light",
       "name": "Basic Ceiling Light",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/0/01/ITEM_Basic_Ceiling_Light.png",
+      "imageUrl": "/images/ITEM_Basic_Ceiling_Light.png",
       "url": "https://icarus.fandom.com/wiki/Basic_Ceiling_Light",
       "craft": [
         {
@@ -2212,7 +2212,7 @@
     {
       "id": "basic-wall-light",
       "name": "Basic Wall Light",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/a/a0/ITEM_Basic_Wall_Light.png",
+      "imageUrl": "/images/ITEM_Basic_Wall_Light.png",
       "url": "https://icarus.fandom.com/wiki/Basic_Wall_Light",
       "craft": [
         {
@@ -2233,7 +2233,7 @@
     {
       "id": "concrete-wall",
       "name": "Concrete Wall",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/5/55/ITEM_Concrete_Wall.png",
+      "imageUrl": "/images/ITEM_Concrete_Wall.png",
       "url": "https://icarus.fandom.com/wiki/Concrete_Wall",
       "craft": [
         {
@@ -2254,7 +2254,7 @@
     {
       "id": "concrete-wall-angled",
       "name": "Concrete Wall Angled",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/d/da/ITEM_Concrete_Wall_Angled.png",
+      "imageUrl": "/images/ITEM_Concrete_Wall_Angled.png",
       "url": "https://icarus.fandom.com/wiki/Concrete_Wall_Angled",
       "craft": [
         {
@@ -2275,7 +2275,7 @@
     {
       "id": "glass-wall",
       "name": "Glass Wall",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/4/40/ITEM_Glass_Wall.png",
+      "imageUrl": "/images/ITEM_Glass_Wall.png",
       "url": "https://icarus.fandom.com/wiki/Glass_Wall",
       "craft": [
         {
@@ -2296,7 +2296,7 @@
     {
       "id": "glass-wall-angled",
       "name": "Glass Wall Angled",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/2/23/ITEM_Glass_Wall_Angled.png",
+      "imageUrl": "/images/ITEM_Glass_Wall_Angled.png",
       "url": "https://icarus.fandom.com/wiki/Glass_Wall_Angled",
       "craft": [
         {
@@ -2317,7 +2317,7 @@
     {
       "id": "interior-wood-wall",
       "name": "Interior Wood Wall",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/b/bf/ITEM_Interior_Wood_Wall.png",
+      "imageUrl": "/images/ITEM_Interior_Wood_Wall.png",
       "url": "https://icarus.fandom.com/wiki/Interior_Wood_Wall",
       "craft": [
         {
@@ -2333,7 +2333,7 @@
     {
       "id": "interior-wood-wall-angled",
       "name": "Interior Wood Wall Angled",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/7/7e/ITEM_Interior_Wood_Wall_Angled.png",
+      "imageUrl": "/images/ITEM_Interior_Wood_Wall_Angled.png",
       "url": "https://icarus.fandom.com/wiki/Interior_Wood_Wall_Angled",
       "craft": [
         {
@@ -2349,7 +2349,7 @@
     {
       "id": "stone-wall",
       "name": "Stone Wall",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/e/ed/ITEM_Stone_Wall.png",
+      "imageUrl": "/images/ITEM_Stone_Wall.png",
       "url": "https://icarus.fandom.com/wiki/Stone_Wall",
       "craft": [
         {
@@ -2373,7 +2373,7 @@
     {
       "id": "stone-wall-angled",
       "name": "Stone Wall Angled",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/1/12/ITEM_Stone_Wall_Angled.png",
+      "imageUrl": "/images/ITEM_Stone_Wall_Angled.png",
       "url": "https://icarus.fandom.com/wiki/Stone_Wall_Angled",
       "craft": [
         {
@@ -2397,7 +2397,7 @@
     {
       "id": "thatch-wall",
       "name": "Thatch Wall",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/2/2e/ITEM_Thatch_Wall.png",
+      "imageUrl": "/images/ITEM_Thatch_Wall.png",
       "url": "https://icarus.fandom.com/wiki/Thatch_Wall",
       "craft": [
         {
@@ -2413,7 +2413,7 @@
     {
       "id": "thatch-wall-angled",
       "name": "Thatch Wall Angled",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/b/b8/ITEM_Thatch_Wall_Angled.png",
+      "imageUrl": "/images/ITEM_Thatch_Wall_Angled.png",
       "url": "https://icarus.fandom.com/wiki/Thatch_Wall_Angled",
       "craft": [
         {
@@ -2429,7 +2429,7 @@
     {
       "id": "wood-wall",
       "name": "Wood Wall",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/5/55/ITEM_Wood_Wall.png",
+      "imageUrl": "/images/ITEM_Wood_Wall.png",
       "url": "https://icarus.fandom.com/wiki/Wood_Wall",
       "craft": [
         {
@@ -2445,7 +2445,7 @@
     {
       "id": "wood-wall-angled",
       "name": "Wood Wall Angled",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/0/03/ITEM_Wood_Wall_Angled.png",
+      "imageUrl": "/images/ITEM_Wood_Wall_Angled.png",
       "url": "https://icarus.fandom.com/wiki/Wood_Wall_Angled",
       "craft": [
         {
@@ -2461,7 +2461,7 @@
     {
       "id": "concrete-roof",
       "name": "Concrete Roof",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/9/9e/ITEM_Concrete_Roof.png",
+      "imageUrl": "/images/ITEM_Concrete_Roof.png",
       "url": "https://icarus.fandom.com/wiki/Concrete_Roof",
       "craft": [
         {
@@ -2482,7 +2482,7 @@
     {
       "id": "concrete-roof-corner",
       "name": "Concrete Roof Corner",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/a/a9/ITEM_Concrete_Roof_Corner.png",
+      "imageUrl": "/images/ITEM_Concrete_Roof_Corner.png",
       "url": "https://icarus.fandom.com/wiki/Concrete_Roof_Corner",
       "craft": [
         {
@@ -2503,7 +2503,7 @@
     {
       "id": "glass-roof",
       "name": "Glass Roof",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/b/b1/ITEM_Glass_Roof.png",
+      "imageUrl": "/images/ITEM_Glass_Roof.png",
       "url": "https://icarus.fandom.com/wiki/Glass_Roof",
       "craft": [
         {
@@ -2524,7 +2524,7 @@
     {
       "id": "glass-roof-corner",
       "name": "Glass Roof Corner",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/3/36/ITEM_Glass_Roof_Corner.png",
+      "imageUrl": "/images/ITEM_Glass_Roof_Corner.png",
       "url": "https://icarus.fandom.com/wiki/Glass_Roof_Corner",
       "craft": [
         {
@@ -2545,7 +2545,7 @@
     {
       "id": "stone-roof",
       "name": "Stone Roof",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/9/9e/ITEM_Stone_Roof.png",
+      "imageUrl": "/images/ITEM_Stone_Roof.png",
       "url": "https://icarus.fandom.com/wiki/Stone_Roof",
       "craft": [
         {
@@ -2569,7 +2569,7 @@
     {
       "id": "stone-roof-corner",
       "name": "Stone Roof Corner",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/d/d9/ITEM_Stone_Roof_Corner.png",
+      "imageUrl": "/images/ITEM_Stone_Roof_Corner.png",
       "url": "https://icarus.fandom.com/wiki/Stone_Roof_Corner",
       "craft": [
         {
@@ -2593,7 +2593,7 @@
     {
       "id": "thatch-roof",
       "name": "Thatch Roof",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/2/27/ITEM_Thatch_Roof.png",
+      "imageUrl": "/images/ITEM_Thatch_Roof.png",
       "url": "https://icarus.fandom.com/wiki/Thatch_Roof",
       "craft": [
         {
@@ -2609,7 +2609,7 @@
     {
       "id": "thatch-roof-corner",
       "name": "Thatch Roof Corner",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/8/86/ITEM_Thatch_Roof_Corner.png",
+      "imageUrl": "/images/ITEM_Thatch_Roof_Corner.png",
       "url": "https://icarus.fandom.com/wiki/Thatch_Roof_Corner",
       "craft": [
         {
@@ -2625,7 +2625,7 @@
     {
       "id": "wood-roof",
       "name": "Wood Roof",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/8/87/ITEM_Wood_Roof.png",
+      "imageUrl": "/images/ITEM_Wood_Roof.png",
       "url": "https://icarus.fandom.com/wiki/Wood_Roof",
       "craft": [
         {
@@ -2641,7 +2641,7 @@
     {
       "id": "wood-roof-corner",
       "name": "Wood Roof Corner",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/2/25/ITEM_Wood_Roof_Corner.png",
+      "imageUrl": "/images/ITEM_Wood_Roof_Corner.png",
       "url": "https://icarus.fandom.com/wiki/Wood_Roof_Corner",
       "craft": [
         {
@@ -2657,7 +2657,7 @@
     {
       "id": "glass-window",
       "name": "Glass Window",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/c/cb/ITEM_Glass_Window.png",
+      "imageUrl": "/images/ITEM_Glass_Window.png",
       "url": "https://icarus.fandom.com/wiki/Glass_Window",
       "craft": [
         {
@@ -2678,7 +2678,7 @@
     {
       "id": "heavy-glass-window",
       "name": "Heavy Glass Window",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/c/ca/ITEM_Heavy_Glass_Window.png",
+      "imageUrl": "/images/ITEM_Heavy_Glass_Window.png",
       "url": "https://icarus.fandom.com/wiki/Heavy_Glass_Window",
       "craft": [
         {
@@ -2699,7 +2699,7 @@
     {
       "id": "leather-curtain-window",
       "name": "Leather Curtain Window",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/c/c8/ITEM_Leather_Curtain_Window.png",
+      "imageUrl": "/images/ITEM_Leather_Curtain_Window.png",
       "url": "https://icarus.fandom.com/wiki/Leather_Curtain_Window",
       "craft": [
         {
@@ -2720,7 +2720,7 @@
     {
       "id": "reinforced-window",
       "name": "Reinforced Window",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/5/53/ITEM_Reinforced_Window.png",
+      "imageUrl": "/images/ITEM_Reinforced_Window.png",
       "url": "https://icarus.fandom.com/wiki/Reinforced_Window",
       "craft": [
         {
@@ -2744,7 +2744,7 @@
     {
       "id": "thatch-window",
       "name": "Thatch Window",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/9/9f/ITEM_Thatch_Window.png",
+      "imageUrl": "/images/ITEM_Thatch_Window.png",
       "url": "https://icarus.fandom.com/wiki/Thatch_Window",
       "craft": [
         {
@@ -2760,7 +2760,7 @@
     {
       "id": "wood-window",
       "name": "Wood Window",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/c/c1/ITEM_Wood_Window.png",
+      "imageUrl": "/images/ITEM_Wood_Window.png",
       "url": "https://icarus.fandom.com/wiki/Wood_Window",
       "craft": [
         {
@@ -2776,7 +2776,7 @@
     {
       "id": "concrete-floor-trapdoor",
       "name": "Concrete Floor Trapdoor",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/5/5d/ITEM_Concrete_Floor_Trapdoor.png",
+      "imageUrl": "/images/ITEM_Concrete_Floor_Trapdoor.png",
       "url": "https://icarus.fandom.com/wiki/Concrete_Floor_Trapdoor",
       "craft": [
         {
@@ -2797,7 +2797,7 @@
     {
       "id": "heavy-trapdoor",
       "name": "Heavy Trapdoor",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/8/82/ITEM_Heavy_Trapdoor.png",
+      "imageUrl": "/images/ITEM_Heavy_Trapdoor.png",
       "url": "https://icarus.fandom.com/wiki/Heavy_Trapdoor",
       "craft": [
         {
@@ -2817,7 +2817,7 @@
     {
       "id": "interior-wood-floor-trapdoor",
       "name": "Interior Wood Floor Trapdoor",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/4/4d/ITEM_Interior_Wood_Floor_Trapdoor.png",
+      "imageUrl": "/images/ITEM_Interior_Wood_Floor_Trapdoor.png",
       "url": "https://icarus.fandom.com/wiki/Interior_Wood_Floor_Trapdoor",
       "craft": [
         {
@@ -2833,7 +2833,7 @@
     {
       "id": "interior-wood-trapdoor",
       "name": "Interior Wood Trapdoor",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/f/f4/ITEM_Interior_Wood_Trapdoor.png",
+      "imageUrl": "/images/ITEM_Interior_Wood_Trapdoor.png",
       "url": "https://icarus.fandom.com/wiki/Interior_Wood_Trapdoor",
       "craft": [
         {
@@ -2853,7 +2853,7 @@
     {
       "id": "reinforced-trapdoor",
       "name": "Reinforced Trapdoor",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/0/00/ITEM_Reinforced_Trapdoor.png",
+      "imageUrl": "/images/ITEM_Reinforced_Trapdoor.png",
       "url": "https://icarus.fandom.com/wiki/Reinforced_Trapdoor",
       "craft": [
         {
@@ -2877,7 +2877,7 @@
     {
       "id": "stone-floor-trapdoor",
       "name": "Stone Floor Trapdoor",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/7/7d/ITEM_Stone_Floor_Trapdoor.png",
+      "imageUrl": "/images/ITEM_Stone_Floor_Trapdoor.png",
       "url": "https://icarus.fandom.com/wiki/Stone_Floor_Trapdoor",
       "craft": [
         {
@@ -2901,7 +2901,7 @@
     {
       "id": "thatch-floor-trapdoor",
       "name": "Thatch Floor Trapdoor",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/7/76/ITEM_Thatch_Floor_Trapdoor.png",
+      "imageUrl": "/images/ITEM_Thatch_Floor_Trapdoor.png",
       "url": "https://icarus.fandom.com/wiki/Thatch_Floor_Trapdoor",
       "craft": [
         {
@@ -2917,7 +2917,7 @@
     {
       "id": "thatch-trapdoor",
       "name": "Thatch Trapdoor",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/4/48/ITEM_Thatch_Trapdoor.png",
+      "imageUrl": "/images/ITEM_Thatch_Trapdoor.png",
       "url": "https://icarus.fandom.com/wiki/Thatch_Trapdoor",
       "craft": [
         {
@@ -2933,7 +2933,7 @@
     {
       "id": "wood-floor-trapdoor",
       "name": "Wood Floor Trapdoor",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/9/99/ITEM_Wood_Floor_Trapdoor.png",
+      "imageUrl": "/images/ITEM_Wood_Floor_Trapdoor.png",
       "url": "https://icarus.fandom.com/wiki/Wood_Floor_Trapdoor",
       "craft": [
         {
@@ -2949,7 +2949,7 @@
     {
       "id": "wood-trapdoor",
       "name": "Wood Trapdoor",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/0/00/ITEM_Wood_Trapdoor.png",
+      "imageUrl": "/images/ITEM_Wood_Trapdoor.png",
       "url": "https://icarus.fandom.com/wiki/Wood_Trapdoor",
       "craft": [
         {
@@ -2965,7 +2965,7 @@
     {
       "id": "concrete-stairs",
       "name": "Concrete Stairs",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/8/89/ITEM_Concrete_Stairs.png",
+      "imageUrl": "/images/ITEM_Concrete_Stairs.png",
       "url": "https://icarus.fandom.com/wiki/Concrete_Stairs",
       "craft": [
         {
@@ -2986,7 +2986,7 @@
     {
       "id": "interior-wood-stairs",
       "name": "Interior Wood Stairs",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/6/68/ITEM_Interior_Wood_Stairs.png",
+      "imageUrl": "/images/ITEM_Interior_Wood_Stairs.png",
       "url": "https://icarus.fandom.com/wiki/Interior_Wood_Stairs",
       "craft": [
         {
@@ -3002,7 +3002,7 @@
     {
       "id": "stone-stairs",
       "name": "Stone Stairs",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/2/24/ITEM_Stone_Stairs.png",
+      "imageUrl": "/images/ITEM_Stone_Stairs.png",
       "url": "https://icarus.fandom.com/wiki/Stone_Stairs",
       "craft": [
         {
@@ -3026,7 +3026,7 @@
     {
       "id": "thatch-stairs",
       "name": "Thatch Stairs",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/3/36/ITEM_Thatch_Stairs.png",
+      "imageUrl": "/images/ITEM_Thatch_Stairs.png",
       "url": "https://icarus.fandom.com/wiki/Thatch_Stairs",
       "craft": [
         {
@@ -3042,7 +3042,7 @@
     {
       "id": "wood-stairs",
       "name": "Wood Stairs",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/a/aa/ITEM_Wood_Stairs.png",
+      "imageUrl": "/images/ITEM_Wood_Stairs.png",
       "url": "https://icarus.fandom.com/wiki/Wood_Stairs",
       "craft": [
         {
@@ -3058,7 +3058,7 @@
     {
       "id": "concrete-ramp",
       "name": "Concrete Ramp",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/f/f4/ITEM_Concrete_Ramp.png",
+      "imageUrl": "/images/ITEM_Concrete_Ramp.png",
       "url": "https://icarus.fandom.com/wiki/Concrete_Ramp",
       "craft": [
         {
@@ -3079,7 +3079,7 @@
     {
       "id": "stone-ramp",
       "name": "Stone Ramp",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/7/78/ITEM_Stone_Ramp.png",
+      "imageUrl": "/images/ITEM_Stone_Ramp.png",
       "url": "https://icarus.fandom.com/wiki/Stone_Ramp",
       "craft": [
         {
@@ -3103,7 +3103,7 @@
     {
       "id": "thatch-ramp",
       "name": "Thatch Ramp",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/0/01/ITEM_Thatch_Ramp.png",
+      "imageUrl": "/images/ITEM_Thatch_Ramp.png",
       "url": "https://icarus.fandom.com/wiki/Thatch_Ramp",
       "craft": [
         {
@@ -3119,7 +3119,7 @@
     {
       "id": "wood-ramp",
       "name": "Wood Ramp",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/0/04/ITEM_Wood_Ramp.png",
+      "imageUrl": "/images/ITEM_Wood_Ramp.png",
       "url": "https://icarus.fandom.com/wiki/Wood_Ramp",
       "craft": [
         {
@@ -3135,7 +3135,7 @@
     {
       "id": "concrete-railing",
       "name": "Concrete Railing",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/d/df/ITEM_Concrete_Railing.png",
+      "imageUrl": "/images/ITEM_Concrete_Railing.png",
       "url": "https://icarus.fandom.com/wiki/Concrete_Railing",
       "craft": [
         {
@@ -3156,7 +3156,7 @@
     {
       "id": "interior-wood-railing",
       "name": "Interior Wood Railing",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/4/42/ITEM_Interior_Wood_Railing.png",
+      "imageUrl": "/images/ITEM_Interior_Wood_Railing.png",
       "url": "https://icarus.fandom.com/wiki/Interior_Wood_Railing",
       "craft": [
         {
@@ -3172,7 +3172,7 @@
     {
       "id": "reinforced-railing",
       "name": "Reinforced Railing",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/e/e0/ITEM_Reinforced_Railing.png",
+      "imageUrl": "/images/ITEM_Reinforced_Railing.png",
       "url": "https://icarus.fandom.com/wiki/Reinforced_Railing",
       "craft": [
         {
@@ -3192,7 +3192,7 @@
     {
       "id": "thatch-railing",
       "name": "Thatch Railing",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/f/fc/ITEM_Thatch_Railing.png",
+      "imageUrl": "/images/ITEM_Thatch_Railing.png",
       "url": "https://icarus.fandom.com/wiki/Thatch_Railing",
       "craft": [
         {
@@ -3208,7 +3208,7 @@
     {
       "id": "wood-railing",
       "name": "Wood Railing",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/9/9b/ITEM_Wood_Railing.png",
+      "imageUrl": "/images/ITEM_Wood_Railing.png",
       "url": "https://icarus.fandom.com/wiki/Wood_Railing",
       "craft": [
         {
@@ -3224,7 +3224,7 @@
     {
       "id": "interior-wood-ladder",
       "name": "Interior Wood Ladder",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/1/1f/ITEM_Interior_Wood_Ladder.png",
+      "imageUrl": "/images/ITEM_Interior_Wood_Ladder.png",
       "url": "https://icarus.fandom.com/wiki/Interior_Wood_Ladder",
       "craft": [
         {
@@ -3240,7 +3240,7 @@
     {
       "id": "reinforced-ladder",
       "name": "Reinforced Ladder",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/a/a8/ITEM_Reinforced_Ladder.png",
+      "imageUrl": "/images/ITEM_Reinforced_Ladder.png",
       "url": "https://icarus.fandom.com/wiki/Reinforced_Ladder",
       "craft": [
         {
@@ -3260,7 +3260,7 @@
     {
       "id": "thatch-ladder",
       "name": "Thatch Ladder",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/5/53/ITEM_Thatch_Ladder.png",
+      "imageUrl": "/images/ITEM_Thatch_Ladder.png",
       "url": "https://icarus.fandom.com/wiki/Thatch_Ladder",
       "craft": [
         {
@@ -3276,7 +3276,7 @@
     {
       "id": "wood-ladder",
       "name": "Wood Ladder",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/d/d3/ITEM_Wood_Ladder.png",
+      "imageUrl": "/images/ITEM_Wood_Ladder.png",
       "url": "https://icarus.fandom.com/wiki/Wood_Ladder",
       "craft": [
         {
@@ -3292,7 +3292,7 @@
     {
       "id": "interior-wood-door",
       "name": "Interior Wood Door",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/b/bb/ITEM_Interior_Wood_Door.png",
+      "imageUrl": "/images/ITEM_Interior_Wood_Door.png",
       "url": "https://icarus.fandom.com/wiki/Interior_Wood_Door",
       "craft": [
         {
@@ -3312,7 +3312,7 @@
     {
       "id": "leather-curtain-door",
       "name": "Leather Curtain Door",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/3/3e/ITEM_Leather_Curtain_Door.png",
+      "imageUrl": "/images/ITEM_Leather_Curtain_Door.png",
       "url": "https://icarus.fandom.com/wiki/Leather_Curtain_Door",
       "craft": [
         {
@@ -3333,7 +3333,7 @@
     {
       "id": "reinforced-door",
       "name": "Reinforced Door",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/2/2a/ITEM_Reinforced_Door.png",
+      "imageUrl": "/images/ITEM_Reinforced_Door.png",
       "url": "https://icarus.fandom.com/wiki/Reinforced_Door",
       "craft": [
         {
@@ -3357,7 +3357,7 @@
     {
       "id": "wood-door",
       "name": "Wood Door",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/2/2d/ITEM_Wood_Door.png",
+      "imageUrl": "/images/ITEM_Wood_Door.png",
       "url": "https://icarus.fandom.com/wiki/Wood_Door",
       "craft": [
         {
@@ -3373,7 +3373,7 @@
     {
       "id": "concrete-beam",
       "name": "Concrete Beam",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/f/f5/ITEM_Concrete_Beam.png",
+      "imageUrl": "/images/ITEM_Concrete_Beam.png",
       "url": "https://icarus.fandom.com/wiki/Concrete_Beam",
       "craft": [
         {
@@ -3394,7 +3394,7 @@
     {
       "id": "concrete-floor",
       "name": "Concrete Floor",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/3/37/ITEM_Concrete_Floor.png",
+      "imageUrl": "/images/ITEM_Concrete_Floor.png",
       "url": "https://icarus.fandom.com/wiki/Concrete_Floor",
       "craft": [
         {
@@ -3415,7 +3415,7 @@
     {
       "id": "concrete-frame",
       "name": "Concrete Frame",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/a/ac/ITEM_Concrete_Frame.png",
+      "imageUrl": "/images/ITEM_Concrete_Frame.png",
       "url": "https://icarus.fandom.com/wiki/Concrete_Frame",
       "craft": [
         {
@@ -3436,7 +3436,7 @@
     {
       "id": "concrete-halfpieces",
       "name": "Concrete Halfpieces",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/f/ff/ITEM_Concrete_Halfpieces.png",
+      "imageUrl": "/images/ITEM_Concrete_Halfpieces.png",
       "url": "https://icarus.fandom.com/wiki/Concrete_Halfpieces",
       "craft": [
         {
@@ -3457,7 +3457,7 @@
     {
       "id": "concrete-halfpitches",
       "name": "Concrete Halfpitches",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/7/75/ITEM_Concrete_Halfpitches.png",
+      "imageUrl": "/images/ITEM_Concrete_Halfpitches.png",
       "url": "https://icarus.fandom.com/wiki/Concrete_Halfpitches",
       "craft": [
         {
@@ -3478,7 +3478,7 @@
     {
       "id": "glass-beam",
       "name": "Glass Beam",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/8/8d/ITEM_Glass_Beam.png",
+      "imageUrl": "/images/ITEM_Glass_Beam.png",
       "url": "https://icarus.fandom.com/wiki/Glass_Beam",
       "craft": [
         {
@@ -3495,7 +3495,7 @@
     {
       "id": "glass-door",
       "name": "Glass Door",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/9/9f/ITEM_Glass_Door.png",
+      "imageUrl": "/images/ITEM_Glass_Door.png",
       "url": "https://icarus.fandom.com/wiki/Glass_Door",
       "craft": [
         {
@@ -3516,7 +3516,7 @@
     {
       "id": "interior-wood-beam",
       "name": "Interior Wood Beam",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/1/12/ITEM_Interior_Wood_Beam.png",
+      "imageUrl": "/images/ITEM_Interior_Wood_Beam.png",
       "url": "https://icarus.fandom.com/wiki/Interior_Wood_Beam",
       "craft": [
         {
@@ -3532,7 +3532,7 @@
     {
       "id": "interior-wood-cupboard",
       "name": "Interior Wood Cupboard",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/4/45/ITEM_Interior_Wood_Cupboard.png",
+      "imageUrl": "/images/ITEM_Interior_Wood_Cupboard.png",
       "url": "https://icarus.fandom.com/wiki/Interior_Wood_Cupboard",
       "craft": [
         {
@@ -3557,7 +3557,7 @@
     {
       "id": "interior-wood-floor",
       "name": "Interior Wood Floor",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/4/42/ITEM_Interior_Wood_Floor.png",
+      "imageUrl": "/images/ITEM_Interior_Wood_Floor.png",
       "url": "https://icarus.fandom.com/wiki/Interior_Wood_Floor",
       "craft": [
         {
@@ -3573,7 +3573,7 @@
     {
       "id": "interior-wood-halfpieces",
       "name": "Interior Wood Halfpieces",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/6/62/ITEM_Interior_Wood_Halfpieces.png",
+      "imageUrl": "/images/ITEM_Interior_Wood_Halfpieces.png",
       "url": "https://icarus.fandom.com/wiki/Interior_Wood_Halfpieces",
       "craft": [
         {
@@ -3589,7 +3589,7 @@
     {
       "id": "interior-wood-halfpitches",
       "name": "Interior Wood Halfpitches",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/1/14/ITEM_Interior_Wood_Halfpitches.png",
+      "imageUrl": "/images/ITEM_Interior_Wood_Halfpitches.png",
       "url": "https://icarus.fandom.com/wiki/Interior_Wood_Halfpitches",
       "craft": [
         {
@@ -3605,7 +3605,7 @@
     {
       "id": "interior-wood-ramp",
       "name": "Interior Wood Ramp",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/d/de/ITEM_Interior_Wood_Ramp.png",
+      "imageUrl": "/images/ITEM_Interior_Wood_Ramp.png",
       "url": "https://icarus.fandom.com/wiki/Interior_Wood_Ramp",
       "craft": [
         {
@@ -3621,7 +3621,7 @@
     {
       "id": "stone-beam",
       "name": "Stone Beam",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/5/51/ITEM_Stone_Beam.png",
+      "imageUrl": "/images/ITEM_Stone_Beam.png",
       "url": "https://icarus.fandom.com/wiki/Stone_Beam",
       "craft": [
         {
@@ -3645,7 +3645,7 @@
     {
       "id": "stone-floor",
       "name": "Stone Floor",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/b/b8/ITEM_Stone_Floor.png",
+      "imageUrl": "/images/ITEM_Stone_Floor.png",
       "url": "https://icarus.fandom.com/wiki/Stone_Floor",
       "craft": [
         {
@@ -3669,7 +3669,7 @@
     {
       "id": "stone-frame",
       "name": "Stone Frame",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/f/f1/ITEM_Stone_Frame.png",
+      "imageUrl": "/images/ITEM_Stone_Frame.png",
       "url": "https://icarus.fandom.com/wiki/Stone_Frame",
       "craft": [
         {
@@ -3693,7 +3693,7 @@
     {
       "id": "stone-halfpieces",
       "name": "Stone Halfpieces",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/c/cc/ITEM_Stone_Halfpieces.png",
+      "imageUrl": "/images/ITEM_Stone_Halfpieces.png",
       "url": "https://icarus.fandom.com/wiki/Stone_Halfpieces",
       "craft": [
         {
@@ -3717,7 +3717,7 @@
     {
       "id": "stone-halfpitches",
       "name": "Stone Halfpitches",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/1/1f/ITEM_Stone_Halfpitches.png",
+      "imageUrl": "/images/ITEM_Stone_Halfpitches.png",
       "url": "https://icarus.fandom.com/wiki/Stone_Halfpitches",
       "craft": [
         {
@@ -3741,7 +3741,7 @@
     {
       "id": "thatch-beam",
       "name": "Thatch Beam",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/3/3a/ITEM_Thatch_Beam.png",
+      "imageUrl": "/images/ITEM_Thatch_Beam.png",
       "url": "https://icarus.fandom.com/wiki/Thatch_Beam",
       "craft": [
         {
@@ -3757,7 +3757,7 @@
     {
       "id": "thatch-door",
       "name": "Thatch Door",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/3/3e/ITEM_Thatch_Door.png",
+      "imageUrl": "/images/ITEM_Thatch_Door.png",
       "url": "https://icarus.fandom.com/wiki/Thatch_Door",
       "craft": [
         {
@@ -3773,7 +3773,7 @@
     {
       "id": "thatch-floor",
       "name": "Thatch Floor",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/e/eb/ITEM_Thatch_Floor.png",
+      "imageUrl": "/images/ITEM_Thatch_Floor.png",
       "url": "https://icarus.fandom.com/wiki/Thatch_Floor",
       "craft": [
         {
@@ -3789,7 +3789,7 @@
     {
       "id": "thatch-halfpieces",
       "name": "Thatch Halfpieces",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/7/7b/ITEM_Thatch_Halfpieces.png",
+      "imageUrl": "/images/ITEM_Thatch_Halfpieces.png",
       "url": "https://icarus.fandom.com/wiki/Thatch_Halfpieces",
       "craft": [
         {
@@ -3805,7 +3805,7 @@
     {
       "id": "thatch-halfpitches",
       "name": "Thatch Halfpitches",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/7/78/ITEM_Thatch_Halfpitches.png",
+      "imageUrl": "/images/ITEM_Thatch_Halfpitches.png",
       "url": "https://icarus.fandom.com/wiki/Thatch_Halfpitches",
       "craft": [
         {
@@ -3821,7 +3821,7 @@
     {
       "id": "wood-beam",
       "name": "Wood Beam",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/3/34/ITEM_Wood_Beam.png",
+      "imageUrl": "/images/ITEM_Wood_Beam.png",
       "url": "https://icarus.fandom.com/wiki/Wood_Beam",
       "craft": [
         {
@@ -3837,7 +3837,7 @@
     {
       "id": "wood-floor",
       "name": "Wood Floor",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/8/89/ITEM_Wood_Floor.png",
+      "imageUrl": "/images/ITEM_Wood_Floor.png",
       "url": "https://icarus.fandom.com/wiki/Wood_Floor",
       "craft": [
         {
@@ -3853,7 +3853,7 @@
     {
       "id": "wood-halfpieces",
       "name": "Wood Halfpieces",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/9/97/ITEM_Wood_Halfpieces.png",
+      "imageUrl": "/images/ITEM_Wood_Halfpieces.png",
       "url": "https://icarus.fandom.com/wiki/Wood_Halfpieces",
       "craft": [
         {
@@ -3869,7 +3869,7 @@
     {
       "id": "wood-halfpitches",
       "name": "Wood Halfpitches",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/2/29/ITEM_Wood_Halfpitches.png",
+      "imageUrl": "/images/ITEM_Wood_Halfpitches.png",
       "url": "https://icarus.fandom.com/wiki/Wood_Halfpitches",
       "craft": [
         {
@@ -3887,7 +3887,7 @@
     {
       "id": "anti-parasitic-paste",
       "name": "Anti-Parasitic Paste",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/5/51/ITEM_Anti-Parasitic_Paste.png",
+      "imageUrl": "/images/ITEM_Anti-Parasitic_Paste.png",
       "url": "https://icarus.fandom.com/wiki/Anti-Parasitic_Paste",
       "craft": [
         {
@@ -3908,7 +3908,7 @@
     {
       "id": "anti-parasitic-pill",
       "name": "Anti-Parasitic Pill",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/f/fb/ITEM_Anti-Parasitic_Pill.png",
+      "imageUrl": "/images/ITEM_Anti-Parasitic_Pill.png",
       "url": "https://icarus.fandom.com/wiki/Anti-Parasitic_Pill",
       "craft": [
         {
@@ -3929,7 +3929,7 @@
     {
       "id": "anti-parasitic-tonic",
       "name": "Anti-Parasitic Tonic",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/8/84/ITEM_Anti-Parasitic_Tonic.png",
+      "imageUrl": "/images/ITEM_Anti-Parasitic_Tonic.png",
       "url": "https://icarus.fandom.com/wiki/Anti-Parasitic_Tonic",
       "craft": [
         {
@@ -3950,7 +3950,7 @@
     {
       "id": "anti-poison-paste",
       "name": "Anti-Poison Paste",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/b/b5/ITEM_Anti-Poison_Paste.png",
+      "imageUrl": "/images/ITEM_Anti-Poison_Paste.png",
       "url": "https://icarus.fandom.com/wiki/Anti-Poison_Paste",
       "craft": [
         {
@@ -3971,7 +3971,7 @@
     {
       "id": "anti-poison-pill",
       "name": "Anti-Poison Pill",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/c/c8/ITEM_Anti-Poison_Pill.png",
+      "imageUrl": "/images/ITEM_Anti-Poison_Pill.png",
       "url": "https://icarus.fandom.com/wiki/Anti-Poison_Pill",
       "craft": [
         {
@@ -3992,7 +3992,7 @@
     {
       "id": "anti-poison-tonic",
       "name": "Anti-Poison Tonic",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/e/e8/ITEM_Anti-Poison_Tonic.png",
+      "imageUrl": "/images/ITEM_Anti-Poison_Tonic.png",
       "url": "https://icarus.fandom.com/wiki/Anti-Poison_Tonic",
       "craft": [
         {
@@ -4013,7 +4013,7 @@
     {
       "id": "antibiotic-paste",
       "name": "Antibiotic Paste",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/7/79/ITEM_Antibiotic_Paste.png",
+      "imageUrl": "/images/ITEM_Antibiotic_Paste.png",
       "url": "https://icarus.fandom.com/wiki/Antibiotic_Paste",
       "craft": [
         {
@@ -4034,7 +4034,7 @@
     {
       "id": "antibiotic-pill",
       "name": "Antibiotic Pill",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/6/65/ITEM_Antibiotic_Pill.png",
+      "imageUrl": "/images/ITEM_Antibiotic_Pill.png",
       "url": "https://icarus.fandom.com/wiki/Antibiotic_Pill",
       "craft": [
         {
@@ -4055,7 +4055,7 @@
     {
       "id": "antibiotic-tonic",
       "name": "Antibiotic Tonic",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/0/08/ITEM_Antibiotic_Tonic.png",
+      "imageUrl": "/images/ITEM_Antibiotic_Tonic.png",
       "url": "https://icarus.fandom.com/wiki/Antibiotic_Tonic",
       "craft": [
         {
@@ -4076,7 +4076,7 @@
     {
       "id": "basic-bandage",
       "name": "Basic Bandage",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/c/cd/ITEM_Basic_Bandage.png",
+      "imageUrl": "/images/ITEM_Basic_Bandage.png",
       "url": "https://icarus.fandom.com/wiki/Basic_Bandage",
       "craft": [
         {
@@ -4089,7 +4089,7 @@
     {
       "id": "blood-thinning-paste",
       "name": "Blood Thinning Paste",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/1/18/ITEM_Blood_Thinning_Paste.png",
+      "imageUrl": "/images/ITEM_Blood_Thinning_Paste.png",
       "url": "https://icarus.fandom.com/wiki/Blood_Thinning_Paste",
       "craft": [
         {
@@ -4110,7 +4110,7 @@
     {
       "id": "carbon-paste",
       "name": "Carbon Paste",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/c/c6/ITEM_Carbon_Paste.png",
+      "imageUrl": "/images/ITEM_Carbon_Paste.png",
       "url": "https://icarus.fandom.com/wiki/Carbon_Paste",
       "craft": [
         {
@@ -4135,7 +4135,7 @@
     {
       "id": "food-consumption-paste",
       "name": "Food Consumption Paste",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/4/43/ITEM_Food_Consumption_Paste.png",
+      "imageUrl": "/images/ITEM_Food_Consumption_Paste.png",
       "url": "https://icarus.fandom.com/wiki/Food_Consumption_Paste",
       "craft": [
         {
@@ -4156,7 +4156,7 @@
     {
       "id": "health-buff-paste",
       "name": "Health Buff Paste",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/d/d2/ITEM_Health_Buff_Paste.png",
+      "imageUrl": "/images/ITEM_Health_Buff_Paste.png",
       "url": "https://icarus.fandom.com/wiki/Health_Buff_Paste",
       "craft": [
         {
@@ -4177,7 +4177,7 @@
     {
       "id": "health-regeneration-paste",
       "name": "Health Regeneration Paste",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/b/b8/ITEM_Health_Regeneration_Paste.png",
+      "imageUrl": "/images/ITEM_Health_Regeneration_Paste.png",
       "url": "https://icarus.fandom.com/wiki/Health_Regeneration_Paste",
       "craft": [
         {
@@ -4194,7 +4194,7 @@
     {
       "id": "health-restoration-paste",
       "name": "Health Restoration Paste",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/d/d6/ITEM_Health_Restoration_Paste.png",
+      "imageUrl": "/images/ITEM_Health_Restoration_Paste.png",
       "url": "https://icarus.fandom.com/wiki/Health_Restoration_Paste",
       "craft": [
         {
@@ -4215,7 +4215,7 @@
     {
       "id": "oxygen-buff-paste",
       "name": "Oxygen Buff Paste",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/9/97/ITEM_Oxygen_Buff_Paste.png",
+      "imageUrl": "/images/ITEM_Oxygen_Buff_Paste.png",
       "url": "https://icarus.fandom.com/wiki/Oxygen_Buff_Paste",
       "craft": [
         {
@@ -4232,7 +4232,7 @@
     {
       "id": "oxygen-consumption-paste",
       "name": "Oxygen Consumption Paste",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/4/46/ITEM_Oxygen_Consumption_Paste.png",
+      "imageUrl": "/images/ITEM_Oxygen_Consumption_Paste.png",
       "url": "https://icarus.fandom.com/wiki/Oxygen_Consumption_Paste",
       "craft": [
         {
@@ -4249,7 +4249,7 @@
     {
       "id": "oxygen-restoration-paste",
       "name": "Oxygen Restoration Paste",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/d/da/ITEM_Oxygen_Restoration_Paste.png",
+      "imageUrl": "/images/ITEM_Oxygen_Restoration_Paste.png",
       "url": "https://icarus.fandom.com/wiki/Oxygen_Restoration_Paste",
       "craft": [
         {
@@ -4270,7 +4270,7 @@
     {
       "id": "poison-paste",
       "name": "Poison Paste",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/6/6d/ITEM_Poison_Paste.png",
+      "imageUrl": "/images/ITEM_Poison_Paste.png",
       "url": "https://icarus.fandom.com/wiki/Poison_Paste",
       "craft": [
         {
@@ -4287,7 +4287,7 @@
     {
       "id": "stamina-buff-paste",
       "name": "Stamina Buff Paste",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/6/6d/ITEM_Stamina_Buff_Paste.png",
+      "imageUrl": "/images/ITEM_Stamina_Buff_Paste.png",
       "url": "https://icarus.fandom.com/wiki/Stamina_Buff_Paste",
       "craft": [
         {
@@ -4308,7 +4308,7 @@
     {
       "id": "stamina-consumption-paste",
       "name": "Stamina Consumption Paste",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/1/13/ITEM_Stamina_Consumption_Paste.png",
+      "imageUrl": "/images/ITEM_Stamina_Consumption_Paste.png",
       "url": "https://icarus.fandom.com/wiki/Stamina_Consumption_Paste",
       "craft": [
         {
@@ -4325,7 +4325,7 @@
     {
       "id": "stamina-regeneration-paste",
       "name": "Stamina Regeneration Paste",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/9/94/ITEM_Stamina_Regeneration_Paste.png",
+      "imageUrl": "/images/ITEM_Stamina_Regeneration_Paste.png",
       "url": "https://icarus.fandom.com/wiki/Stamina_Regeneration_Paste",
       "craft": [
         {
@@ -4338,7 +4338,7 @@
     {
       "id": "stamina-restoration-paste",
       "name": "Stamina Restoration Paste",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/b/b8/ITEM_Stamina_Restoration_Paste.png",
+      "imageUrl": "/images/ITEM_Stamina_Restoration_Paste.png",
       "url": "https://icarus.fandom.com/wiki/Stamina_Restoration_Paste",
       "craft": [
         {
@@ -4359,7 +4359,7 @@
     {
       "id": "water-consumption-paste",
       "name": "Water Consumption Paste",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/2/2f/ITEM_Water_Consumption_Paste.png",
+      "imageUrl": "/images/ITEM_Water_Consumption_Paste.png",
       "url": "https://icarus.fandom.com/wiki/Water_Consumption_Paste",
       "craft": [
         {
@@ -4380,7 +4380,7 @@
     {
       "id": "blood-thinning-pill",
       "name": "Blood Thinning Pill",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/d/db/ITEM_Blood_Thinning_Pill.png",
+      "imageUrl": "/images/ITEM_Blood_Thinning_Pill.png",
       "url": "https://icarus.fandom.com/wiki/Blood_Thinning_Pill",
       "craft": [
         {
@@ -4401,7 +4401,7 @@
     {
       "id": "blood-thinning-tonic",
       "name": "Blood Thinning Tonic",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/9/9a/ITEM_Blood_Thinning_Tonic.png",
+      "imageUrl": "/images/ITEM_Blood_Thinning_Tonic.png",
       "url": "https://icarus.fandom.com/wiki/Blood_Thinning_Tonic",
       "craft": [
         {
@@ -4422,7 +4422,7 @@
     {
       "id": "cooling-bandage",
       "name": "Cooling Bandage",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/7/74/ITEM_Cooling_Bandage.png",
+      "imageUrl": "/images/ITEM_Cooling_Bandage.png",
       "url": "https://icarus.fandom.com/wiki/Cooling_Bandage",
       "craft": [
         {
@@ -4443,14 +4443,14 @@
     {
       "id": "gorse-tea",
       "name": "Gorse Tea",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/c/ca/ITEM_Gorse_Tea.png",
+      "imageUrl": "/images/ITEM_Gorse_Tea.png",
       "url": "https://icarus.fandom.com/wiki/Gorse_Tea",
       "craft": []
     },
     {
       "id": "heat-bandage",
       "name": "Heat Bandage",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/c/c1/ITEM_Heat_Bandage.png",
+      "imageUrl": "/images/ITEM_Heat_Bandage.png",
       "url": "https://icarus.fandom.com/wiki/Heat_Bandage",
       "craft": [
         {
@@ -4471,28 +4471,28 @@
     {
       "id": "hot-cocoa",
       "name": "Hot Cocoa",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/c/ce/ITEM_Hot_Cocoa.png",
+      "imageUrl": "/images/ITEM_Hot_Cocoa.png",
       "url": "https://icarus.fandom.com/wiki/Hot_Cocoa",
       "craft": []
     },
     {
       "id": "hot-coffee",
       "name": "Hot Coffee",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/d/d3/ITEM_Hot_Coffee.png",
+      "imageUrl": "/images/ITEM_Hot_Coffee.png",
       "url": "https://icarus.fandom.com/wiki/Hot_Coffee",
       "craft": []
     },
     {
       "id": "hot-tea",
       "name": "Hot Tea",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/1/19/ITEM_Hot_Tea.png",
+      "imageUrl": "/images/ITEM_Hot_Tea.png",
       "url": "https://icarus.fandom.com/wiki/Hot_Tea",
       "craft": []
     },
     {
       "id": "splint",
       "name": "Splint",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/7/73/ITEM_Splint.png",
+      "imageUrl": "/images/ITEM_Splint.png",
       "url": "https://icarus.fandom.com/wiki/Splint",
       "craft": [
         {
@@ -4513,7 +4513,7 @@
     {
       "id": "suture-kit",
       "name": "Suture Kit",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/e/e2/ITEM_Suture_Kit.png",
+      "imageUrl": "/images/ITEM_Suture_Kit.png",
       "url": "https://icarus.fandom.com/wiki/Suture_Kit",
       "craft": [
         {
@@ -4536,7 +4536,7 @@
     {
       "id": "animal-fat",
       "name": "Animal Fat",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/e/ea/ITEM_Animal_Fat.png",
+      "imageUrl": "/images/ITEM_Animal_Fat.png",
       "url": "https://icarus.fandom.com/wiki/Animal_Fat",
       "craft": [
         {
@@ -4549,7 +4549,7 @@
     {
       "id": "barbeque-carrot",
       "name": "Barbeque Carrot",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/4/42/ITEM_Barbeque_Carrot.png",
+      "imageUrl": "/images/ITEM_Barbeque_Carrot.png",
       "url": "https://icarus.fandom.com/wiki/Barbeque_Carrot",
       "craft": [],
       "bench": "campfire"
@@ -4557,7 +4557,7 @@
     {
       "id": "beer",
       "name": "Beer",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/5/5c/ITEM_Beer.png",
+      "imageUrl": "/images/ITEM_Beer.png",
       "url": "https://icarus.fandom.com/wiki/Beer",
       "craft": [
         {
@@ -4578,7 +4578,7 @@
     {
       "id": "berry-jam",
       "name": "Berry Jam",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/2/2f/ITEM_Berry_Jam.png",
+      "imageUrl": "/images/ITEM_Berry_Jam.png",
       "url": "https://icarus.fandom.com/wiki/Berry_Jam",
       "craft": [
         {
@@ -4595,7 +4595,7 @@
     {
       "id": "bread",
       "name": "Bread",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/b/b7/ITEM_Bread.png",
+      "imageUrl": "/images/ITEM_Bread.png",
       "url": "https://icarus.fandom.com/wiki/Bread",
       "craft": [
         {
@@ -4608,7 +4608,7 @@
     {
       "id": "bread-dough",
       "name": "Bread Dough",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/1/17/ITEM_Bread_Dough.png",
+      "imageUrl": "/images/ITEM_Bread_Dough.png",
       "url": "https://icarus.fandom.com/wiki/Bread_Dough",
       "craft": [
         {
@@ -4625,7 +4625,7 @@
     {
       "id": "charred-corn",
       "name": "Charred Corn",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/7/7c/ITEM_Charred_Corn.png",
+      "imageUrl": "/images/ITEM_Charred_Corn.png",
       "url": "https://icarus.fandom.com/wiki/Charred_Corn",
       "craft": [],
       "bench": "campfire"
@@ -4633,7 +4633,7 @@
     {
       "id": "cooked-bacon",
       "name": "Cooked Bacon",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/e/e0/ITEM_Cooked_Bacon.png",
+      "imageUrl": "/images/ITEM_Cooked_Bacon.png",
       "url": "https://icarus.fandom.com/wiki/Cooked_Bacon",
       "craft": [],
       "bench": "campfire"
@@ -4641,7 +4641,7 @@
     {
       "id": "cooked-fatty-tbone",
       "name": "Cooked Fatty Tbone",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/b/b3/ITEM_Cooked_Fatty_Tbone.png",
+      "imageUrl": "/images/ITEM_Cooked_Fatty_Tbone.png",
       "url": "https://icarus.fandom.com/wiki/Cooked_Fatty_Tbone",
       "craft": [],
       "bench": "campfire"
@@ -4649,7 +4649,7 @@
     {
       "id": "cooked-fish",
       "name": "Cooked Fish",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/f/f6/Cooked_Fish.png",
+      "imageUrl": "/images/Cooked_Fish.png",
       "url": "https://icarus.fandom.com/wiki/Cooked_Fish",
       "craft": [],
       "bench": "campfire"
@@ -4657,7 +4657,7 @@
     {
       "id": "cooked-game-meat",
       "name": "Cooked Game Meat",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/2/21/ITEM_Cooked_Game_Meat.png",
+      "imageUrl": "/images/ITEM_Cooked_Game_Meat.png",
       "url": "https://icarus.fandom.com/wiki/Cooked_Game_Meat",
       "craft": [],
       "bench": "campfire"
@@ -4665,7 +4665,7 @@
     {
       "id": "cooked-giant-steak",
       "name": "Cooked Giant Steak",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/5/5b/ITEM_Cooked_Giant_Steak.png",
+      "imageUrl": "/images/ITEM_Cooked_Giant_Steak.png",
       "url": "https://icarus.fandom.com/wiki/Cooked_Giant_Steak",
       "craft": [],
       "bench": "campfire"
@@ -4673,7 +4673,7 @@
     {
       "id": "cooked-meat",
       "name": "Cooked Meat",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/8/8a/ITEM_Cooked_Meat.png",
+      "imageUrl": "/images/ITEM_Cooked_Meat.png",
       "url": "https://icarus.fandom.com/wiki/Cooked_Meat",
       "craft": [],
       "bench": "campfire"
@@ -4681,7 +4681,7 @@
     {
       "id": "cooked-soft-meat",
       "name": "Cooked Soft Meat",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/c/c4/ITEM_Cooked_Soft_Meat.png",
+      "imageUrl": "/images/ITEM_Cooked_Soft_Meat.png",
       "url": "https://icarus.fandom.com/wiki/Cooked_Soft_Meat",
       "craft": [],
       "bench": "campfire"
@@ -4689,7 +4689,7 @@
     {
       "id": "cooked-stringy-meat",
       "name": "Cooked Stringy Meat",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/1/1c/ITEM_Cooked_Stringy_Meat.png",
+      "imageUrl": "/images/ITEM_Cooked_Stringy_Meat.png",
       "url": "https://icarus.fandom.com/wiki/Cooked_Stringy_Meat",
       "craft": [],
       "bench": "campfire"
@@ -4697,7 +4697,7 @@
     {
       "id": "cooked-white-meat",
       "name": "Cooked White Meat",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/e/e0/ITEM_Cooked_White_Meat.png",
+      "imageUrl": "/images/ITEM_Cooked_White_Meat.png",
       "url": "https://icarus.fandom.com/wiki/Cooked_White_Meat",
       "craft": [],
       "bench": "campfire"
@@ -4705,7 +4705,7 @@
     {
       "id": "creamed-corn",
       "name": "Creamed Corn",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/a/a4/ITEM_Creamed_Corn.png",
+      "imageUrl": "/images/ITEM_Creamed_Corn.png",
       "url": "https://icarus.fandom.com/wiki/Creamed_Corn",
       "craft": [
         {
@@ -4722,7 +4722,7 @@
     {
       "id": "crispy-bacon",
       "name": "Crispy Bacon",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/c/cd/ITEM_Crispy_Bacon.png",
+      "imageUrl": "/images/ITEM_Crispy_Bacon.png",
       "url": "https://icarus.fandom.com/wiki/Crispy_Bacon",
       "craft": [],
       "bench": "potbelly-stove"
@@ -4730,7 +4730,7 @@
     {
       "id": "crumbed-fish-fillet",
       "name": "Crumbed Fish Fillet",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/b/b0/ITEM_Crumbed_Fish_Fillet.png",
+      "imageUrl": "/images/ITEM_Crumbed_Fish_Fillet.png",
       "url": "https://icarus.fandom.com/wiki/Crumbed_Fish_Fillet",
       "craft": [
         {
@@ -4751,7 +4751,7 @@
     {
       "id": "dried-fatty-tbone",
       "name": "Dried Fatty Tbone",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/e/e9/ITEM_Dried_Fatty_Tbone.png",
+      "imageUrl": "/images/ITEM_Dried_Fatty_Tbone.png",
       "url": "https://icarus.fandom.com/wiki/Dried_Fatty_Tbone",
       "craft": [],
       "bench": "drying-rack"
@@ -4759,7 +4759,7 @@
     {
       "id": "dried-game-meat",
       "name": "Dried Game Meat",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/e/e0/ITEM_Dried_Game_Meat.png",
+      "imageUrl": "/images/ITEM_Dried_Game_Meat.png",
       "url": "https://icarus.fandom.com/wiki/Dried_Game_Meat",
       "craft": [],
       "bench": "drying-rack"
@@ -4767,7 +4767,7 @@
     {
       "id": "dried-giant-steak",
       "name": "Dried Giant Steak",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/7/75/ITEM_Dried_Giant_Steak.png",
+      "imageUrl": "/images/ITEM_Dried_Giant_Steak.png",
       "url": "https://icarus.fandom.com/wiki/Dried_Giant_Steak",
       "craft": [],
       "bench": "drying-rack"
@@ -4775,7 +4775,7 @@
     {
       "id": "dried-soft-meat",
       "name": "Dried Soft Meat",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/a/a1/ITEM_Dried_Soft_Meat.png",
+      "imageUrl": "/images/ITEM_Dried_Soft_Meat.png",
       "url": "https://icarus.fandom.com/wiki/Dried_Soft_Meat",
       "craft": [],
       "bench": "drying-rack"
@@ -4783,7 +4783,7 @@
     {
       "id": "dried-stringy-meat",
       "name": "Dried Stringy Meat",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/f/f9/ITEM_Dried_Stringy_Meat.png",
+      "imageUrl": "/images/ITEM_Dried_Stringy_Meat.png",
       "url": "https://icarus.fandom.com/wiki/Dried_Stringy_Meat",
       "craft": [],
       "bench": "drying-rack"
@@ -4791,7 +4791,7 @@
     {
       "id": "dried-white-meat",
       "name": "Dried White Meat",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/3/34/ITEM_Dried_White_Meat.png",
+      "imageUrl": "/images/ITEM_Dried_White_Meat.png",
       "url": "https://icarus.fandom.com/wiki/Dried_White_Meat",
       "craft": [],
       "bench": "drying-rack"
@@ -4799,7 +4799,7 @@
     {
       "id": "fish-curry",
       "name": "Fish Curry",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/4/46/ITEM_Fish_Curry.png",
+      "imageUrl": "/images/ITEM_Fish_Curry.png",
       "url": "https://icarus.fandom.com/wiki/Fish_Curry",
       "craft": [
         {
@@ -4820,7 +4820,7 @@
     {
       "id": "flatbread",
       "name": "Flatbread",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/b/b9/ITEM_Flatbread.png",
+      "imageUrl": "/images/ITEM_Flatbread.png",
       "url": "https://icarus.fandom.com/wiki/Flatbread",
       "craft": [],
       "bench": "campfire"
@@ -4828,7 +4828,7 @@
     {
       "id": "flatbread-dough",
       "name": "Flatbread Dough",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/1/17/ITEM_Bread_Dough.png",
+      "imageUrl": "/images/ITEM_Bread_Dough.png",
       "url": "https://icarus.fandom.com/wiki/Flatbread_Dough",
       "craft": [
         {
@@ -4841,7 +4841,7 @@
     {
       "id": "flour",
       "name": "Flour",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/e/e1/ITEM_Flour.png",
+      "imageUrl": "/images/ITEM_Flour.png",
       "url": "https://icarus.fandom.com/wiki/Flour",
       "craft": [
         {
@@ -4854,7 +4854,7 @@
     {
       "id": "fruit-pie",
       "name": "Fruit Pie",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/4/4c/ITEM_Fruit_Pie.png",
+      "imageUrl": "/images/ITEM_Fruit_Pie.png",
       "url": "https://icarus.fandom.com/wiki/Fruit_Pie",
       "craft": [
         {
@@ -4875,7 +4875,7 @@
     {
       "id": "fruit-salad",
       "name": "Fruit Salad",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/4/40/ITEM_Fruit_Salad.png",
+      "imageUrl": "/images/ITEM_Fruit_Salad.png",
       "url": "https://icarus.fandom.com/wiki/Fruit_Salad",
       "craft": [
         {
@@ -4892,7 +4892,7 @@
     {
       "id": "grilled-pumpkin",
       "name": "Grilled Pumpkin",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/0/02/ITEM_Grilled_Pumpkin.png",
+      "imageUrl": "/images/ITEM_Grilled_Pumpkin.png",
       "url": "https://icarus.fandom.com/wiki/Grilled_Pumpkin",
       "craft": [],
       "bench": "campfire"
@@ -4900,7 +4900,7 @@
     {
       "id": "meat-pie",
       "name": "Meat Pie",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/c/c3/ITEM_Meat_Pie.png",
+      "imageUrl": "/images/ITEM_Meat_Pie.png",
       "url": "https://icarus.fandom.com/wiki/Meat_Pie",
       "craft": [
         {
@@ -4925,7 +4925,7 @@
     {
       "id": "mushroom-soup",
       "name": "Mushroom Soup",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/6/60/ITEM_Mushroom_Soup.png",
+      "imageUrl": "/images/ITEM_Mushroom_Soup.png",
       "url": "https://icarus.fandom.com/wiki/Mushroom_Soup",
       "craft": [
         {
@@ -4942,7 +4942,7 @@
     {
       "id": "pastry",
       "name": "Pastry",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/2/27/ITEM_Pastry.png",
+      "imageUrl": "/images/ITEM_Pastry.png",
       "url": "https://icarus.fandom.com/wiki/Pastry",
       "craft": [
         {
@@ -4963,7 +4963,7 @@
     {
       "id": "pickled-carrot",
       "name": "Pickled Carrot",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/9/9f/ITEM_Pickled_Carrot.png",
+      "imageUrl": "/images/ITEM_Pickled_Carrot.png",
       "url": "https://icarus.fandom.com/wiki/Pickled_Carrot",
       "craft": [],
       "bench": "kitchen-bench"
@@ -4971,7 +4971,7 @@
     {
       "id": "pumpkin-bread",
       "name": "Pumpkin Bread",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/6/60/ITEM_Pumpkin_Bread.png",
+      "imageUrl": "/images/ITEM_Pumpkin_Bread.png",
       "url": "https://icarus.fandom.com/wiki/Pumpkin_Bread",
       "craft": [
         {
@@ -4988,7 +4988,7 @@
     {
       "id": "roast-squash",
       "name": "Roast Squash",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/5/5d/ITEM_Roast_Squash.png",
+      "imageUrl": "/images/ITEM_Roast_Squash.png",
       "url": "https://icarus.fandom.com/wiki/Roast_Squash",
       "craft": [],
       "bench": "campfire"
@@ -4996,7 +4996,7 @@
     {
       "id": "roast-vegetables",
       "name": "Roast Vegetables",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/7/79/ITEM_Roast_Vegetables.png",
+      "imageUrl": "/images/ITEM_Roast_Vegetables.png",
       "url": "https://icarus.fandom.com/wiki/Roast_Vegetables",
       "craft": [
         {
@@ -5017,7 +5017,7 @@
     {
       "id": "soy-bean-stir-fry",
       "name": "Soy Bean Stir-Fry",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/0/03/ITEM_Soy_Bean_Stir-Fry.png",
+      "imageUrl": "/images/ITEM_Soy_Bean_Stir-Fry.png",
       "url": "https://icarus.fandom.com/wiki/Soy_Bean_Stir-Fry",
       "craft": [
         {
@@ -5038,7 +5038,7 @@
     {
       "id": "stew",
       "name": "Stew",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/c/c9/ITEM_Stew.png",
+      "imageUrl": "/images/ITEM_Stew.png",
       "url": "https://icarus.fandom.com/wiki/Stew",
       "craft": [
         {
@@ -5063,7 +5063,7 @@
     {
       "id": "sweetcorn-soup",
       "name": "Sweetcorn Soup",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/8/83/ITEM_Sweetcorn_Soup.png",
+      "imageUrl": "/images/ITEM_Sweetcorn_Soup.png",
       "url": "https://icarus.fandom.com/wiki/Sweetcorn_Soup",
       "craft": [
         {
@@ -5080,7 +5080,7 @@
     {
       "id": "vegetable-pie",
       "name": "Vegetable Pie",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/4/40/ITEM_Vegetable_Pie.png",
+      "imageUrl": "/images/ITEM_Vegetable_Pie.png",
       "url": "https://icarus.fandom.com/wiki/Vegetable_Pie",
       "craft": [
         {
@@ -5105,7 +5105,7 @@
     {
       "id": "wild-salad",
       "name": "Wild Salad",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/0/0b/ITEM_Wild_Salad.png",
+      "imageUrl": "/images/ITEM_Wild_Salad.png",
       "url": "https://icarus.fandom.com/wiki/Wild_Salad",
       "craft": [
         {
@@ -5122,7 +5122,7 @@
     {
       "id": "wine",
       "name": "Wine",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/5/5c/ITEM_Wine.png",
+      "imageUrl": "/images/ITEM_Wine.png",
       "url": "https://icarus.fandom.com/wiki/Wine",
       "craft": [
         {
@@ -5144,7 +5144,7 @@
     {
       "id": "biofuel-composter",
       "name": "Biofuel Composter",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/4/42/ITEM_Biofuel_Composter.png",
+      "imageUrl": "/images/ITEM_Biofuel_Composter.png",
       "url": "https://icarus.fandom.com/wiki/Biofuel_Composter",
       "craft": [
         {
@@ -5169,7 +5169,7 @@
     {
       "id": "biofuel-deep-mining-drill",
       "name": "Biofuel Deep-Mining Drill",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/7/71/ITEM_Biofuel_Deep-Mining_Drill.png",
+      "imageUrl": "/images/ITEM_Biofuel_Deep-Mining_Drill.png",
       "url": "https://icarus.fandom.com/wiki/Biofuel_Deep-Mining_Drill",
       "craft": [
         {
@@ -5215,7 +5215,7 @@
     {
       "id": "biofuel-generator",
       "name": "Biofuel Generator",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/d/db/ITEM_Biofuel_Generator.png",
+      "imageUrl": "/images/ITEM_Biofuel_Generator.png",
       "url": "https://icarus.fandom.com/wiki/Biofuel_Generator",
       "craft": [
         {
@@ -5244,7 +5244,7 @@
     {
       "id": "bedroll",
       "name": "Bedroll",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/3/3b/ITEM_Bedroll.png",
+      "imageUrl": "/images/ITEM_Bedroll.png",
       "url": "https://icarus.fandom.com/wiki/Bedroll",
       "craft": [
         {
@@ -5298,7 +5298,7 @@
     {
       "id": "brazier",
       "name": "Brazier",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/1/19/ITEM_Brazier.png",
+      "imageUrl": "/images/ITEM_Brazier.png",
       "url": "https://icarus.fandom.com/wiki/Brazier",
       "craft": [
         {
@@ -5314,7 +5314,7 @@
     {
       "id": "campfire",
       "name": "Campfire",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/0/01/Campfire.png",
+      "imageUrl": "/images/Campfire.png",
       "url": "https://icarus.fandom.com/wiki/Campfire",
       "craft": [
         {
@@ -5334,7 +5334,7 @@
     {
       "id": "dehumidifier",
       "name": "Dehumidifier",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/4/46/ITEM_Dehumidifier.png",
+      "imageUrl": "/images/ITEM_Dehumidifier.png",
       "url": "https://icarus.fandom.com/wiki/Dehumidifier",
       "craft": [
         {
@@ -5363,7 +5363,7 @@
     {
       "id": "directional-worklamp",
       "name": "Directional Worklamp",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/6/62/ITEM_Directional_Worklamp.png",
+      "imageUrl": "/images/ITEM_Directional_Worklamp.png",
       "url": "https://icarus.fandom.com/wiki/Directional_Worklamp",
       "craft": [
         {
@@ -5388,7 +5388,7 @@
     {
       "id": "electric-composter",
       "name": "Electric Composter",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/8/89/ITEM_Electric_Composter.png",
+      "imageUrl": "/images/ITEM_Electric_Composter.png",
       "url": "https://icarus.fandom.com/wiki/Electric_Composter",
       "craft": [
         {
@@ -5417,7 +5417,7 @@
     {
       "id": "electric-deep-mining-drill",
       "name": "Electric Deep-Mining Drill",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/0/03/ITEM_Electric_Deep-Mining_Drill.png",
+      "imageUrl": "/images/ITEM_Electric_Deep-Mining_Drill.png",
       "url": "https://icarus.fandom.com/wiki/Electric_Deep-Mining_Drill",
       "craft": [
         {
@@ -5446,7 +5446,7 @@
     {
       "id": "electric-dehumidifier",
       "name": "Electric Dehumidifier",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/9/97/ITEM_Electric_Dehumidifier.png",
+      "imageUrl": "/images/ITEM_Electric_Dehumidifier.png",
       "url": "https://icarus.fandom.com/wiki/Electric_Dehumidifier",
       "craft": [
         {
@@ -5492,7 +5492,7 @@
     {
       "id": "electric-furnace",
       "name": "Electric Furnace",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/e/e0/ITEM_Electric_Furnace.png",
+      "imageUrl": "/images/ITEM_Electric_Furnace.png",
       "url": "https://icarus.fandom.com/wiki/Electric_Furnace",
       "craft": [
         {
@@ -5550,7 +5550,7 @@
     {
       "id": "electricity-tool",
       "name": "Electricity Tool",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/3/32/ITEM_Electricity_Tool.png",
+      "imageUrl": "/images/ITEM_Electricity_Tool.png",
       "url": "https://icarus.fandom.com/wiki/Electricity_Tool",
       "craft": [
         {
@@ -5571,7 +5571,7 @@
     {
       "id": "firepit",
       "name": "Firepit",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/e/e6/ITEM_Firepit.png",
+      "imageUrl": "/images/ITEM_Firepit.png",
       "url": "https://icarus.fandom.com/wiki/Firepit",
       "craft": [
         {
@@ -5587,7 +5587,7 @@
     {
       "id": "fireplace",
       "name": "Fireplace",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/6/62/ITEM_Fireplace.png",
+      "imageUrl": "/images/ITEM_Fireplace.png",
       "url": "https://icarus.fandom.com/wiki/Fireplace",
       "craft": [
         {
@@ -5603,7 +5603,7 @@
     {
       "id": "floor-torch",
       "name": "Floor Torch",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/2/25/ITEM_Floor_Torch.png",
+      "imageUrl": "/images/ITEM_Floor_Torch.png",
       "url": "https://icarus.fandom.com/wiki/Floor_Torch",
       "craft": [
         {
@@ -5624,7 +5624,7 @@
     {
       "id": "heavy-air-conditioner",
       "name": "Heavy Air Conditioner",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/3/34/ITEM_Heavy_Air_Conditioner.png",
+      "imageUrl": "/images/ITEM_Heavy_Air_Conditioner.png",
       "url": "https://icarus.fandom.com/wiki/Heavy_Air_Conditioner",
       "craft": [
         {
@@ -5649,7 +5649,7 @@
     {
       "id": "heavy-heater",
       "name": "Heavy Heater",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/4/44/ITEM_Heavy_Heater.png",
+      "imageUrl": "/images/ITEM_Heavy_Heater.png",
       "url": "https://icarus.fandom.com/wiki/Heavy_Heater",
       "craft": [
         {
@@ -5674,7 +5674,7 @@
     {
       "id": "ice-box",
       "name": "Ice Box",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/1/1f/ITEM_Ice_Box.png",
+      "imageUrl": "/images/ITEM_Ice_Box.png",
       "url": "https://icarus.fandom.com/wiki/Ice_Box",
       "craft": [
         {
@@ -5694,7 +5694,7 @@
     {
       "id": "iron-cupboard",
       "name": "Iron Cupboard",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/c/c7/ITEM_Iron_Cupboard.png",
+      "imageUrl": "/images/ITEM_Iron_Cupboard.png",
       "url": "https://icarus.fandom.com/wiki/Iron_Cupboard",
       "craft": [
         {
@@ -5715,7 +5715,7 @@
     {
       "id": "kitchen-storage-block",
       "name": "Kitchen Storage Block",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/a/af/ITEM_Kitchen_Storage_Block.png",
+      "imageUrl": "/images/ITEM_Kitchen_Storage_Block.png",
       "url": "https://icarus.fandom.com/wiki/Kitchen_Storage_Block",
       "craft": [
         {
@@ -5740,7 +5740,7 @@
     {
       "id": "lightning-rod",
       "name": "Lightning Rod",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/6/6c/ITEM_Lightning_Rod.png",
+      "imageUrl": "/images/ITEM_Lightning_Rod.png",
       "url": "https://icarus.fandom.com/wiki/Lightning_Rod",
       "craft": [
         {
@@ -5753,7 +5753,7 @@
     {
       "id": "medium-interior-wood-crate",
       "name": "Medium Interior Wood Crate",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/a/ab/ITEM_Medium_Interior_Wood_Crate.png",
+      "imageUrl": "/images/ITEM_Medium_Interior_Wood_Crate.png",
       "url": "https://icarus.fandom.com/wiki/Medium_Interior_Wood_Crate",
       "craft": [
         {
@@ -5774,7 +5774,7 @@
     {
       "id": "medium-iron-crate",
       "name": "Medium Iron Crate",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/1/16/ITEM_Medium_Iron_Crate.png",
+      "imageUrl": "/images/ITEM_Medium_Iron_Crate.png",
       "url": "https://icarus.fandom.com/wiki/Medium_Iron_Crate",
       "craft": [
         {
@@ -5791,7 +5791,7 @@
     {
       "id": "medium-wood-crate",
       "name": "Medium Wood Crate",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/8/89/ITEM_Medium_Wood_Crate.png",
+      "imageUrl": "/images/ITEM_Medium_Wood_Crate.png",
       "url": "https://icarus.fandom.com/wiki/Medium_Wood_Crate",
       "craft": [
         {
@@ -5808,7 +5808,7 @@
     {
       "id": "medium-wood-hedgehog",
       "name": "Medium Wood Hedgehog",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/7/74/ITEM_Medium_Wood_Hedgehog.png",
+      "imageUrl": "/images/ITEM_Medium_Wood_Hedgehog.png",
       "url": "https://icarus.fandom.com/wiki/Medium_Wood_Hedgehog",
       "craft": [
         {
@@ -5825,7 +5825,7 @@
     {
       "id": "metal-oxite-dissolver",
       "name": "Metal Oxite Dissolver",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/c/ca/ITEM_Metal_Oxite_Dissolver.png",
+      "imageUrl": "/images/ITEM_Metal_Oxite_Dissolver.png",
       "url": "https://icarus.fandom.com/wiki/Metal_Oxite_Dissolver",
       "craft": [
         {
@@ -5853,7 +5853,7 @@
     {
       "id": "omnidirectional-worklamp",
       "name": "Omnidirectional Worklamp",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/a/af/ITEM_Omnidirectional_Worklamp.png",
+      "imageUrl": "/images/ITEM_Omnidirectional_Worklamp.png",
       "url": "https://icarus.fandom.com/wiki/Omnidirectional_Worklamp",
       "craft": [
         {
@@ -5878,7 +5878,7 @@
     {
       "id": "oxidizer",
       "name": "Oxidizer",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/e/e5/ITEM_Oxidizer.png",
+      "imageUrl": "/images/ITEM_Oxidizer.png",
       "url": "https://icarus.fandom.com/wiki/Oxidizer",
       "craft": [
         {
@@ -5903,7 +5903,7 @@
     {
       "id": "oxite-dissolver",
       "name": "Oxite Dissolver",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/d/d0/ITEM_Oxite_Dissolver.png",
+      "imageUrl": "/images/ITEM_Oxite_Dissolver.png",
       "url": "https://icarus.fandom.com/wiki/Oxite_Dissolver",
       "craft": [
         {
@@ -5923,7 +5923,7 @@
     {
       "id": "portable-beacon",
       "name": "Portable Beacon",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/d/d1/ITEM_Portable_Beacon.png",
+      "imageUrl": "/images/ITEM_Portable_Beacon.png",
       "url": "https://icarus.fandom.com/wiki/Portable_Beacon",
       "craft": [
         {
@@ -5952,7 +5952,7 @@
     {
       "id": "rain-reservoir",
       "name": "Rain Reservoir",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/6/6d/ITEM_Rain_Reservoir.png",
+      "imageUrl": "/images/ITEM_Rain_Reservoir.png",
       "url": "https://icarus.fandom.com/wiki/Rain_Reservoir",
       "craft": [
         {
@@ -5976,7 +5976,7 @@
     {
       "id": "refrigerator",
       "name": "Refrigerator",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/2/2b/ITEM_Refrigerator.png",
+      "imageUrl": "/images/ITEM_Refrigerator.png",
       "url": "https://icarus.fandom.com/wiki/Refrigerator",
       "craft": [
         {
@@ -6000,7 +6000,7 @@
     {
       "id": "scorpion-hedgehog",
       "name": "Scorpion Hedgehog",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/d/db/ITEM_Scorpion_Hedgehog.png",
+      "imageUrl": "/images/ITEM_Scorpion_Hedgehog.png",
       "url": "https://icarus.fandom.com/wiki/Scorpion_Hedgehog",
       "craft": [
         {
@@ -6017,7 +6017,7 @@
     {
       "id": "scorpion-pincer-trap",
       "name": "Scorpion Pincer Trap",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/a/ab/ITEM_Scorpion_Pincer_Trap.png",
+      "imageUrl": "/images/ITEM_Scorpion_Pincer_Trap.png",
       "url": "https://icarus.fandom.com/wiki/Scorpion_Pincer_Trap",
       "craft": [
         {
@@ -6038,7 +6038,7 @@
     {
       "id": "small-interior-wood-crate",
       "name": "Small Interior Wood Crate",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/0/08/ITEM_Small_Interior_Wood_Crate.png",
+      "imageUrl": "/images/ITEM_Small_Interior_Wood_Crate.png",
       "url": "https://icarus.fandom.com/wiki/Small_Interior_Wood_Crate",
       "craft": [
         {
@@ -6059,7 +6059,7 @@
     {
       "id": "small-iron-crate",
       "name": "Small Iron Crate",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/b/b0/ITEM_Small_Iron_Crate.png",
+      "imageUrl": "/images/ITEM_Small_Iron_Crate.png",
       "url": "https://icarus.fandom.com/wiki/Small_Iron_Crate",
       "craft": [
         {
@@ -6076,7 +6076,7 @@
     {
       "id": "small-wood-crate",
       "name": "Small Wood Crate",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/e/eb/ITEM_Small_Wood_Crate.png",
+      "imageUrl": "/images/ITEM_Small_Wood_Crate.png",
       "url": "https://icarus.fandom.com/wiki/Small_Wood_Crate",
       "craft": [
         {
@@ -6093,7 +6093,7 @@
     {
       "id": "small-wood-sign",
       "name": "Small Wood Sign",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/d/de/ITEM_Small_Wood_Sign.png",
+      "imageUrl": "/images/ITEM_Small_Wood_Sign.png",
       "url": "https://icarus.fandom.com/wiki/Small_Wood_Sign",
       "craft": [
         {
@@ -6114,7 +6114,7 @@
     {
       "id": "solar-panel",
       "name": "Solar Panel",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/4/4a/ITEM_Solar_Panel.png",
+      "imageUrl": "/images/ITEM_Solar_Panel.png",
       "url": "https://icarus.fandom.com/wiki/Solar_Panel",
       "craft": [
         {
@@ -6143,7 +6143,7 @@
     {
       "id": "stone-furnace",
       "name": "Stone Furnace",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/0/09/ITEM_Stone_Furnace.png",
+      "imageUrl": "/images/ITEM_Stone_Furnace.png",
       "url": "https://icarus.fandom.com/wiki/Stone_Furnace",
       "craft": [
         {
@@ -6167,7 +6167,7 @@
     {
       "id": "stone-pile",
       "name": "Stone Pile",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/e/ec/ITEM_Stone_Pile.png",
+      "imageUrl": "/images/ITEM_Stone_Pile.png",
       "url": "https://icarus.fandom.com/wiki/Stone_Pile",
       "craft": [
         {
@@ -6179,7 +6179,7 @@
     {
       "id": "wall-torch",
       "name": "Wall Torch",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/e/e7/ITEM_Wall_Torch.png",
+      "imageUrl": "/images/ITEM_Wall_Torch.png",
       "url": "https://icarus.fandom.com/wiki/Wall_Torch",
       "craft": [
         {
@@ -6204,7 +6204,7 @@
     {
       "id": "water-pipe-tool",
       "name": "Water Pipe Tool",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/d/d3/ITEM_Water_Pipe_Tool.png",
+      "imageUrl": "/images/ITEM_Water_Pipe_Tool.png",
       "url": "https://icarus.fandom.com/wiki/Water_Pipe_Tool",
       "craft": [
         {
@@ -6225,7 +6225,7 @@
     {
       "id": "water-pump",
       "name": "Water Pump",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/4/4e/ITEM_Water_Pump.png",
+      "imageUrl": "/images/ITEM_Water_Pump.png",
       "url": "https://icarus.fandom.com/wiki/Water_Pump",
       "craft": [
         {
@@ -6250,7 +6250,7 @@
     {
       "id": "water-sprinkler",
       "name": "Water Sprinkler",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/d/de/ITEM_Water_Sprinkler.png",
+      "imageUrl": "/images/ITEM_Water_Sprinkler.png",
       "url": "https://icarus.fandom.com/wiki/Water_Sprinkler",
       "craft": [
         {
@@ -6271,7 +6271,7 @@
     {
       "id": "wood-bed",
       "name": "Wood Bed",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/2/20/ITEM_Wood_Bed.png",
+      "imageUrl": "/images/ITEM_Wood_Bed.png",
       "url": "https://icarus.fandom.com/wiki/Wood_Bed",
       "craft": [
         {
@@ -6296,7 +6296,7 @@
     {
       "id": "wood-chair",
       "name": "Wood Chair",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/3/3b/ITEM_Wood_Chair.png",
+      "imageUrl": "/images/ITEM_Wood_Chair.png",
       "url": "https://icarus.fandom.com/wiki/Wood_Chair",
       "craft": [
         {
@@ -6313,7 +6313,7 @@
     {
       "id": "wood-composter",
       "name": "Wood Composter",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/b/bc/ITEM_Wood_Composter.png",
+      "imageUrl": "/images/ITEM_Wood_Composter.png",
       "url": "https://icarus.fandom.com/wiki/Wood_Composter",
       "craft": [
         {
@@ -6338,7 +6338,7 @@
     {
       "id": "wood-cupboard",
       "name": "Wood Cupboard",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/0/0a/ITEM_Wood_Cupboard.png",
+      "imageUrl": "/images/ITEM_Wood_Cupboard.png",
       "url": "https://icarus.fandom.com/wiki/Wood_Cupboard",
       "craft": [
         {
@@ -6363,7 +6363,7 @@
     {
       "id": "wood-pile",
       "name": "Wood Pile",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/d/dd/ITEM_Wood_Pile.png",
+      "imageUrl": "/images/ITEM_Wood_Pile.png",
       "url": "https://icarus.fandom.com/wiki/Wood_Pile",
       "craft": [
         {
@@ -6375,7 +6375,7 @@
     {
       "id": "wood-rag-torch",
       "name": "Wood Rag Torch",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/c/c0/ITEM_Wood_Rag_Torch.png",
+      "imageUrl": "/images/ITEM_Wood_Rag_Torch.png",
       "url": "https://icarus.fandom.com/wiki/Wood_Rag_Torch",
       "craft": [
         {
@@ -6392,7 +6392,7 @@
     {
       "id": "wood-table",
       "name": "Wood Table",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/c/cf/ITEM_Wood_Table.png",
+      "imageUrl": "/images/ITEM_Wood_Table.png",
       "url": "https://icarus.fandom.com/wiki/Wood_Table",
       "craft": [
         {
@@ -6409,7 +6409,7 @@
     {
       "id": "wood-torch",
       "name": "Wood Torch",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/b/b5/ITEM_Wood_Torch.png",
+      "imageUrl": "/images/ITEM_Wood_Torch.png",
       "url": "https://icarus.fandom.com/wiki/Wood_Torch",
       "craft": [
         {
@@ -6432,7 +6432,7 @@
     {
       "id": "basic-fertilizer",
       "name": "Basic Fertilizer",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/5/59/ITEM_Basic_Fertilizer.png",
+      "imageUrl": "/images/ITEM_Basic_Fertilizer.png",
       "url": "https://icarus.fandom.com/wiki/Basic_Fertilizer",
       "craft": [
         {
@@ -6445,7 +6445,7 @@
     {
       "id": "growth-fertilizer",
       "name": "Growth Fertilizer",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/6/66/ITEM_Growth_Fertilizer.png",
+      "imageUrl": "/images/ITEM_Growth_Fertilizer.png",
       "url": "https://icarus.fandom.com/wiki/Growth_Fertilizer",
       "craft": [
         {
@@ -6462,7 +6462,7 @@
     {
       "id": "high-quality-fertilizer",
       "name": "High-Quality Fertilizer",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/8/82/ITEM_High-Quality_Fertilizer.png",
+      "imageUrl": "/images/ITEM_High-Quality_Fertilizer.png",
       "url": "https://icarus.fandom.com/wiki/High-Quality_Fertilizer",
       "craft": [
         {
@@ -6479,7 +6479,7 @@
     {
       "id": "hydroponic-crop-plot",
       "name": "Hydroponic Crop Plot",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/0/0c/ITEM_Hydroponic_Crop_Plot.png",
+      "imageUrl": "/images/ITEM_Hydroponic_Crop_Plot.png",
       "url": "https://icarus.fandom.com/wiki/Hydroponic_Crop_Plot",
       "craft": [
         {
@@ -6504,7 +6504,7 @@
     {
       "id": "iron-crop-plot",
       "name": "Iron Crop Plot",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/3/32/ITEM_Iron_Crop_Plot.png",
+      "imageUrl": "/images/ITEM_Iron_Crop_Plot.png",
       "url": "https://icarus.fandom.com/wiki/Iron_Crop_Plot",
       "craft": [
         {
@@ -6529,7 +6529,7 @@
     {
       "id": "wood-crop-plot",
       "name": "Wood Crop Plot",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/6/6d/ITEM_Wood_Crop_Plot.png",
+      "imageUrl": "/images/ITEM_Wood_Crop_Plot.png",
       "url": "https://icarus.fandom.com/wiki/Wood_Crop_Plot",
       "craft": [
         {
@@ -6548,7 +6548,7 @@
     {
       "id": "refined-gold",
       "name": "Refined Gold",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/d/df/ITEM_Refined_Gold.png",
+      "imageUrl": "/images/ITEM_Refined_Gold.png",
       "url": "https://icarus.fandom.com/wiki/Refined_Gold",
       "craft": [
         {
@@ -6561,7 +6561,7 @@
     {
       "id": "aluminium-ingot",
       "name": "Aluminium Ingot",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/c/ca/ITEM_Aluminium_Ingot.png",
+      "imageUrl": "/images/ITEM_Aluminium_Ingot.png",
       "url": "https://icarus.fandom.com/wiki/Aluminium_Ingot",
       "craft": [
         {
@@ -6574,7 +6574,7 @@
     {
       "id": "copper-ingot",
       "name": "Copper Ingot",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/d/d9/ITEM_Copper_Ingot.png",
+      "imageUrl": "/images/ITEM_Copper_Ingot.png",
       "url": "https://icarus.fandom.com/wiki/Copper_Ingot",
       "craft": [
         {
@@ -6587,7 +6587,7 @@
     {
       "id": "iron-ingot",
       "name": "Iron Ingot",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/c/ce/ITEM_Iron_Ingot.png",
+      "imageUrl": "/images/ITEM_Iron_Ingot.png",
       "url": "https://icarus.fandom.com/wiki/Iron_Ingot",
       "craft": [
         {
@@ -6600,7 +6600,7 @@
     {
       "id": "platinum-ingot",
       "name": "Platinum Ingot",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/3/3d/ITEM_Platinum_Ingot.png",
+      "imageUrl": "/images/ITEM_Platinum_Ingot.png",
       "url": "https://icarus.fandom.com/wiki/Platinum_Ingot",
       "craft": [
         {
@@ -6613,7 +6613,7 @@
     {
       "id": "steel-ingot",
       "name": "Steel Ingot",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/9/93/ITEM_Steel_Ingot.png",
+      "imageUrl": "/images/ITEM_Steel_Ingot.png",
       "url": "https://icarus.fandom.com/wiki/Steel_Ingot",
       "craft": [
         {
@@ -6626,7 +6626,7 @@
     {
       "id": "titanium-ingot",
       "name": "Titanium Ingot",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/e/ec/ITEM_Titanium_Ingot.png",
+      "imageUrl": "/images/ITEM_Titanium_Ingot.png",
       "url": "https://icarus.fandom.com/wiki/Titanium_Ingot",
       "craft": [
         {
@@ -6641,7 +6641,7 @@
     {
       "id": "oxygen-bladder",
       "name": "Oxygen Bladder",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/9/97/ITEM_Oxygen_Bladder.png",
+      "imageUrl": "/images/ITEM_Oxygen_Bladder.png",
       "url": "https://icarus.fandom.com/wiki/Oxygen_Bladder",
       "craft": [
         {
@@ -6662,7 +6662,7 @@
     {
       "id": "bolt-action-rifle",
       "name": "Bolt Action Rifle",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/d/de/ITEM_Bolt_Action_Rifle.png",
+      "imageUrl": "/images/ITEM_Bolt_Action_Rifle.png",
       "url": "https://icarus.fandom.com/wiki/Bolt_Action_Rifle",
       "craft": [
         {
@@ -6691,7 +6691,7 @@
     {
       "id": "bone-knife",
       "name": "Bone Knife",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/8/89/ITEM_Bone_Knife.png",
+      "imageUrl": "/images/ITEM_Bone_Knife.png",
       "url": "https://icarus.fandom.com/wiki/Bone_Knife",
       "craft": [
         {
@@ -6712,7 +6712,7 @@
     {
       "id": "bone-sickle",
       "name": "Bone Sickle",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/4/44/ITEM_Bone_Sickle.png",
+      "imageUrl": "/images/ITEM_Bone_Sickle.png",
       "url": "https://icarus.fandom.com/wiki/Bone_Sickle",
       "craft": [
         {
@@ -6733,7 +6733,7 @@
     {
       "id": "binoculars",
       "name": "Binoculars",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/9/98/ITEM_Binoculars.png",
+      "imageUrl": "/images/ITEM_Binoculars.png",
       "url": "https://icarus.fandom.com/wiki/Binoculars",
       "craft": [
         {
@@ -6758,7 +6758,7 @@
     {
       "id": "biofuel-can",
       "name": "Biofuel Can",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/2/25/ITEM_Biofuel_Can.png",
+      "imageUrl": "/images/ITEM_Biofuel_Can.png",
       "url": "https://icarus.fandom.com/wiki/Biofuel_Can",
       "craft": [
         {
@@ -6771,7 +6771,7 @@
     {
       "id": "biofuel-lamp",
       "name": "Biofuel Lamp",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/9/9e/ITEM_Biofuel_Lamp.png",
+      "imageUrl": "/images/ITEM_Biofuel_Lamp.png",
       "url": "https://icarus.fandom.com/wiki/Biofuel_Lamp",
       "craft": [
         {
@@ -6796,7 +6796,7 @@
     {
       "id": "building-upgrade-tool",
       "name": "Building Upgrade Tool",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/3/3f/ITEM_Building_Upgrade_Tool.png",
+      "imageUrl": "/images/ITEM_Building_Upgrade_Tool.png",
       "url": "https://icarus.fandom.com/wiki/Building_Upgrade_Tool",
       "craft": [
         {
@@ -6817,7 +6817,7 @@
     {
       "id": "carbon-spear",
       "name": "Carbon Spear",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/8/8c/ITEM_Carbon_Spear.png",
+      "imageUrl": "/images/ITEM_Carbon_Spear.png",
       "url": "https://icarus.fandom.com/wiki/Carbon_Spear",
       "craft": [
         {
@@ -6838,7 +6838,7 @@
     {
       "id": "caveworm-spear",
       "name": "Caveworm Spear",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/3/35/ITEM_Caveworm_Spear.png",
+      "imageUrl": "/images/ITEM_Caveworm_Spear.png",
       "url": "https://icarus.fandom.com/wiki/Caveworm_Spear",
       "craft": [
         {
@@ -6863,7 +6863,7 @@
     {
       "id": "iron-spear",
       "name": "Iron Spear",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/e/ea/ITEM_Iron_Spear.png",
+      "imageUrl": "/images/ITEM_Iron_Spear.png",
       "url": "https://icarus.fandom.com/wiki/Iron_Spear",
       "craft": [
         {
@@ -6884,7 +6884,7 @@
     {
       "id": "platinum-spear",
       "name": "Platinum Spear",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/c/c6/ITEM_Platinum_Spear.png",
+      "imageUrl": "/images/ITEM_Platinum_Spear.png",
       "url": "https://icarus.fandom.com/wiki/Platinum_Spear",
       "craft": [
         {
@@ -6905,7 +6905,7 @@
     {
       "id": "sandworm-spear",
       "name": "Sandworm Spear",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/9/9d/ITEM_Sandworm_Spear.png",
+      "imageUrl": "/images/ITEM_Sandworm_Spear.png",
       "url": "https://icarus.fandom.com/wiki/Sandworm_Spear",
       "craft": [
         {
@@ -6926,7 +6926,7 @@
     {
       "id": "steel-spear",
       "name": "Steel Spear",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/6/6d/ITEM_Steel_Spear.png",
+      "imageUrl": "/images/ITEM_Steel_Spear.png",
       "url": "https://icarus.fandom.com/wiki/Steel_Spear",
       "craft": [
         {
@@ -6947,7 +6947,7 @@
     {
       "id": "titanium-spear",
       "name": "Titanium Spear",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/0/02/ITEM_Titanium_Spear.png",
+      "imageUrl": "/images/ITEM_Titanium_Spear.png",
       "url": "https://icarus.fandom.com/wiki/Titanium_Spear",
       "craft": [
         {
@@ -6968,7 +6968,7 @@
     {
       "id": "wood-spear",
       "name": "Wood Spear",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/1/15/ITEM_Wood_Spear.png",
+      "imageUrl": "/images/ITEM_Wood_Spear.png",
       "url": "https://icarus.fandom.com/wiki/Wood_Spear",
       "craft": [
         {
@@ -6985,7 +6985,7 @@
     {
       "id": "canteen",
       "name": "Canteen",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/7/75/ITEM_Canteen.png",
+      "imageUrl": "/images/ITEM_Canteen.png",
       "url": "https://icarus.fandom.com/wiki/Canteen",
       "craft": [
         {
@@ -7001,7 +7001,7 @@
     {
       "id": "cave-scanner",
       "name": "Cave Scanner",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/6/66/ITEM_Cave_Scanner.png",
+      "imageUrl": "/images/ITEM_Cave_Scanner.png",
       "url": "https://icarus.fandom.com/wiki/Cave_Scanner",
       "craft": [
         {
@@ -7026,7 +7026,7 @@
     {
       "id": "caveworm-knife",
       "name": "Caveworm Knife",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/8/85/ITEM_Caveworm_Knife.png",
+      "imageUrl": "/images/ITEM_Caveworm_Knife.png",
       "url": "https://icarus.fandom.com/wiki/Caveworm_Knife",
       "craft": [
         {
@@ -7051,7 +7051,7 @@
     {
       "id": "combat-knife",
       "name": "Combat Knife",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/e/ee/ITEM_Combat_Knife.png",
+      "imageUrl": "/images/ITEM_Combat_Knife.png",
       "url": "https://icarus.fandom.com/wiki/Combat_Knife",
       "craft": [
         {
@@ -7076,7 +7076,7 @@
     {
       "id": "compound-bow",
       "name": "Compound Bow",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/a/a6/ITEM_Compound_Bow.png",
+      "imageUrl": "/images/ITEM_Compound_Bow.png",
       "url": "https://icarus.fandom.com/wiki/Compound_Bow",
       "craft": [
         {
@@ -7101,7 +7101,7 @@
     {
       "id": "crossbow",
       "name": "Crossbow",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/2/23/ITEM_Crossbow.png",
+      "imageUrl": "/images/ITEM_Crossbow.png",
       "url": "https://icarus.fandom.com/wiki/Crossbow",
       "craft": [
         {
@@ -7126,7 +7126,7 @@
     {
       "id": "deep-mining-ore-scanner",
       "name": "Deep Mining Ore Scanner",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/7/7b/ITEM_Deep_Mining_Ore_Scanner.png",
+      "imageUrl": "/images/ITEM_Deep_Mining_Ore_Scanner.png",
       "url": "https://icarus.fandom.com/wiki/Deep_Mining_Ore_Scanner",
       "craft": [
         {
@@ -7151,7 +7151,7 @@
     {
       "id": "fire-extinguisher",
       "name": "Fire Extinguisher",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/7/77/ITEM_Fire_Extinguisher.png",
+      "imageUrl": "/images/ITEM_Fire_Extinguisher.png",
       "url": "https://icarus.fandom.com/wiki/Fire_Extinguisher",
       "craft": [
         {
@@ -7179,7 +7179,7 @@
     {
       "id": "fire-whacker",
       "name": "Fire Whacker",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/c/cf/ITEM_Fire_Whacker.png",
+      "imageUrl": "/images/ITEM_Fire_Whacker.png",
       "url": "https://icarus.fandom.com/wiki/Fire_Whacker",
       "craft": [
         {
@@ -7199,21 +7199,21 @@
     {
       "id": "fishing-rod",
       "name": "Fishing Rod",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/a/a7/ITEM_Fishing_Rod.png",
+      "imageUrl": "/images/ITEM_Fishing_Rod.png",
       "url": "https://icarus.fandom.com/wiki/Fishing_Rod",
       "craft": []
     },
     {
       "id": "fishing-trap",
       "name": "Fishing Trap",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/0/01/ITEM_Fishing_Trap.png",
+      "imageUrl": "/images/ITEM_Fishing_Trap.png",
       "url": "https://icarus.fandom.com/wiki/Fishing_Trap",
       "craft": []
     },
     {
       "id": "flashlight",
       "name": "Flashlight",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/0/0f/ITEM_Flashlight.png",
+      "imageUrl": "/images/ITEM_Flashlight.png",
       "url": "https://icarus.fandom.com/wiki/Flashlight",
       "craft": [
         {
@@ -7238,7 +7238,7 @@
     {
       "id": "frag-grenade",
       "name": "Frag Grenade",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/4/4a/ITEM_Frag_Grenade.png",
+      "imageUrl": "/images/ITEM_Frag_Grenade.png",
       "url": "https://icarus.fandom.com/wiki/Frag_Grenade",
       "craft": [
         {
@@ -7259,7 +7259,7 @@
     {
       "id": "hunting-rifle",
       "name": "Hunting Rifle",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/9/90/ITEM_Hunting_Rifle.png",
+      "imageUrl": "/images/ITEM_Hunting_Rifle.png",
       "url": "https://icarus.fandom.com/wiki/Hunting_Rifle",
       "craft": [
         {
@@ -7288,7 +7288,7 @@
     {
       "id": "iron-axe",
       "name": "Iron Axe",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/d/dc/ITEM_Iron_Axe.png",
+      "imageUrl": "/images/ITEM_Iron_Axe.png",
       "url": "https://icarus.fandom.com/wiki/Iron_Axe",
       "craft": [
         {
@@ -7312,7 +7312,7 @@
     {
       "id": "iron-hammer",
       "name": "Iron Hammer",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/b/be/ITEM_Iron_Hammer.png",
+      "imageUrl": "/images/ITEM_Iron_Hammer.png",
       "url": "https://icarus.fandom.com/wiki/Iron_Hammer",
       "craft": [
         {
@@ -7333,7 +7333,7 @@
     {
       "id": "iron-knife",
       "name": "Iron Knife",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/c/c4/ITEM_Iron_Knife.png",
+      "imageUrl": "/images/ITEM_Iron_Knife.png",
       "url": "https://icarus.fandom.com/wiki/Iron_Knife",
       "craft": [
         {
@@ -7358,7 +7358,7 @@
     {
       "id": "iron-pickaxe",
       "name": "Iron Pickaxe",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/6/6d/ITEM_Iron_Pickaxe.png",
+      "imageUrl": "/images/ITEM_Iron_Pickaxe.png",
       "url": "https://icarus.fandom.com/wiki/Iron_Pickaxe",
       "craft": [
         {
@@ -7379,7 +7379,7 @@
     {
       "id": "iron-sickle",
       "name": "Iron Sickle",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/9/9a/ITEM_Iron_Sickle.png",
+      "imageUrl": "/images/ITEM_Iron_Sickle.png",
       "url": "https://icarus.fandom.com/wiki/Iron_Sickle",
       "craft": [
         {
@@ -7400,7 +7400,7 @@
     {
       "id": "lantern",
       "name": "Lantern",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/b/b9/ITEM_Lantern.png",
+      "imageUrl": "/images/ITEM_Lantern.png",
       "url": "https://icarus.fandom.com/wiki/Lantern",
       "craft": [
         {
@@ -7421,7 +7421,7 @@
     {
       "id": "longbow",
       "name": "Longbow",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/a/ac/ITEM_Longbow.png",
+      "imageUrl": "/images/ITEM_Longbow.png",
       "url": "https://icarus.fandom.com/wiki/Longbow",
       "craft": [
         {
@@ -7442,7 +7442,7 @@
     {
       "id": "machete",
       "name": "Machete",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/1/1a/ITEM_Machete.png",
+      "imageUrl": "/images/ITEM_Machete.png",
       "url": "https://icarus.fandom.com/wiki/Machete",
       "craft": [
         {
@@ -7467,7 +7467,7 @@
     {
       "id": "oxygen-tank",
       "name": "Oxygen Tank",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/6/6b/ITEM_Oxygen_Tank.png",
+      "imageUrl": "/images/ITEM_Oxygen_Tank.png",
       "url": "https://icarus.fandom.com/wiki/Oxygen_Tank",
       "craft": [
         {
@@ -7484,7 +7484,7 @@
     {
       "id": "pistol",
       "name": "Pistol",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/c/c1/ITEM_Pistol.png",
+      "imageUrl": "/images/ITEM_Pistol.png",
       "url": "https://icarus.fandom.com/wiki/Pistol",
       "craft": [
         {
@@ -7513,7 +7513,7 @@
     {
       "id": "platinum-axe",
       "name": "Platinum Axe",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/7/7e/ITEM_Platinum_Axe.png",
+      "imageUrl": "/images/ITEM_Platinum_Axe.png",
       "url": "https://icarus.fandom.com/wiki/Platinum_Axe",
       "craft": [
         {
@@ -7534,7 +7534,7 @@
     {
       "id": "platinum-hammer",
       "name": "Platinum Hammer",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/6/6e/ITEM_Platinum_Hammer.png",
+      "imageUrl": "/images/ITEM_Platinum_Hammer.png",
       "url": "https://icarus.fandom.com/wiki/Platinum_Hammer",
       "craft": [
         {
@@ -7559,7 +7559,7 @@
     {
       "id": "platinum-knife",
       "name": "Platinum Knife",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/c/ca/ITEM_Platinum_Knife.png",
+      "imageUrl": "/images/ITEM_Platinum_Knife.png",
       "url": "https://icarus.fandom.com/wiki/Platinum_Knife",
       "craft": [
         {
@@ -7580,7 +7580,7 @@
     {
       "id": "platinum-pickaxe",
       "name": "Platinum Pickaxe",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/4/47/ITEM_Platinum_Pickaxe.png",
+      "imageUrl": "/images/ITEM_Platinum_Pickaxe.png",
       "url": "https://icarus.fandom.com/wiki/Platinum_Pickaxe",
       "craft": [
         {
@@ -7601,7 +7601,7 @@
     {
       "id": "platinum-sickle",
       "name": "Platinum Sickle",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/a/ab/ITEM_Platinum_Sickle.png",
+      "imageUrl": "/images/ITEM_Platinum_Sickle.png",
       "url": "https://icarus.fandom.com/wiki/Platinum_Sickle",
       "craft": [
         {
@@ -7622,7 +7622,7 @@
     {
       "id": "rusty-shotgun",
       "name": "Rusty Shotgun",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/9/9f/ITEM_Shotgun.png",
+      "imageUrl": "/images/ITEM_Shotgun.png",
       "url": "https://icarus.fandom.com/wiki/Rusty_Shotgun",
       "craft": [
         {
@@ -7647,7 +7647,7 @@
     {
       "id": "sandworm-bow",
       "name": "Sandworm Bow",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/c/c8/ITEM_Sandworm_Bow.png",
+      "imageUrl": "/images/ITEM_Sandworm_Bow.png",
       "url": "https://icarus.fandom.com/wiki/Sandworm_Bow",
       "craft": [
         {
@@ -7668,7 +7668,7 @@
     {
       "id": "sandworm-knife",
       "name": "Sandworm Knife",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/0/01/ITEM_Sandworm_Knife.png",
+      "imageUrl": "/images/ITEM_Sandworm_Knife.png",
       "url": "https://icarus.fandom.com/wiki/Sandworm_Knife",
       "craft": [
         {
@@ -7689,7 +7689,7 @@
     {
       "id": "shotgun",
       "name": "Shotgun",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/9/9f/ITEM_Shotgun.png",
+      "imageUrl": "/images/ITEM_Shotgun.png",
       "url": "https://icarus.fandom.com/wiki/Shotgun",
       "craft": [
         {
@@ -7718,7 +7718,7 @@
     {
       "id": "shovel",
       "name": "Shovel",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/f/fe/ITEM_Shovel.png",
+      "imageUrl": "/images/ITEM_Shovel.png",
       "url": "https://icarus.fandom.com/wiki/Shovel",
       "craft": [
         {
@@ -7734,7 +7734,7 @@
     {
       "id": "smoke-grenade",
       "name": "Smoke Grenade",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/7/7c/ITEM_Smoke_Grenade.png",
+      "imageUrl": "/images/ITEM_Smoke_Grenade.png",
       "url": "https://icarus.fandom.com/wiki/Smoke_Grenade",
       "craft": [
         {
@@ -7751,7 +7751,7 @@
     {
       "id": "steel-axe",
       "name": "Steel Axe",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/9/9f/ITEM_Steel_Axe.png",
+      "imageUrl": "/images/ITEM_Steel_Axe.png",
       "url": "https://icarus.fandom.com/wiki/Steel_Axe",
       "craft": [
         {
@@ -7775,7 +7775,7 @@
     {
       "id": "steel-hammer",
       "name": "Steel Hammer",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/f/fd/ITEM_Steel_Hammer.png",
+      "imageUrl": "/images/ITEM_Steel_Hammer.png",
       "url": "https://icarus.fandom.com/wiki/Steel_Hammer",
       "craft": [
         {
@@ -7800,7 +7800,7 @@
     {
       "id": "steel-knife",
       "name": "Steel Knife",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/7/79/ITEM_Steel_Knife.png",
+      "imageUrl": "/images/ITEM_Steel_Knife.png",
       "url": "https://icarus.fandom.com/wiki/Steel_Knife",
       "craft": [
         {
@@ -7825,7 +7825,7 @@
     {
       "id": "steel-pickaxe",
       "name": "Steel Pickaxe",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/2/2d/ITEM_Steel_Pickaxe.png",
+      "imageUrl": "/images/ITEM_Steel_Pickaxe.png",
       "url": "https://icarus.fandom.com/wiki/Steel_Pickaxe",
       "craft": [
         {
@@ -7846,7 +7846,7 @@
     {
       "id": "stone-axe",
       "name": "Stone Axe",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/f/f7/ITEM_Stone_Axe.png",
+      "imageUrl": "/images/ITEM_Stone_Axe.png",
       "url": "https://icarus.fandom.com/wiki/Stone_Axe",
       "craft": [
         {
@@ -7866,7 +7866,7 @@
     {
       "id": "stone-knife",
       "name": "Stone Knife",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/7/71/ITEM_Stone_Knife.png",
+      "imageUrl": "/images/ITEM_Stone_Knife.png",
       "url": "https://icarus.fandom.com/wiki/Stone_Knife",
       "craft": [
         {
@@ -7887,7 +7887,7 @@
     {
       "id": "stone-pickaxe",
       "name": "Stone Pickaxe",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/e/ed/ITEM_Stone_Pickaxe.png",
+      "imageUrl": "/images/ITEM_Stone_Pickaxe.png",
       "url": "https://icarus.fandom.com/wiki/Stone_Pickaxe",
       "craft": [
         {
@@ -7907,7 +7907,7 @@
     {
       "id": "taxidermy-knife",
       "name": "Taxidermy Knife",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/b/b6/ITEM_Taxidermy_Knife.png",
+      "imageUrl": "/images/ITEM_Taxidermy_Knife.png",
       "url": "https://icarus.fandom.com/wiki/Taxidermy_Knife",
       "craft": [
         {
@@ -7932,7 +7932,7 @@
     {
       "id": "thermos",
       "name": "Thermos",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/a/a6/ITEM_Thermos.png",
+      "imageUrl": "/images/ITEM_Thermos.png",
       "url": "https://icarus.fandom.com/wiki/Thermos",
       "craft": [
         {
@@ -7952,7 +7952,7 @@
     {
       "id": "titanium-axe",
       "name": "Titanium Axe",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/e/e8/ITEM_Titanium_Axe.png",
+      "imageUrl": "/images/ITEM_Titanium_Axe.png",
       "url": "https://icarus.fandom.com/wiki/Titanium_Axe",
       "craft": [
         {
@@ -7972,7 +7972,7 @@
     {
       "id": "titanium-hammer",
       "name": "Titanium Hammer",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/b/bc/ITEM_Titanium_Hammer.png",
+      "imageUrl": "/images/ITEM_Titanium_Hammer.png",
       "url": "https://icarus.fandom.com/wiki/Titanium_Hammer",
       "craft": [
         {
@@ -7997,7 +7997,7 @@
     {
       "id": "titanium-knife",
       "name": "Titanium Knife",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/1/11/ITEM_Titanium_Knife.png",
+      "imageUrl": "/images/ITEM_Titanium_Knife.png",
       "url": "https://icarus.fandom.com/wiki/Titanium_Knife",
       "craft": [
         {
@@ -8022,7 +8022,7 @@
     {
       "id": "titanium-pickaxe",
       "name": "Titanium Pickaxe",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/4/48/ITEM_Titanium_Pickaxe.png",
+      "imageUrl": "/images/ITEM_Titanium_Pickaxe.png",
       "url": "https://icarus.fandom.com/wiki/Titanium_Pickaxe",
       "craft": [
         {
@@ -8047,7 +8047,7 @@
     {
       "id": "titanium-sickle",
       "name": "Titanium Sickle",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/c/cb/ITEM_Titanium_Sickle.png",
+      "imageUrl": "/images/ITEM_Titanium_Sickle.png",
       "url": "https://icarus.fandom.com/wiki/Titanium_Sickle",
       "craft": [
         {
@@ -8072,7 +8072,7 @@
     {
       "id": "waterskin",
       "name": "Waterskin",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/f/f0/ITEM_Waterskin.png",
+      "imageUrl": "/images/ITEM_Waterskin.png",
       "url": "https://icarus.fandom.com/wiki/Waterskin",
       "craft": [
         {
@@ -8092,7 +8092,7 @@
     {
       "id": "wood-bow",
       "name": "Wood Bow",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/c/c4/ITEM_Wood_Bow.png",
+      "imageUrl": "/images/ITEM_Wood_Bow.png",
       "url": "https://icarus.fandom.com/wiki/Wood_Bow",
       "craft": [
         {
@@ -8109,7 +8109,7 @@
     {
       "id": "wood-repair-hammer",
       "name": "Wood Repair Hammer",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/c/cc/ITEM_Wood_Hammer.png",
+      "imageUrl": "/images/ITEM_Wood_Hammer.png",
       "url": "https://icarus.fandom.com/wiki/Wood_Repair_Hammer",
       "craft": [
         {
@@ -8132,7 +8132,7 @@
     {
       "id": "alpha-wolf-trophy",
       "name": "Alpha Wolf Trophy",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/1/11/ITEM_Alpha_Wolf_Trophy.png",
+      "imageUrl": "/images/ITEM_Alpha_Wolf_Trophy.png",
       "url": "https://icarus.fandom.com/wiki/Alpha_Wolf_Trophy",
       "craft": [
         {
@@ -8153,7 +8153,7 @@
     {
       "id": "bear-trophy",
       "name": "Bear Trophy",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/1/1b/ITEM_Bear_Trophy.png",
+      "imageUrl": "/images/ITEM_Bear_Trophy.png",
       "url": "https://icarus.fandom.com/wiki/Bear_Trophy",
       "craft": [
         {
@@ -8174,7 +8174,7 @@
     {
       "id": "black-jaguar-trophy",
       "name": "Black Jaguar Trophy",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/a/a2/ITEM_Black_Jaguar_Trophy.png",
+      "imageUrl": "/images/ITEM_Black_Jaguar_Trophy.png",
       "url": "https://icarus.fandom.com/wiki/Black_Jaguar_Trophy",
       "craft": [
         {
@@ -8195,7 +8195,7 @@
     {
       "id": "buffalo-trophy",
       "name": "Buffalo Trophy",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/3/3e/ITEM_Buffalo_Trophy.png",
+      "imageUrl": "/images/ITEM_Buffalo_Trophy.png",
       "url": "https://icarus.fandom.com/wiki/Buffalo_Trophy",
       "craft": [
         {
@@ -8216,7 +8216,7 @@
     {
       "id": "cougar-trophy",
       "name": "Cougar Trophy",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/2/2b/ITEM_Cougar_Trophy.png",
+      "imageUrl": "/images/ITEM_Cougar_Trophy.png",
       "url": "https://icarus.fandom.com/wiki/Cougar_Trophy",
       "craft": [
         {
@@ -8237,7 +8237,7 @@
     {
       "id": "deer-trophy",
       "name": "Deer Trophy",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/b/b1/ITEM_Deer_Trophy.png",
+      "imageUrl": "/images/ITEM_Deer_Trophy.png",
       "url": "https://icarus.fandom.com/wiki/Deer_Trophy",
       "craft": [
         {
@@ -8258,7 +8258,7 @@
     {
       "id": "jaguar-trophy",
       "name": "Jaguar Trophy",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/f/fe/ITEM_Jaguar_Trophy.png",
+      "imageUrl": "/images/ITEM_Jaguar_Trophy.png",
       "url": "https://icarus.fandom.com/wiki/Jaguar_Trophy",
       "craft": [
         {
@@ -8279,7 +8279,7 @@
     {
       "id": "mammoth-trophy",
       "name": "Mammoth Trophy",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/0/06/ITEM_Mammoth_Trophy.png",
+      "imageUrl": "/images/ITEM_Mammoth_Trophy.png",
       "url": "https://icarus.fandom.com/wiki/Mammoth_Trophy",
       "craft": [
         {
@@ -8300,7 +8300,7 @@
     {
       "id": "polar-bear-trophy",
       "name": "Polar Bear Trophy",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/4/4e/ITEM_Polar_Bear_Trophy.png",
+      "imageUrl": "/images/ITEM_Polar_Bear_Trophy.png",
       "url": "https://icarus.fandom.com/wiki/Polar_Bear_Trophy",
       "craft": [
         {
@@ -8321,7 +8321,7 @@
     {
       "id": "snow-leopard-trophy",
       "name": "Snow Leopard Trophy",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/b/bf/ITEM_Snow_Leopard_Trophy.png",
+      "imageUrl": "/images/ITEM_Snow_Leopard_Trophy.png",
       "url": "https://icarus.fandom.com/wiki/Snow_Leopard_Trophy",
       "craft": [
         {
@@ -8344,7 +8344,7 @@
     {
       "id": "mortar-and-pestle",
       "name": "Mortar and Pestle",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/4/4f/ITEM_Mortar_and_Pestle.png",
+      "imageUrl": "/images/ITEM_Mortar_and_Pestle.png",
       "url": "https://icarus.fandom.com/wiki/Mortar_and_Pestle",
       "craft": [
         {
@@ -8362,7 +8362,7 @@
       "id": "fabricator",
       "name": "Fabricator",
       "url": "https://icarus.fandom.com/wiki/Fabricator",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/7/71/ITEM_Fabricator.png",
+      "imageUrl": "/images/ITEM_Fabricator.png",
       "craft": [
         {
           "id": "steel-ingot",
@@ -8394,7 +8394,7 @@
       "id": "crafting-bench",
       "name": "Crafting Bench",
       "url": "https://icarus.fandom.com/wiki/Crafting_Bench",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/f/fe/ITEM_Crafting_Bench.png",
+      "imageUrl": "/images/ITEM_Crafting_Bench.png",
       "craft": [
         {
           "id": "fiber",
@@ -8418,7 +8418,7 @@
       "id": "alteration-bench",
       "name": "Alteration Bench",
       "url": "https://icarus.fandom.com/wiki/Alteration_Bench",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/f/ff/ITEM_Alteration_Bench.png/revision/latest/scale-to-width-down/350?cb=20221018044945",
+      "imageUrl": "/images/ITEM_Alteration_Bench.png",
       "craft": [
         {
           "id": "iron-ingot",
@@ -8446,7 +8446,7 @@
       "id": "anvil-bench",
       "name": "Anvil Bench",
       "url": "https://icarus.fandom.com/wiki/Anvil_Bench",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/4/45/ITEM_Anvil_Bench.png",
+      "imageUrl": "/images/ITEM_Anvil_Bench.png",
       "craft": [
         {
           "id": "iron-ingot",
@@ -8466,7 +8466,7 @@
       "id": "glassworking-bench",
       "name": "Glassworking Bench",
       "url": "https://icarus.fandom.com/wiki/Glassworking_Bench",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/a/ac/ITEM_Glassworking_Bench.png",
+      "imageUrl": "/images/ITEM_Glassworking_Bench.png",
       "craft": [
         {
           "id": "iron-ingot",
@@ -8501,7 +8501,7 @@
       "id": "advanced-textiles-bench",
       "name": "Advanced Textiles Bench",
       "url": "https://icarus.fandom.com/wiki/Advanced_Textiles_Bench",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/8/87/ITEM_Textiles_Bench.png",
+      "imageUrl": "/images/ITEM_Textiles_Bench.png",
       "craft": [
         {
           "id": "iron-ingot",
@@ -8529,7 +8529,7 @@
       "id": "concrete-furnace",
       "name": "Concrete Furnace",
       "url": "https://icarus.fandom.com/wiki/Concrete_Furnace",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/6/6d/ITEM_Concrete_Furnace.png",
+      "imageUrl": "/images/ITEM_Concrete_Furnace.png",
       "craft": [
         {
           "id": "iron-ingot",
@@ -8553,7 +8553,7 @@
       "id": "machining-bench",
       "name": "Machining Bench",
       "url": "https://icarus.fandom.com/wiki/Machining_Bench",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/1/13/ITEM_Machining_Bench.png",
+      "imageUrl": "/images/ITEM_Machining_Bench.png",
       "craft": [
         {
           "id": "wood",
@@ -8585,7 +8585,7 @@
       "id": "carpentry-bench",
       "name": "Carpentry Bench",
       "url": "https://icarus.fandom.com/wiki/Carpentry_Bench",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/0/0c/ITEM_Carpentry_Bench.png",
+      "imageUrl": "/images/ITEM_Carpentry_Bench.png",
       "craft": [
         {
           "id": "fiber",
@@ -8605,21 +8605,21 @@
       "id": "cooking-station",
       "name": "Cooking Station",
       "url": "https://icarus.fandom.com/wiki/Cooking_Station",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/e/e5/ITEM_Cooking_Station.png",
+      "imageUrl": "/images/ITEM_Cooking_Station.png",
       "craft": []
     },
     {
       "id": "kitchen-bench",
       "name": "Kitchen Bench",
       "url": "https://icarus.fandom.com/wiki/Kitchen_Bench",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/4/4c/ITEM_Kitchen_Bench.png",
+      "imageUrl": "/images/ITEM_Kitchen_Bench.png",
       "craft": []
     },
     {
       "id": "material-processor",
       "name": "Material Processor",
       "url": "https://icarus.fandom.com/wiki/Material_Processor",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/b/b3/ITEM_Material_Processor.png",
+      "imageUrl": "/images/ITEM_Material_Processor.png",
       "craft": [
         {
           "id": "aluminium-ingot",
@@ -8647,7 +8647,7 @@
       "id": "trophy-bench",
       "name": "Trophy Bench",
       "url": "https://icarus.fandom.com/wiki/Trophy_Bench",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/4/4c/ITEM_Trophy_Bench.png",
+      "imageUrl": "/images/ITEM_Trophy_Bench.png",
       "craft": [
         {
           "id": "wood",
@@ -8671,14 +8671,14 @@
       "id": "potbelly-stove",
       "name": "Potbelly Stove",
       "url": "https://icarus.fandom.com/wiki/Potbelly_Stove",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/1/12/ITEM_Potbelly_Stove.png",
+      "imageUrl": "/images/ITEM_Potbelly_Stove.png",
       "craft": []
     },
     {
       "id": "chemistry-bench",
       "name": "Chemistry Bench",
       "url": "https://icarus.fandom.com/wiki/Chemistry_Bench",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/6/63/ITEM_Chemistry_Bench.png",
+      "imageUrl": "/images/ITEM_Chemistry_Bench.png",
       "craft": [
         {
           "id": "steel-ingot",
@@ -8706,7 +8706,7 @@
       "id": "cement-mixer",
       "name": "Cement Mixer",
       "url": "https://icarus.fandom.com/wiki/Cement_Mixer",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/0/03/ITEM_Cement_Mixer.png",
+      "imageUrl": "/images/ITEM_Cement_Mixer.png",
       "craft": [
         {
           "id": "wood",
@@ -8733,7 +8733,7 @@
     {
       "id": "biofuel-stove",
       "name": "Biofuel Stove",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/9/9a/ITEM_Biofuel_Stove.png",
+      "imageUrl": "/images/ITEM_Biofuel_Stove.png",
       "url": "https://icarus.fandom.com/wiki/Biofuel_Stove",
       "craft": [
         {
@@ -8762,7 +8762,7 @@
     {
       "id": "drying-rack",
       "name": "Drying Rack",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/3/3e/ITEM_Drying_Rack.png",
+      "imageUrl": "/images/ITEM_Drying_Rack.png",
       "url": "https://icarus.fandom.com/wiki/Drying_Rack",
       "craft": [
         {
@@ -8783,7 +8783,7 @@
     {
       "id": "electric-carpentry-bench",
       "name": "Electric Carpentry Bench",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/2/29/ITEM_Electric_Carpentry_Bench.png",
+      "imageUrl": "/images/ITEM_Electric_Carpentry_Bench.png",
       "url": "https://icarus.fandom.com/wiki/Electric_Carpentry_Bench",
       "craft": [
         {
@@ -8812,7 +8812,7 @@
     {
       "id": "electric-masonry-bench",
       "name": "Electric Masonry Bench",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/5/50/ITEM_Electric_Masonry_Bench.png",
+      "imageUrl": "/images/ITEM_Electric_Masonry_Bench.png",
       "url": "https://icarus.fandom.com/wiki/Electric_Masonry_Bench",
       "craft": [
         {
@@ -8841,7 +8841,7 @@
     {
       "id": "herbalism-bench",
       "name": "Herbalism Bench",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/4/44/ITEM_Herbalism_Bench.png",
+      "imageUrl": "/images/ITEM_Herbalism_Bench.png",
       "url": "https://icarus.fandom.com/wiki/Herbalism_Bench",
       "craft": [
         {
@@ -8866,7 +8866,7 @@
     {
       "id": "masonry-bench",
       "name": "Masonry Bench",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/1/18/ITEM_Masonry_Bench.png",
+      "imageUrl": "/images/ITEM_Masonry_Bench.png",
       "url": "https://icarus.fandom.com/wiki/Masonry_Bench",
       "craft": [
         {
@@ -8891,7 +8891,7 @@
     {
       "id": "skinning-bench",
       "name": "Skinning Bench",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/9/9e/ITEM_Skinning_Bench.png",
+      "imageUrl": "/images/ITEM_Skinning_Bench.png",
       "url": "https://icarus.fandom.com/wiki/Skinning_Bench",
       "craft": [
         {
@@ -8916,7 +8916,7 @@
     {
       "id": "textiles-bench",
       "name": "Textiles Bench",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/8/87/ITEM_Textiles_Bench.png",
+      "imageUrl": "/images/ITEM_Textiles_Bench.png",
       "url": "https://icarus.fandom.com/wiki/Textiles_Bench",
       "craft": [
         {
@@ -8942,7 +8942,7 @@
     {
       "id": "buckshot-shell",
       "name": "Buckshot Shell",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/c/c1/ITEM_00_Buckshot_Shell.png",
+      "imageUrl": "/images/ITEM_00_Buckshot_Shell.png",
       "craft": [
         {
           "id": "copper-ingot",
@@ -8962,7 +8962,7 @@
     {
       "id": "pistol-round",
       "name": "Pistol Round",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/0/05/ITEM_Pistol_Round.png",
+      "imageUrl": "/images/ITEM_Pistol_Round.png",
       "craft": [
         {
           "id": "iron-ingot",
@@ -8978,7 +8978,7 @@
     {
       "id": "rifle-round",
       "name": "Rifle Round",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/a/ae/ITEM_Rifle_Round.png",
+      "imageUrl": "/images/ITEM_Rifle_Round.png",
       "craft": [
         {
           "id": "iron-ingot",
@@ -8994,7 +8994,7 @@
     {
       "id": "incendiary-rifle-round",
       "name": "Incendiary Rifle Round",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/2/2d/ITEM_Incendiary_Rifle_Round.png",
+      "imageUrl": "/images/ITEM_Incendiary_Rifle_Round.png",
       "craft": [
         {
           "id": "iron-ingot",
@@ -9010,7 +9010,7 @@
     {
       "id": "beer-bottle",
       "name": "Beer Bottle",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/6/6a/ITEM_Beer_Bottle.png",
+      "imageUrl": "/images/ITEM_Beer_Bottle.png",
       "url": "https://icarus.fandom.com/wiki/Beer_Bottle",
       "craft": [
         {
@@ -9023,7 +9023,7 @@
     {
       "id": "wine-bottle",
       "name": "Wine Bottle",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/9/91/ITEM_Wine_Bottle.png",
+      "imageUrl": "/images/ITEM_Wine_Bottle.png",
       "url": "https://icarus.fandom.com/wiki/Wine_Bottle",
       "craft": [
         {
@@ -9036,7 +9036,7 @@
     {
       "id": "refined-wood",
       "name": "Refined Wood",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/1/14/ITEM_Refined_Wood.png",
+      "imageUrl": "/images/ITEM_Refined_Wood.png",
       "url": "https://icarus.fandom.com/wiki/Refined_Wood",
       "craft": [
         {
@@ -9050,7 +9050,7 @@
     {
       "id": "glass-jar",
       "name": "Glass Jar",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/0/03/ITEM_Glass_Jar.png",
+      "imageUrl": "/images/ITEM_Glass_Jar.png",
       "url": "https://icarus.fandom.com/wiki/Glass_Jar",
       "craft": [
         {
@@ -9067,7 +9067,7 @@
     {
       "id": "steel-bloom",
       "name": "Steel Bloom",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/2/27/ITEM_Steel_Bloom.png",
+      "imageUrl": "/images/ITEM_Steel_Bloom.png",
       "url": "https://icarus.fandom.com/wiki/Steel_Bloom",
       "craft": [
         {
@@ -9084,7 +9084,7 @@
     {
       "id": "tree-sap",
       "name": "Tree Sap",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/5/50/ITEM_Tree_Sap.png",
+      "imageUrl": "/images/ITEM_Tree_Sap.png",
       "url": "https://icarus.fandom.com/wiki/Tree_Sap",
       "craft": [
         {
@@ -9097,7 +9097,7 @@
     {
       "id": "copper-nail",
       "name": "Copper Nail",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/6/6b/ITEM_Copper_Nail.png",
+      "imageUrl": "/images/ITEM_Copper_Nail.png",
       "url": "https://icarus.fandom.com/wiki/Copper_Nail",
       "craft": [
         {
@@ -9111,7 +9111,7 @@
     {
       "id": "iron-nail",
       "name": "Iron Nail",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/0/06/ITEM_Iron_Nail.png",
+      "imageUrl": "/images/ITEM_Iron_Nail.png",
       "url": "https://icarus.fandom.com/wiki/Iron_Nail",
       "craft": [
         {
@@ -9125,7 +9125,7 @@
     {
       "id": "glass",
       "name": "Glass",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/9/91/ITEM_Glass.png",
+      "imageUrl": "/images/ITEM_Glass.png",
       "url": "https://icarus.fandom.com/wiki/Glass",
       "craft": [
         {
@@ -9138,15 +9138,18 @@
     {
       "id": "epoxy",
       "name": "Epoxy",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/8/8c/ITEM_Epoxy.png",
+      "imageUrl": "/images/ITEM_Epoxy.png",
       "url": "https://icarus.fandom.com/wiki/Epoxy",
-      "variants": ["epoxy-crushed-bone", "epoxy-sulfur-and-tree-sap"],
+      "variants": [
+        "epoxy-crushed-bone",
+        "epoxy-sulfur-and-tree-sap"
+      ],
       "bench": "mortar-and-pestle"
     },
     {
       "id": "epoxy-crushed-bone",
       "name": "Epoxy (Crushed Bone)",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/8/8c/ITEM_Epoxy.png",
+      "imageUrl": "/images/ITEM_Epoxy.png",
       "url": "https://icarus.fandom.com/wiki/Epoxy",
       "craft": [
         {
@@ -9159,7 +9162,7 @@
     {
       "id": "epoxy-sulfur-and-tree-sap",
       "name": "Epoxy (Sulfur & Tree Sap)",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/8/8c/ITEM_Epoxy.png",
+      "imageUrl": "/images/ITEM_Epoxy.png",
       "url": "https://icarus.fandom.com/wiki/Epoxy",
       "craft": [
         {
@@ -9176,15 +9179,18 @@
     {
       "id": "rope",
       "name": "Rope",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/e/e0/ITEM_Rope.png",
+      "imageUrl": "/images/ITEM_Rope.png",
       "url": "https://icarus.fandom.com/wiki/Rope",
-      "variants": ["rope-fiber", "rope-leather"],
+      "variants": [
+        "rope-fiber",
+        "rope-leather"
+      ],
       "bench": "textiles-bench"
     },
     {
       "id": "rope-fiber",
       "name": "Rope (Fiber)",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/e/e0/ITEM_Rope.png",
+      "imageUrl": "/images/ITEM_Rope.png",
       "url": "https://icarus.fandom.com/wiki/Rope",
       "craft": [
         {
@@ -9197,7 +9203,7 @@
     {
       "id": "rope-leather",
       "name": "Rope (Leather)",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/e/e0/ITEM_Rope.png",
+      "imageUrl": "/images/ITEM_Rope.png",
       "url": "https://icarus.fandom.com/wiki/Rope",
       "craft": [
         {
@@ -9210,16 +9216,18 @@
     {
       "id": "composite-paste",
       "name": "Composite Paste",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/f/fb/ITEM_Composite_Paste.png",
+      "imageUrl": "/images/ITEM_Composite_Paste.png",
       "url": "https://icarus.fandom.com/wiki/Composite_Paste",
-      "variants": ["composite-paste-gold", "composite-paste-platinum"],
-
+      "variants": [
+        "composite-paste-gold",
+        "composite-paste-platinum"
+      ],
       "bench": "material-processor"
     },
     {
       "id": "composite-paste-gold",
       "name": "Composite Paste (Gold)",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/f/fb/ITEM_Composite_Paste.png",
+      "imageUrl": "/images/ITEM_Composite_Paste.png",
       "url": "https://icarus.fandom.com/wiki/Composite_Paste",
       "craft": [
         {
@@ -9244,7 +9252,7 @@
     {
       "id": "composite-paste-platinum",
       "name": "Composite Paste (Platinum)",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/f/fb/ITEM_Composite_Paste.png",
+      "imageUrl": "/images/ITEM_Composite_Paste.png",
       "url": "https://icarus.fandom.com/wiki/Composite_Paste",
       "craft": [
         {
@@ -9269,7 +9277,7 @@
     {
       "id": "composites",
       "name": "Composites",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/6/6e/ITEM_Composites.png",
+      "imageUrl": "/images/ITEM_Composites.png",
       "url": "https://icarus.fandom.com/wiki/Composites",
       "craft": [
         {
@@ -9282,7 +9290,7 @@
     {
       "id": "charcoal",
       "name": "Charcoal",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/8/8a/ITEM_Charcoal.png",
+      "imageUrl": "/images/ITEM_Charcoal.png",
       "url": "https://icarus.fandom.com/wiki/Charcoal",
       "craft": [
         {
@@ -9295,7 +9303,7 @@
     {
       "id": "concrete-mix",
       "name": "Concrete Mix",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/e/e5/ITEM_Concrete_Mix.png",
+      "imageUrl": "/images/ITEM_Concrete_Mix.png",
       "url": "https://icarus.fandom.com/wiki/Concrete_Mix",
       "craft": [
         {
@@ -9316,7 +9324,7 @@
     {
       "id": "crushed-bone",
       "name": "Crushed Bone",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/5/56/ITEM_Crushed_Bone.png",
+      "imageUrl": "/images/ITEM_Crushed_Bone.png",
       "url": "https://icarus.fandom.com/wiki/Crushed_Bone",
       "craft": [
         {
@@ -9329,7 +9337,7 @@
     {
       "id": "cured-leather",
       "name": "Cured Leather",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/c/c0/ITEM_Cured_Leather.png",
+      "imageUrl": "/images/ITEM_Cured_Leather.png",
       "url": "https://icarus.fandom.com/wiki/Cured_Leather",
       "craft": [
         {
@@ -9346,7 +9354,7 @@
     {
       "id": "electronics",
       "name": "Electronics",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/4/47/ITEM_Electronics.png",
+      "imageUrl": "/images/ITEM_Electronics.png",
       "url": "https://icarus.fandom.com/wiki/Electronics",
       "craft": [
         {
@@ -9371,7 +9379,7 @@
     {
       "id": "gunpowder",
       "name": "Gunpowder",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/1/1a/ITEM_Gunpowder.png",
+      "imageUrl": "/images/ITEM_Gunpowder.png",
       "url": "https://icarus.fandom.com/wiki/Gunpowder",
       "craft": [
         {
@@ -9388,7 +9396,7 @@
     {
       "id": "organic-resin",
       "name": "Organic Resin",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/8/84/ITEM_Organic_Resin.png",
+      "imageUrl": "/images/ITEM_Organic_Resin.png",
       "url": "https://icarus.fandom.com/wiki/Organic_Resin",
       "craft": [
         {
@@ -9405,7 +9413,7 @@
     {
       "id": "platinum-weave",
       "name": "Platinum Weave",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/8/85/ITEM_Platinum_Weave.png",
+      "imageUrl": "/images/ITEM_Platinum_Weave.png",
       "url": "https://icarus.fandom.com/wiki/Platinum_Weave",
       "craft": [
         {
@@ -9422,7 +9430,7 @@
     {
       "id": "steel-rebar",
       "name": "Steel Rebar",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/c/c7/ITEM_Steel_Rebar.png",
+      "imageUrl": "/images/ITEM_Steel_Rebar.png",
       "url": "https://icarus.fandom.com/wiki/Steel_Rebar",
       "craft": [
         {
@@ -9436,7 +9444,7 @@
     {
       "id": "steel-screw",
       "name": "Steel Screw",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/9/9a/ITEM_Steel_Screw.png",
+      "imageUrl": "/images/ITEM_Steel_Screw.png",
       "url": "https://icarus.fandom.com/wiki/Steel_Screw",
       "craft": [
         {
@@ -9450,9 +9458,14 @@
     {
       "id": "carbon-fiber",
       "name": "Carbon Fiber",
-      "imageUrl": "https://static.wikia.nocookie.net/icarus/images/6/68/ITEM_Carbon_Fiber.png",
+      "imageUrl": "/images/ITEM_Carbon_Fiber.png",
       "url": "https://icarus.fandom.com/wiki/Carbon_Fiber",
-      "craft": [{ "id": "carbon-paste", "amount": 1 }],
+      "craft": [
+        {
+          "id": "carbon-paste",
+          "amount": 1
+        }
+      ],
       "bench": "mortar-and-pestle"
     }
   ]
