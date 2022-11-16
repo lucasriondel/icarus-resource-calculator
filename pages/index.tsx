@@ -79,16 +79,16 @@ const Home: NextPage = () => {
 
       <Content>
         <SearchBar
-          onAddToCraftList={(craftId, amount) => {
+          onAddToCraftList={(craftId) => {
             setCraftList((_craftList) => {
               const craftList = [..._craftList];
               const craftIndex = craftList.findIndex(
                 ({ craftId: _craftId }) => _craftId === craftId
               );
               if (craftIndex !== -1) {
-                craftList[craftIndex].amount += amount;
+                craftList[craftIndex].amount += 1;
               } else {
-                craftList.push({ craftId, amount });
+                craftList.push({ craftId, amount: 1 });
               }
               return craftList;
             });
