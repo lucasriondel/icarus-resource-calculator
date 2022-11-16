@@ -96,6 +96,10 @@ const RemoveButton = styled.button`
   color: #5c84a4;
   background-color: #13192a;
 
+  &:focus {
+    border: 1px solid #7b8c99;
+  }
+
   &:hover {
     color: #13192a;
     background-color: #5c84a4;

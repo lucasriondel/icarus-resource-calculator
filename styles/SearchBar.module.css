@@ -1,0 +1,41 @@
+.input { 
+    font-family: var(--dev-gothic);
+    font-size: 1.25rem;
+    border: 1px solid #a1a29d;
+    background-color: #0e0e0e;
+    color: #d2e4b2;
+    padding: 0px 13px;
+    width: 100%;
+    height: 44px;
+  
+}
+
+
+.input:focus,
+.input:hover {
+    border: 1px solid #d2e4b2;
+}
+
+.input[data-headlessui-state="open"] {
+    border-bottom: 0px;
+}
+
+.options {
+    background-color: #0e0e0e;
+    border: 1px solid #d2e4b2;
+    border-top: 0px;
+    padding: 0;
+    margin: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+
+    position: absolute;
+    width: calc(100vw - 64px);
+    z-index: 10;
+}
+
+.input:not(:focus) + .options {
+    border: 1px solid #a1a29d;
+    border-top: 0px;
+    
+}
