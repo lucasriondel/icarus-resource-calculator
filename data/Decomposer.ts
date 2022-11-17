@@ -99,6 +99,38 @@ export class Decomposer {
     return resources;
   }
 
+  getBenchsFromPath(path: ResourceWithAmount): string[] {
+    const benches: string[] = [];
+
+    const getBenchsFromPathRecursive = (item: ResourceWithAmount) => {
+      if (
+        item.bench &&
+        !benches.includes(item.bench) &&
+        item.bench !== "character-crafting"
+      ) {
+        benches.push(item.bench);
+        getBenchsFromPathRecursive(
+          getResourceFromResourceId(item.bench) as ResourceWithAmount
+        );
+      }
+      if (item.craft !== undefined) {
+        for (const resource of item.craft) {
+          if (Object.keys(resource).length === 2) {
+            getBenchsFromPathRecursive(
+              getResourceFromResourceId(resource.id) as ResourceWithAmount
+            );
+          } else {
+            getBenchsFromPathRecursive(resource);
+          }
+        }
+      }
+    };
+
+    getBenchsFromPathRecursive(path);
+
+    return benches;
+  }
+
   getResourceListFromPath(
     resource: ResourceWithAmount
   ): Array<ResourceWithAmount> {

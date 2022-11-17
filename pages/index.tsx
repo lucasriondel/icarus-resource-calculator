@@ -1,7 +1,9 @@
+import { css } from "@emotion/react";
 import styled from "@emotion/styled";
 import { NextPage } from "next";
 import Head from "next/head";
 import { useState } from "react";
+import { devGothic } from "../assets/fonts";
 import { AppBar } from "../components/AppBar";
 import { Page } from "../components/Page";
 import { Path } from "../components/Path";
@@ -47,14 +49,44 @@ const DetailedPathSection = styled(Section)`
   flex: 1;
 `;
 
+const BenchButton = styled.button<{ active: boolean }>`
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 0px 4px;
+  font-family: ${devGothic.style.fontFamily};
+  cursor: pointer;
+
+  ${({ active }) =>
+    active
+      ? css`
+          border: 1px solid #d2e4b2;
+          color: black;
+          background-color: #d2e4b2;
+        `
+      : css`
+          border: 1px solid #a1a29d;
+          color: #d2e4b2;
+          background-color: transparent;
+        `}
+
+  :hover {
+    border: 1px solid #d2e4b2;
+  }
+`;
+
 export type CraftList = Array<{ craftId: string; amount: number }>;
 
 const Home: NextPage = () => {
   const [craftList, setCraftList] = useState<CraftList>([]);
+  const [showBenches, setShowBenches] = useState(false);
 
-  const { paths, resourceList } = useDecomposer(craftList);
+  const { paths, resourceList, benchPaths } = useDecomposer(
+    craftList,
+    showBenches
+  );
 
-  console.log({ craftList, paths, resourceList });
+  console.log({ craftList, paths, resourceList, benchPaths });
 
   return (
     <Page>
@@ -122,10 +154,24 @@ const Home: NextPage = () => {
         )}
 
         <div style={{ display: "flex", gap: "32px" }}>
-          <DetailedPathSection title="Detailed path">
+          <DetailedPathSection
+            actions={
+              <BenchButton
+                active={showBenches}
+                onClick={() => setShowBenches((v) => !v)}
+              >
+                Show benches
+              </BenchButton>
+            }
+            title="Detailed path"
+          >
             {paths.map((path) => (
               <Path key={path.id} path={path} isExpandedPath={false} />
             ))}
+            {showBenches &&
+              benchPaths.map((path) => (
+                <Path key={path.id} path={path} isExpandedPath={false} />
+              ))}
           </DetailedPathSection>
 
           <Section title="Resources list">
