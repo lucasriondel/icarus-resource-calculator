@@ -3,6 +3,7 @@ import styled from "@emotion/styled";
 import Image from "next/image";
 import { useState } from "react";
 import { ResourceWithAmount } from "../data/Decomposer";
+import { getResourceFromResourceId } from "../data/helper";
 import { Button } from "./Button";
 
 const Row = styled.div`
@@ -43,13 +44,21 @@ const Border = styled.div<{ expandedMargin: boolean; short: boolean }>`
     `}
   margin-left: ${({ expandedMargin }) => (expandedMargin ? "8px" : "11px")};
   border-left: 1px solid #a1a29d;
-  /* margin-right: 16px; */
 `;
 
 const HorizontalLine = styled.div`
   border-bottom: 1px solid #a1a29d;
   height: 1px;
   width: 20px;
+`;
+
+const Bench = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 0px 4px;
+  border: 1px solid #d2e4b2;
+  color: #d2e4b2;
 `;
 
 interface PathProps {
@@ -59,6 +68,8 @@ interface PathProps {
 
 export const Path = ({ path, isExpandedPath }: PathProps) => {
   const [expanded, setExpanded] = useState(false);
+
+  const bench = path.bench ? getResourceFromResourceId(path.bench) : undefined;
 
   return (
     <div>
@@ -77,6 +88,17 @@ export const Path = ({ path, isExpandedPath }: PathProps) => {
             height={30}
           />
           {path.name} * {path.amount}
+          {bench && (
+            <Bench>
+              <Image
+                src={bench.imageUrl || "/images/placeholder.png"}
+                alt={bench.name}
+                width={15}
+                height={15}
+              />{" "}
+              {bench.name}
+            </Bench>
+          )}
         </RowWithGap>
       </Row>
 

@@ -5,6 +5,7 @@ import editJsonFile from "edit-json-file";
 
 import inquirer from "inquirer";
 import { Craftable } from "../data";
+import { kebabCasify } from "../data/helper";
 
 // tells you if there are duplicate ids in the sortedCraftables.json file
 function findDuplicates() {
@@ -191,11 +192,32 @@ async function fixImages() {
   console.log(`fixed ${fixedImages} images`);
 }
 
+async function kebabCaseBenchNames() {
+  let file = editJsonFile("./data/craftables.json");
+
+  const craftables = file.get();
+
+  const categories = Object.keys(file.get()).sort((a, b) => a.localeCompare(b));
+
+  for (const category of categories) {
+    for (let i = 0; i < craftables[category].length; i++) {
+      const item = craftables[category][i];
+
+      if (item.bench) {
+        item.bench = kebabCasify(item.bench);
+        file.set(category, craftables[category]);
+        file.save();
+      }
+    }
+  }
+}
+
 async function main() {
-  await findDuplicates();
-  await findAndFixDuplicates();
-  await findMissingRessource();
-  await fixImages();
+  // await findDuplicates();
+  // await findAndFixDuplicates();
+  // await findMissingRessource();
+  // await fixImages();
+  await kebabCaseBenchNames();
   // TODO: await findNullAmounts();
 }
 

@@ -2249,7 +2249,7 @@
           "amount": 4
         }
       ],
-      "bench": "Machining Bench"
+      "bench": "machining-bench"
     },
     {
       "id": "concrete-wall-angled",
@@ -2270,7 +2270,7 @@
           "amount": 4
         }
       ],
-      "bench": "Machining Bench"
+      "bench": "machining-bench"
     },
     {
       "id": "glass-wall",
@@ -2291,7 +2291,7 @@
           "amount": 12
         }
       ],
-      "bench": "Glassworking Bench"
+      "bench": "glassworking-bench"
     },
     {
       "id": "glass-wall-angled",
@@ -2312,7 +2312,7 @@
           "amount": 6
         }
       ],
-      "bench": "Glassworking Bench"
+      "bench": "glassworking-bench"
     },
     {
       "id": "interior-wood-wall",
@@ -2477,7 +2477,7 @@
           "amount": 4
         }
       ],
-      "bench": "Machining Bench"
+      "bench": "machining-bench"
     },
     {
       "id": "concrete-roof-corner",
@@ -2498,7 +2498,7 @@
           "amount": 4
         }
       ],
-      "bench": "Machining Bench"
+      "bench": "machining-bench"
     },
     {
       "id": "glass-roof",
@@ -2519,7 +2519,7 @@
           "amount": 12
         }
       ],
-      "bench": "Glassworking Bench"
+      "bench": "glassworking-bench"
     },
     {
       "id": "glass-roof-corner",
@@ -2540,7 +2540,7 @@
           "amount": 6
         }
       ],
-      "bench": "Glassworking Bench"
+      "bench": "glassworking-bench"
     },
     {
       "id": "stone-roof",
@@ -2673,7 +2673,7 @@
           "amount": 4
         }
       ],
-      "bench": "Glassworking Bench"
+      "bench": "glassworking-bench"
     },
     {
       "id": "heavy-glass-window",
@@ -2694,7 +2694,7 @@
           "amount": 4
         }
       ],
-      "bench": "Glassworking Bench"
+      "bench": "glassworking-bench"
     },
     {
       "id": "leather-curtain-window",
@@ -2792,7 +2792,7 @@
           "amount": 4
         }
       ],
-      "bench": "Machining Bench"
+      "bench": "machining-bench"
     },
     {
       "id": "heavy-trapdoor",
@@ -2981,7 +2981,7 @@
           "amount": 4
         }
       ],
-      "bench": "Machining Bench"
+      "bench": "machining-bench"
     },
     {
       "id": "interior-wood-stairs",
@@ -3074,7 +3074,7 @@
           "amount": 4
         }
       ],
-      "bench": "Machining Bench"
+      "bench": "machining-bench"
     },
     {
       "id": "stone-ramp",
@@ -3151,7 +3151,7 @@
           "amount": 6
         }
       ],
-      "bench": "Machining Bench"
+      "bench": "machining-bench"
     },
     {
       "id": "interior-wood-railing",
@@ -3389,7 +3389,7 @@
           "amount": 2
         }
       ],
-      "bench": "Machining Bench"
+      "bench": "machining-bench"
     },
     {
       "id": "concrete-floor",
@@ -3410,7 +3410,7 @@
           "amount": 4
         }
       ],
-      "bench": "Machining Bench"
+      "bench": "machining-bench"
     },
     {
       "id": "concrete-frame",
@@ -3431,7 +3431,7 @@
           "amount": 10
         }
       ],
-      "bench": "Machining Bench"
+      "bench": "machining-bench"
     },
     {
       "id": "concrete-halfpieces",
@@ -3452,7 +3452,7 @@
           "amount": 4
         }
       ],
-      "bench": "Machining Bench"
+      "bench": "machining-bench"
     },
     {
       "id": "concrete-halfpitches",
@@ -3473,7 +3473,7 @@
           "amount": 4
         }
       ],
-      "bench": "Machining Bench"
+      "bench": "machining-bench"
     },
     {
       "id": "glass-beam",
@@ -3490,7 +3490,7 @@
           "amount": 12
         }
       ],
-      "bench": "Glassworking Bench"
+      "bench": "glassworking-bench"
     },
     {
       "id": "glass-door",
@@ -3511,7 +3511,7 @@
           "amount": 12
         }
       ],
-      "bench": "Glassworking Bench"
+      "bench": "glassworking-bench"
     },
     {
       "id": "interior-wood-beam",
@@ -5470,7 +5470,7 @@
           "amount": 35
         }
       ],
-      "bench": "Fabricator"
+      "bench": "fabricator"
     },
     {
       "id": "electric-extractor",
@@ -6145,6 +6145,7 @@
       "name": "Stone Furnace",
       "imageUrl": "/images/ITEM_Stone_Furnace.png",
       "url": "https://icarus.fandom.com/wiki/Stone_Furnace",
+      "bench": "crafting-bench",
       "craft": [
         {
           "id": "stick",
@@ -6556,7 +6557,7 @@
           "amount": 2
         }
       ],
-      "bench": "Concrete Furnace"
+      "bench": "concrete-furnace"
     },
     {
       "id": "aluminium-ingot",
@@ -6569,7 +6570,7 @@
           "amount": 1
         }
       ],
-      "bench": "Concrete Furnace"
+      "bench": "concrete-furnace"
     },
     {
       "id": "copper-ingot",
@@ -6582,7 +6583,7 @@
           "amount": 2
         }
       ],
-      "bench": "Stone Furnace"
+      "bench": "stone-furnace"
     },
     {
       "id": "iron-ingot",
@@ -6595,7 +6596,7 @@
           "amount": 2
         }
       ],
-      "bench": "Stone Furnace"
+      "bench": "stone-furnace"
     },
     {
       "id": "platinum-ingot",
@@ -6608,7 +6609,7 @@
           "amount": 5
         }
       ],
-      "bench": "Concrete Furnace"
+      "bench": "concrete-furnace"
     },
     {
       "id": "steel-ingot",
@@ -6621,7 +6622,7 @@
           "amount": 1
         }
       ],
-      "bench": "Concrete Furnace"
+      "bench": "concrete-furnace"
     },
     {
       "id": "titanium-ingot",
@@ -6634,7 +6635,7 @@
           "amount": 5
         }
       ],
-      "bench": "Concrete Furnace"
+      "bench": "concrete-furnace"
     }
   ],
   "tools": [
@@ -6686,7 +6687,7 @@
           "amount": 10
         }
       ],
-      "bench": "Machining Bench"
+      "bench": "machining-bench"
     },
     {
       "id": "bone-knife",
@@ -6728,7 +6729,7 @@
           "amount": 20
         }
       ],
-      "bench": "Character Crafting"
+      "bench": "character-crafting"
     },
     {
       "id": "binoculars",
@@ -6833,7 +6834,7 @@
           "amount": 24
         }
       ],
-      "bench": "Machining Bench"
+      "bench": "machining-bench"
     },
     {
       "id": "caveworm-spear",
@@ -6858,7 +6859,7 @@
           "amount": 10
         }
       ],
-      "bench": "Crafting Bench"
+      "bench": "crafting-bench"
     },
     {
       "id": "iron-spear",
@@ -6879,7 +6880,7 @@
           "amount": 24
         }
       ],
-      "bench": "Anvil Bench"
+      "bench": "anvil-bench"
     },
     {
       "id": "platinum-spear",
@@ -6900,7 +6901,7 @@
           "amount": 24
         }
       ],
-      "bench": "Machining Bench"
+      "bench": "machining-bench"
     },
     {
       "id": "sandworm-spear",
@@ -6921,7 +6922,7 @@
           "amount": 1
         }
       ],
-      "bench": "Character Crafting"
+      "bench": "character-crafting"
     },
     {
       "id": "steel-spear",
@@ -6942,7 +6943,7 @@
           "amount": 24
         }
       ],
-      "bench": "Anvil Bench"
+      "bench": "anvil-bench"
     },
     {
       "id": "titanium-spear",
@@ -6963,7 +6964,7 @@
           "amount": 24
         }
       ],
-      "bench": "Fabricator"
+      "bench": "fabricator"
     },
     {
       "id": "wood-spear",
@@ -6980,7 +6981,7 @@
           "amount": 18
         }
       ],
-      "bench": "Character Crafting"
+      "bench": "character-crafting"
     },
     {
       "id": "canteen",
@@ -7096,7 +7097,7 @@
           "amount": 4
         }
       ],
-      "bench": "Fabricator"
+      "bench": "fabricator"
     },
     {
       "id": "crossbow",
@@ -7121,7 +7122,7 @@
           "amount": 2
         }
       ],
-      "bench": "Anvil Bench"
+      "bench": "anvil-bench"
     },
     {
       "id": "deep-mining-ore-scanner",
@@ -7254,7 +7255,7 @@
           "amount": null
         }
       ],
-      "bench": "Machining Bench"
+      "bench": "machining-bench"
     },
     {
       "id": "hunting-rifle",
@@ -7283,7 +7284,7 @@
           "amount": 16
         }
       ],
-      "bench": "Fabricator"
+      "bench": "fabricator"
     },
     {
       "id": "iron-axe",
@@ -7395,7 +7396,7 @@
           "amount": 10
         }
       ],
-      "bench": "Anvil Bench"
+      "bench": "anvil-bench"
     },
     {
       "id": "lantern",
@@ -7437,7 +7438,7 @@
           "amount": 4
         }
       ],
-      "bench": "Crafting Bench"
+      "bench": "crafting-bench"
     },
     {
       "id": "machete",
@@ -7508,7 +7509,7 @@
           "amount": 8
         }
       ],
-      "bench": "Machining Bench"
+      "bench": "machining-bench"
     },
     {
       "id": "platinum-axe",
@@ -7529,7 +7530,7 @@
           "amount": 12
         }
       ],
-      "bench": "Machining Bench"
+      "bench": "machining-bench"
     },
     {
       "id": "platinum-hammer",
@@ -7554,7 +7555,7 @@
           "amount": 2
         }
       ],
-      "bench": "Machining Bench"
+      "bench": "machining-bench"
     },
     {
       "id": "platinum-knife",
@@ -7596,7 +7597,7 @@
           "amount": 12
         }
       ],
-      "bench": "Machining Bench"
+      "bench": "machining-bench"
     },
     {
       "id": "platinum-sickle",
@@ -7617,7 +7618,7 @@
           "amount": 10
         }
       ],
-      "bench": "Machining Bench"
+      "bench": "machining-bench"
     },
     {
       "id": "rusty-shotgun",
@@ -7642,7 +7643,7 @@
           "amount": 10
         }
       ],
-      "bench": "Machining Bench"
+      "bench": "machining-bench"
     },
     {
       "id": "sandworm-bow",
@@ -7663,7 +7664,7 @@
           "amount": null
         }
       ],
-      "bench": "Character Crafting"
+      "bench": "character-crafting"
     },
     {
       "id": "sandworm-knife",
@@ -7713,7 +7714,7 @@
           "amount": 10
         }
       ],
-      "bench": "Machining Bench"
+      "bench": "machining-bench"
     },
     {
       "id": "shovel",
@@ -7746,7 +7747,7 @@
           "amount": 10
         }
       ],
-      "bench": "Machining Bench"
+      "bench": "machining-bench"
     },
     {
       "id": "steel-axe",
@@ -8067,7 +8068,7 @@
           "amount": 10
         }
       ],
-      "bench": "Fabricator"
+      "bench": "fabricator"
     },
     {
       "id": "waterskin",
@@ -8104,7 +8105,7 @@
           "amount": 24
         }
       ],
-      "bench": "Character Crafting"
+      "bench": "character-crafting"
     },
     {
       "id": "wood-repair-hammer",
@@ -8363,6 +8364,7 @@
       "name": "Fabricator",
       "url": "https://icarus.fandom.com/wiki/Fabricator",
       "imageUrl": "/images/ITEM_Fabricator.png",
+      "bench": "machining-bench",
       "craft": [
         {
           "id": "steel-ingot",
@@ -8395,6 +8397,7 @@
       "name": "Crafting Bench",
       "url": "https://icarus.fandom.com/wiki/Crafting_Bench",
       "imageUrl": "/images/ITEM_Crafting_Bench.png",
+      "bench": "character-crafting",
       "craft": [
         {
           "id": "fiber",
@@ -8419,6 +8422,7 @@
       "name": "Alteration Bench",
       "url": "https://icarus.fandom.com/wiki/Alteration_Bench",
       "imageUrl": "/images/ITEM_Alteration_Bench.png",
+      "bench": "machining-bench",
       "craft": [
         {
           "id": "iron-ingot",
@@ -8447,6 +8451,7 @@
       "name": "Anvil Bench",
       "url": "https://icarus.fandom.com/wiki/Anvil_Bench",
       "imageUrl": "/images/ITEM_Anvil_Bench.png",
+      "bench": "crafting-bench",
       "craft": [
         {
           "id": "iron-ingot",
@@ -8467,6 +8472,7 @@
       "name": "Glassworking Bench",
       "url": "https://icarus.fandom.com/wiki/Glassworking_Bench",
       "imageUrl": "/images/ITEM_Glassworking_Bench.png",
+      "bench": "machining-bench",
       "craft": [
         {
           "id": "iron-ingot",
@@ -8494,7 +8500,7 @@
       "id": "character-crafting",
       "name": "Character Crafting",
       "url": "https://icarus.fandom.com/wiki/Character_Crafting",
-      "imageUrl": "",
+      "imageUrl": "/images/Icon_Character_Crafting.png",
       "craft": []
     },
     {
@@ -8502,6 +8508,7 @@
       "name": "Advanced Textiles Bench",
       "url": "https://icarus.fandom.com/wiki/Advanced_Textiles_Bench",
       "imageUrl": "/images/ITEM_Textiles_Bench.png",
+      "bench": "machining-bench",
       "craft": [
         {
           "id": "iron-ingot",
@@ -8530,6 +8537,7 @@
       "name": "Concrete Furnace",
       "url": "https://icarus.fandom.com/wiki/Concrete_Furnace",
       "imageUrl": "/images/ITEM_Concrete_Furnace.png",
+      "bench": "crafting-bench",
       "craft": [
         {
           "id": "iron-ingot",
@@ -8554,6 +8562,7 @@
       "name": "Machining Bench",
       "url": "https://icarus.fandom.com/wiki/Machining_Bench",
       "imageUrl": "/images/ITEM_Machining_Bench.png",
+      "bench": "crafting-bench",
       "craft": [
         {
           "id": "wood",
@@ -8586,6 +8595,7 @@
       "name": "Carpentry Bench",
       "url": "https://icarus.fandom.com/wiki/Carpentry_Bench",
       "imageUrl": "/images/ITEM_Carpentry_Bench.png",
+      "bench": "crafting-bench",
       "craft": [
         {
           "id": "fiber",
@@ -8606,6 +8616,7 @@
       "name": "Cooking Station",
       "url": "https://icarus.fandom.com/wiki/Cooking_Station",
       "imageUrl": "/images/ITEM_Cooking_Station.png",
+      "bench": "crafting-bench",
       "craft": []
     },
     {
@@ -8613,6 +8624,7 @@
       "name": "Kitchen Bench",
       "url": "https://icarus.fandom.com/wiki/Kitchen_Bench",
       "imageUrl": "/images/ITEM_Kitchen_Bench.png",
+      "bench": "machining-bench",
       "craft": []
     },
     {
@@ -8620,6 +8632,7 @@
       "name": "Material Processor",
       "url": "https://icarus.fandom.com/wiki/Material_Processor",
       "imageUrl": "/images/ITEM_Material_Processor.png",
+      "bench": "fabricator",
       "craft": [
         {
           "id": "aluminium-ingot",
@@ -8648,6 +8661,7 @@
       "name": "Trophy Bench",
       "url": "https://icarus.fandom.com/wiki/Trophy_Bench",
       "imageUrl": "/images/ITEM_Trophy_Bench.png",
+      "bench": "crafting-bench",
       "craft": [
         {
           "id": "wood",
@@ -8672,6 +8686,7 @@
       "name": "Potbelly Stove",
       "url": "https://icarus.fandom.com/wiki/Potbelly_Stove",
       "imageUrl": "/images/ITEM_Potbelly_Stove.png",
+      "bench": "crafting-bench",
       "craft": []
     },
     {
@@ -8679,6 +8694,7 @@
       "name": "Chemistry Bench",
       "url": "https://icarus.fandom.com/wiki/Chemistry_Bench",
       "imageUrl": "/images/ITEM_Chemistry_Bench.png",
+      "bench": "fabricator",
       "craft": [
         {
           "id": "steel-ingot",
@@ -8707,6 +8723,7 @@
       "name": "Cement Mixer",
       "url": "https://icarus.fandom.com/wiki/Cement_Mixer",
       "imageUrl": "/images/ITEM_Cement_Mixer.png",
+      "bench": "machining-bench",
       "craft": [
         {
           "id": "wood",
@@ -8861,7 +8878,7 @@
           "amount": 12
         }
       ],
-      "bench": "Crafting Bench"
+      "bench": "crafting-bench"
     },
     {
       "id": "masonry-bench",
@@ -8911,13 +8928,14 @@
           "amount": 20
         }
       ],
-      "bench": "Crafting Bench"
+      "bench": "crafting-bench"
     },
     {
       "id": "textiles-bench",
       "name": "Textiles Bench",
       "imageUrl": "/images/ITEM_Textiles_Bench.png",
       "url": "https://icarus.fandom.com/wiki/Textiles_Bench",
+      "bench": "crafting-bench",
       "craft": [
         {
           "id": "fiber",
@@ -9018,7 +9036,7 @@
           "amount": 5
         }
       ],
-      "bench": "Glassworking Bench"
+      "bench": "glassworking-bench"
     },
     {
       "id": "wine-bottle",
@@ -9031,7 +9049,7 @@
           "amount": 5
         }
       ],
-      "bench": "Glassworking Bench"
+      "bench": "glassworking-bench"
     },
     {
       "id": "refined-wood",
@@ -9062,7 +9080,7 @@
           "amount": 1
         }
       ],
-      "bench": "Glassworking Bench"
+      "bench": "glassworking-bench"
     },
     {
       "id": "steel-bloom",
@@ -9133,17 +9151,14 @@
           "amount": 1
         }
       ],
-      "bench": "Concrete Furnace"
+      "bench": "concrete-furnace"
     },
     {
       "id": "epoxy",
       "name": "Epoxy",
       "imageUrl": "/images/ITEM_Epoxy.png",
       "url": "https://icarus.fandom.com/wiki/Epoxy",
-      "variants": [
-        "epoxy-crushed-bone",
-        "epoxy-sulfur-and-tree-sap"
-      ],
+      "variants": ["epoxy-crushed-bone", "epoxy-sulfur-and-tree-sap"],
       "bench": "mortar-and-pestle"
     },
     {
@@ -9181,10 +9196,7 @@
       "name": "Rope",
       "imageUrl": "/images/ITEM_Rope.png",
       "url": "https://icarus.fandom.com/wiki/Rope",
-      "variants": [
-        "rope-fiber",
-        "rope-leather"
-      ],
+      "variants": ["rope-fiber", "rope-leather"],
       "bench": "textiles-bench"
     },
     {
@@ -9218,10 +9230,7 @@
       "name": "Composite Paste",
       "imageUrl": "/images/ITEM_Composite_Paste.png",
       "url": "https://icarus.fandom.com/wiki/Composite_Paste",
-      "variants": [
-        "composite-paste-gold",
-        "composite-paste-platinum"
-      ],
+      "variants": ["composite-paste-gold", "composite-paste-platinum"],
       "bench": "material-processor"
     },
     {
@@ -9298,7 +9307,7 @@
           "amount": 1
         }
       ],
-      "bench": "Campfire"
+      "bench": "campfire"
     },
     {
       "id": "concrete-mix",

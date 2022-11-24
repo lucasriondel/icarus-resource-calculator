@@ -1,12 +1,19 @@
 import styled from "@emotion/styled";
 import { ReactNode } from "react";
 
+const TitleContainer = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0px 8px;
+`;
+
 const Title = styled.h3`
   color: #d2e4b2;
   margin: 0;
   margin-bottom: 4px;
-  margin-left: 8px;
-  margin-right: 8px;
 `;
 
 const SectionBorder = styled.div`
@@ -31,12 +38,22 @@ interface SectionProps {
   title: string;
   children: ReactNode;
   className?: string;
+  actions?: ReactNode;
 }
 
-export const Section = ({ title, children, className }: SectionProps) => {
+export const Section = ({
+  title,
+  actions,
+  children,
+  className,
+}: SectionProps) => {
   return (
     <div className={className}>
-      <Title>{title}</Title>
+      <TitleContainer>
+        <Title>{title}</Title>
+
+        {actions}
+      </TitleContainer>
       <SectionBorderTop />
 
       <SectionContent>{children}</SectionContent>
