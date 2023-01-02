@@ -5142,6 +5142,37 @@
   ],
   "deployables": [
     {
+      "id": "water-wheel",
+      "name": "Water Wheel",
+      "craft": [
+        {
+          "id": "organic-resin",
+          "amount": 25
+        },
+        {
+          "id": "stone",
+          "amount": 50
+        },
+        {
+          "id": "wood",
+          "amount": 100
+        },
+        {
+          "id": "steel-ingot",
+          "amount": 10
+        },
+        {
+          "id": "electronics",
+          "amount": 10
+        },
+        {
+          "id": "copper-nail",
+          "amount": 50
+        }
+      ],
+      "bench": "fabricator"
+    },
+    {
       "id": "biofuel-composter",
       "name": "Biofuel Composter",
       "imageUrl": "/images/ITEM_Biofuel_Composter.png",
