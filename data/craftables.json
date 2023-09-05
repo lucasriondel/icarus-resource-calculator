@@ -8753,7 +8753,7 @@
       "bench": "machining-bench",
       "craft": [
         {
-          "id": "wood",
+          "id": "refined-wood",
           "amount": 50
         },
         {
