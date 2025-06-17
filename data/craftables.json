@@ -8667,15 +8667,15 @@
         },
         {
           "id": "electronics",
-          "amount": 80
+          "amount": 60
         },
         {
           "id": "steel-screw",
           "amount": 12
         },
         {
-          "id": "titanium-ingot",
-          "amount": 8
+          "id": "titanium-plate",
+          "amount": 3
         },
         {
           "id": "carbon-fiber",
@@ -8984,6 +8984,18 @@
     }
   ],
   "processedRessources": [
+    {
+      "id": "titanium-plate",
+      "name": "Titanium Plate",
+      "imageUrl": "/images/ITEM_Titanium_Plate.png",
+      "craft": [
+         {
+          "id": "titanium-ingot",
+          "amount": 3
+        }
+      ],
+      "bench": "fabricator"
+    },
     {
       "id": "buckshot-shell",
       "name": "Buckshot Shell",
