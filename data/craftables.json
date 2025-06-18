@@ -6462,14 +6462,26 @@
     {
       "id": "orbital-exchange-interface",
       "name": "Orbital Exchange Interface",
-      "imageUrl": "",
+      "imageUrl": "/images/ITEM_Orbital_Exchange_Interface.png",
       "url": "https://icarus.fandom.com/wiki/Orbital_Exchange_Interface",
       "bench": "crafting-bench",
       "craft": [
-        { "id": "copper-ingot", "amount": 7 },
-        { "id": "iron-ingot", "amount": 7 },
-        { "id": "rope", "amount": 8 },
-        { "id": "wood", "amount": 10 }
+        {
+          "id": "copper-ingot",
+          "amount": 7
+        },
+        {
+          "id": "iron-ingot",
+          "amount": 7
+        },
+        {
+          "id": "rope",
+          "amount": 8
+        },
+        {
+          "id": "wood",
+          "amount": 10
+        }
       ]
     }
   ],
@@ -9002,7 +9014,7 @@
       "name": "Titanium Plate",
       "imageUrl": "/images/ITEM_Titanium_Plate.png",
       "craft": [
-         {
+        {
           "id": "titanium-ingot",
           "amount": 3
         }
