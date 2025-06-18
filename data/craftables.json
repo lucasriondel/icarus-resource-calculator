@@ -6458,6 +6458,19 @@
         }
       ],
       "bench": "character-crafting"
+    },
+    {
+      "id": "orbital-exchange-interface",
+      "name": "Orbital Exchange Interface",
+      "imageUrl": "",
+      "url": "https://icarus.fandom.com/wiki/Orbital_Exchange_Interface",
+      "bench": "crafting-bench",
+      "craft": [
+        { "id": "copper-ingot", "amount": 7 },
+        { "id": "iron-ingot", "amount": 7 },
+        { "id": "rope", "amount": 8 },
+        { "id": "wood", "amount": 10 }
+      ]
     }
   ],
   "farming": [
